@@ -1,0 +1,18 @@
+# Data contract: CRM accounts table (producer: Sales Ops, consumer: data platform)
+name: crm_accounts
+version: 1.0.0
+owner: sales-ops@client.example
+source_type: database
+primary_key: account_id
+cursor_field: updated_at
+freshness_hours: 36
+allow_extra_fields: false
+pii: none            # company records only; no contact persons are exported
+fields:
+  account_id:   {type: string, required: true, pattern: "^ACC-[0-9]{5}$"}
+  company_name: {type: string, required: true, max_length: 120}
+  country:      {type: string, required: true, enum: [DE, AT, CH, NL, FR, PL]}
+  industry:     {type: string, required: true, enum: [Logistics, Retail, Manufacturing, Healthcare, FinancialServices, Energy, Software]}
+  segment:      {type: string, required: true, enum: [SMB, MidMarket, Enterprise]}
+  created_at:   {type: datetime, required: true}
+  updated_at:   {type: datetime, required: true}

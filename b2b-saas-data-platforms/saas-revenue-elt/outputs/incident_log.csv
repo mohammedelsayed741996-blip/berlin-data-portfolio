@@ -1,0 +1,8 @@
+date,incident,how it was handled,evidence
+2026-07-20,api_page_overlap,"De-duplicated on (invoice_id, updated_at); control count reconciled",API returned 29 records for 28 changed invoices (1 repeated across pages); 10 already-loaded versions dropped (page repeats plus the 1-hour overlap window)
+2026-08-04,schema_drift,"Records kept, extra field stored in _extra_json, drift logged for a contract update",New field(s) ['discount_eur'] first seen in batch billing_invoices:2026-08-04
+2026-08-19,bad_segment_value,Contract enum check; dashboards kept the last valid segment,1 account record quarantined; corrected version loaded the next day
+2026-08-29,negative_invoice,Contract min-value check; invoice reconciliation explains the difference,1 invoice quarantined; August EUR total reconciles with the gap fully explained
+2026-09-08,malformed_event_lines,Rest of the file loaded; other files unaffected,"5 broken line(s) quarantined by file and line number, content not stored"
+2026-09-13,transform_outage,"Retries, then fail fast; next day's run rebuilt the models from raw and caught up",transform failed 3 attempts; downstream tasks skipped; next run's MRR check: pass
+every day,late and duplicate events,Load-time de-duplication on event_id; 3-day look-back in the incremental usage model,"2,438 events arrived 1 to 2 days late; 323 duplicates dropped"

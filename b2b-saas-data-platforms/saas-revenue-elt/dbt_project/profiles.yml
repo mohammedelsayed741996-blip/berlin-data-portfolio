@@ -1,0 +1,9 @@
+# Used by the CI job that runs real dbt (dbt-duckdb) on this project.
+# Local runs use the bundled SQLite runner (src/saas_elt/minidbt.py) instead.
+saas_revenue:
+  target: ci
+  outputs:
+    ci:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', '../ci_warehouse.duckdb') }}"
+      threads: 2

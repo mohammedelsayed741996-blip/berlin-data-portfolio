@@ -1,0 +1,23 @@
+name: saas_revenue
+version: "1.0.0"
+config-version: 2
+profile: saas_revenue
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+vars:
+  start_date: "2026-06-30"      # opening-balance date, the day before go-live
+  run_date: "2026-09-30"        # overridden by the orchestrator for each daily run
+  usage_lookback_days: 3        # late events up to 3 days old are re-aggregated
+
+models:
+  saas_revenue:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: table
+    marts:
+      +materialized: table

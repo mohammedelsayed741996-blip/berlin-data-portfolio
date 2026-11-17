@@ -1,0 +1,87 @@
+version: 2
+
+models:
+  - name: stg_crm__accounts
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+      - name: segment
+        data_tests:
+          - accepted_values:
+              values: [SMB, MidMarket, Enterprise]
+
+  - name: stg_crm__subscriptions
+    columns:
+      - name: subscription_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_crm__accounts')
+              field: account_id
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: [active, cancelled]
+
+  - name: stg_billing__invoices
+    columns:
+      - name: invoice_id
+        data_tests: [unique, not_null]
+
+  - name: int_subscription_versions
+    columns:
+      - name: version_key
+        data_tests: [unique, not_null]
+
+  - name: fct_mrr_daily
+    description: End-of-day MRR per subscription.
+    columns:
+      - name: mrr_key
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - relationships:
+              to: ref('dim_accounts')
+              field: account_id
+
+  - name: fct_mrr_movements_monthly
+    columns:
+      - name: movement_key
+        data_tests: [unique, not_null]
+      - name: movement_type
+        data_tests:
+          - accepted_values:
+              values: [new, expansion, contraction, churn, reactivation, flat]
+
+  - name: dim_accounts
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+
+  - name: fct_invoices
+    columns:
+      - name: invoice_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - relationships:
+              to: ref('dim_accounts')
+              field: account_id
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: [open, paid, void]
+
+  - name: fct_product_usage_daily
+    columns:
+      - name: usage_key
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - relationships:
+              to: ref('dim_accounts')
+              field: account_id
+              config:
+                severity: warn

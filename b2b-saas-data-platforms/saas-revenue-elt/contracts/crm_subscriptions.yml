@@ -1,0 +1,23 @@
+# Data contract: CRM subscriptions table
+name: crm_subscriptions
+version: 1.0.0
+owner: sales-ops@client.example
+source_type: database
+primary_key: subscription_id
+cursor_field: updated_at
+freshness_hours: 36
+allow_extra_fields: false
+pii: none
+fields:
+  subscription_id: {type: string, required: true, pattern: "^SUB-[0-9]{5}$"}
+  account_id:      {type: string, required: true, pattern: "^ACC-[0-9]{5}$"}
+  plan:            {type: string, required: true, enum: [Starter, Growth, Scale]}
+  seats:           {type: integer, required: true, min: 1}
+  unit_price_eur:  {type: number, required: true, min: 0}
+  status:          {type: string, required: true, enum: [active, cancelled]}
+  start_date:      {type: date, required: true}
+  end_date:        {type: date, required: false}
+  updated_at:      {type: datetime, required: true}
+rules:
+  - name: cancelled_needs_end_date
+    expression: "status != 'cancelled' or end_date is not None"

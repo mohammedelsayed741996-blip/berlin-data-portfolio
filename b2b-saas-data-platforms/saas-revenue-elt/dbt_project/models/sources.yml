@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Append-only landing tables written by the Python loaders (src/saas_elt/ingest.py).
+    tables:
+      - name: crm_accounts
+        description: Every extracted version of a CRM account.
+      - name: crm_subscriptions
+        description: Every extracted version of a subscription. Source of the SCD2 history.
+      - name: billing_invoices
+        description: Invoice versions from the billing API, including status changes.
+      - name: product_events
+        description: Product usage events, de-duplicated on event_id at load.

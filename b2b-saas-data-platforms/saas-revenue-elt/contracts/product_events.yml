@@ -1,0 +1,17 @@
+# Data contract: daily product event files (NDJSON drop zone)
+name: product_events
+version: 1.0.0
+owner: product-analytics@client.example
+source_type: file
+primary_key: event_id
+cursor_field: event_ts
+freshness_hours: 30
+allow_extra_fields: false
+pii: pseudonymised   # user_hash is a salted SHA-256; raw user IDs never leave the product
+retention_days: 400
+fields:
+  event_id:   {type: string, required: true, pattern: "^EVT-[0-9]{8}$"}
+  account_id: {type: string, required: true, pattern: "^ACC-[0-9]{5}$"}
+  user_hash:  {type: string, required: true, pattern: "^[0-9a-f]{64}$"}
+  event_type: {type: string, required: true, enum: [login, report_created, dashboard_viewed, export, api_call]}
+  event_ts:   {type: datetime, required: true}

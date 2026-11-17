@@ -29,3 +29,60 @@ jobs:
           PYTHONPATH: src
           MPLBACKEND: Agg
         run: python -m solar_credit.pipeline --regenerate
+
+  saas-revenue-elt:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: b2b-saas-data-platforms/saas-revenue-elt
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+      EVENT_HASH_SALT: ${{ secrets.EVENT_HASH_SALT || 'ci-only-salt' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Run the 93-day pipeline simulation
+        run: python -m saas_elt.cli simulate --workdir workdir --fresh --output ci_outputs
+
+  saas-revenue-elt-dbt-duckdb:
+    # Same dbt project, real dbt, second engine: proves the models are portable.
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: b2b-saas-data-platforms/saas-revenue-elt
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-dbt.txt
+      - name: Load the raw layer (simulation)
+        run: python -m saas_elt.cli simulate --workdir workdir --fresh --output ci_outputs
+      - name: Copy raw tables to DuckDB
+        run: python scripts/export_raw_to_duckdb.py workdir/warehouse/warehouse.db ci_warehouse.duckdb
+      - name: dbt build on DuckDB
+        working-directory: b2b-saas-data-platforms/saas-revenue-elt/dbt_project
+        env:
+          DBT_DUCKDB_PATH: ../ci_warehouse.duckdb
+        run: |
+          set -o pipefail
+          dbt build --profiles-dir . --vars '{run_date: "2026-09-30"}' 2>&1 | tee dbt.log || {
+            grep -E "Error|ERROR|FAIL|Compilation" dbt.log | head -15 | while read -r line; do echo "::error::${line}"; done
+            exit 1
+          }

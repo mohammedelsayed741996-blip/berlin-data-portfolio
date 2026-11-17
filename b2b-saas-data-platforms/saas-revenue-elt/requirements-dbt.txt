@@ -1,0 +1,3 @@
+# Only for the CI job that runs real dbt on DuckDB.
+dbt-duckdb>=1.9,<1.11
+duckdb>=1.1

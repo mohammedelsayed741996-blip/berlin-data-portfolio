@@ -1,0 +1,28 @@
+# Data contract: billing API /invoices endpoint
+name: billing_invoices
+version: 1.0.0
+owner: finance-systems@client.example
+source_type: api
+primary_key: invoice_id
+cursor_field: updated_at
+freshness_hours: 36
+allow_extra_fields: true      # new optional fields are kept and reported as schema drift
+pii: none
+fields:
+  invoice_id:      {type: string, required: true, pattern: "^INV-[0-9]{6}$"}
+  account_id:      {type: string, required: true, pattern: "^ACC-[0-9]{5}$"}
+  subscription_id: {type: string, required: true, pattern: "^SUB-[0-9]{5}$"}
+  invoice_date:    {type: date, required: true}
+  period_start:    {type: date, required: true}
+  period_end:      {type: date, required: true}
+  currency:        {type: string, required: true, enum: [EUR, CHF]}
+  amount_net:      {type: number, required: true, min: 0}
+  tax_rate:        {type: number, required: true, min: 0, max: 0.25}
+  amount_gross:    {type: number, required: true, min: 0}
+  status:          {type: string, required: true, enum: [open, paid, void]}
+  updated_at:      {type: datetime, required: true}
+rules:
+  - name: gross_equals_net_plus_tax
+    expression: "abs(amount_gross - amount_net * (1 + tax_rate)) <= 0.02"
+  - name: period_end_after_start
+    expression: "period_end >= period_start"
