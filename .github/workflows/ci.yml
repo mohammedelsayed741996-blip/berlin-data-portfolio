@@ -15,8 +15,8 @@ jobs:
       run:
         working-directory: climate-tech-energy-finance/solar-loan-credit-risk
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
@@ -43,8 +43,8 @@ jobs:
       MPLBACKEND: Agg
       EVENT_HASH_SALT: ${{ secrets.EVENT_HASH_SALT || 'ci-only-salt' }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
@@ -65,8 +65,8 @@ jobs:
       PYTHONPATH: src
       MPLBACKEND: Agg
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
