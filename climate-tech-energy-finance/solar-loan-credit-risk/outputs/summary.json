@@ -1,0 +1,67 @@
+{
+  "model_metrics": {
+    "scorecard": {
+      "model": "scorecard",
+      "auc": 0.8189,
+      "gini": 0.6379,
+      "ks": 0.5474,
+      "brier": 0.02778,
+      "predicted_dr": 0.0283,
+      "observed_dr": 0.03
+    },
+    "gbm": {
+      "model": "gbm",
+      "auc": 0.8082,
+      "gini": 0.6164,
+      "ks": 0.5081,
+      "brier": 0.02781,
+      "predicted_dr": 0.0273,
+      "observed_dr": 0.03
+    }
+  },
+  "cutoff": 580,
+  "cutoff_approval_rate": 0.7914,
+  "cutoff_bad_rate": 0.013,
+  "snapshot": {
+    "open_loans": 8520,
+    "exposure_eur": 155163122.56,
+    "dpd30_share": 0.005621774978540365,
+    "open_workouts": 314,
+    "defaults_to_date": 672,
+    "default_rate_to_date": 0.0672,
+    "top_installer_share": 0.1631,
+    "hhi": 521.1
+  },
+  "ecl_total_eur": 6434146.0,
+  "ecl_coverage": 0.0399,
+  "stress": [
+    {
+      "scenario": "Baseline",
+      "ecl_eur": 6434146.0,
+      "ecl_coverage": 0.0399,
+      "ecl_vs_baseline": 1.0
+    },
+    {
+      "scenario": "Mild downturn",
+      "ecl_eur": 11502955.0,
+      "ecl_coverage": 0.0713,
+      "ecl_vs_baseline": 1.788
+    },
+    {
+      "scenario": "Severe recession",
+      "ecl_eur": 22148916.0,
+      "ecl_coverage": 0.1374,
+      "ecl_vs_baseline": 3.442
+    },
+    {
+      "scenario": "Installer default wave",
+      "ecl_eur": 8523969.0,
+      "ecl_coverage": 0.0529,
+      "ecl_vs_baseline": 1.325
+    }
+  ],
+  "roll_to_default_pd": {
+    "30": 0.6829268292682927,
+    "60": 0.8983957219251337
+  }
+}

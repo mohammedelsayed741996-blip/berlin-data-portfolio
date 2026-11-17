@@ -1,0 +1,5 @@
+product_type,prior_lgd,closed_workouts,realised_lgd,lgd
+PV,0.62,109,0.6176355460449775,0.6181
+PV+Battery,0.58,101,0.5636411135825632,0.5674
+HeatPump,0.7,114,0.6837422263654158,0.6871
+PV+Battery+Wallbox,0.55,34,0.5210524743220252,0.5346

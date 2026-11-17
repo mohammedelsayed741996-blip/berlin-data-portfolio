@@ -1,0 +1,5 @@
+scenario,avg_pd_12m,stage2_share_of_exposure,exposure_eur,ecl_eur,ecl_coverage,ecl_vs_baseline,description
+Baseline,0.0284,0.0054,161257883.0,6434146.0,0.0399,1.0,"Current assumptions, no shock."
+Mild downturn,0.0403,0.3052,161257883.0,11502955.0,0.0713,1.788,"Power prices fall 15%, unemployment +1pp, small score drift."
+Severe recession,0.0639,0.627,161257883.0,22148916.0,0.1374,3.442,"Power prices fall 30%, unemployment +3pp, installer failures cut recoveries."
+Installer default wave,0.0284,0.0054,161257883.0,8523969.0,0.0529,1.325,"Several large installers fail: no PD change, recoveries drop sharply."

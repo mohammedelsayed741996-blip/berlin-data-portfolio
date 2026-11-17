@@ -1,0 +1,11 @@
+feature,information_value,selected
+bureau_score,1.2174306221827151,True
+savings_coverage_ratio,0.5149022095997843,True
+product_type,0.23324807018746915,True
+employment_type,0.15395908366253935,True
+dti_ratio,0.0912249456547122,True
+installer_tenure_years,0.08670434898634091,True
+term_months,0.06977170267801408,True
+loan_amount_eur,0.036410836898566896,True
+net_monthly_income_eur,0.018485636313636172,False
+region_unemployment_pct,0.005044633154165748,False

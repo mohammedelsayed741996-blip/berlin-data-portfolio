@@ -1,0 +1,26 @@
+application_id,decision,score,pd_12m,reasons
+LN-004016,Approve,608,0.0153,
+LN-001875,Approve,636,0.0061,
+LN-000656,Decline,552,0.0995,Score 552 below cut-off 580; bureau_score (-109 pts); savings_coverage_ratio (-50 pts); product_type (-15 pts)
+LN-004899,Approve,632,0.0067,
+LN-004668,Refer,569,0.0567,Score 569 in refer band; bureau_score (-109 pts); savings_coverage_ratio (-39 pts); employment_type (-16 pts)
+LN-001845,Decline,528,0.1975,Score 528 below cut-off 580; bureau_score (-109 pts); savings_coverage_ratio (-50 pts); employment_type (-33 pts)
+LN-002723,Approve,637,0.0057,
+LN-006177,Decline,585,0.0306,Policy: DTI 58% above 45%
+LN-002443,Approve,660,0.0025,
+LN-004168,Approve,629,0.0072,
+LN-008396,Approve,630,0.007,
+LN-007409,Approve,646,0.0043,
+LN-008727,Decline,608,0.0154,Policy: DTI 45% above 45%
+LN-007938,Approve,612,0.0141,
+LN-006715,Approve,643,0.0043,
+LN-008518,Approve,638,0.0053,
+LN-002056,Approve,596,0.0228,
+LN-000020,Decline,611,0.014,Policy: DTI 46% above 45%
+LN-004539,Decline,559,0.0795,Score 559 below cut-off 580; bureau_score (-109 pts); savings_coverage_ratio (-39 pts); installer_tenure_years (-26 pts)
+LN-003905,Approve,712,0.0004,
+LN-009804,Approve,588,0.0297,
+LN-006183,Approve,634,0.0062,
+LN-001567,Approve,645,0.0044,
+LN-000449,Approve,642,0.0048,
+LN-008014,Approve,641,0.0048,
