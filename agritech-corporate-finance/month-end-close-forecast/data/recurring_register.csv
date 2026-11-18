@@ -1,0 +1,39 @@
+company_code,kind,doc_type,gl_account,cost_center
+DE10,payroll,SA,6000,*
+DE10,depreciation run,AA,6200,*
+FR10,payroll,SA,6000,*
+FR10,depreciation run,AA,6200,*
+AT10,payroll,SA,6000,*
+AT10,depreciation run,AA,6200,*
+DE10,rent,KR,6600,1100
+DE10,rent,KR,6600,1110
+DE10,rent,KR,6600,1120
+DE10,rent,KR,6600,2100
+DE10,rent,KR,6600,2110
+DE10,rent,KR,6600,2120
+DE10,rent,KR,6600,2130
+DE10,rent,KR,6600,3100
+DE10,rent,KR,6600,3110
+DE10,rent,KR,6600,3120
+DE10,rent,KR,6600,3130
+DE10,rent,KR,6600,4100
+DE10,rent,KR,6600,4110
+DE10,rent,KR,6600,4120
+DE10,rent,KR,6600,4130
+AT10,rent,KR,6600,1200
+AT10,rent,KR,6600,2200
+AT10,rent,KR,6600,3200
+AT10,rent,KR,6600,4200
+FR10,rent,KR,6600,1300
+FR10,rent,KR,6600,2300
+FR10,rent,KR,6600,2310
+FR10,rent,KR,6600,3300
+FR10,rent,KR,6600,4300
+AT10,IC management fee,KR,6950,*
+DE10,IC management fee to AT10,DR,4800,*
+AT10,IC IT recharge,KR,6950,*
+DE10,IC IT recharge to AT10,DR,4800,*
+FR10,IC management fee,KR,6950,*
+DE10,IC management fee to FR10,DR,4800,*
+FR10,IC IT recharge,KR,6950,*
+DE10,IC IT recharge to FR10,DR,4800,*

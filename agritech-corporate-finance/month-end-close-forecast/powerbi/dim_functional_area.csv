@@ -1,0 +1,5 @@
+functional_area,functional_area_name,sort
+COS,Cost of sales,0
+SEL,Selling,1
+RND,Research and development,2
+GNA,General and administration,3

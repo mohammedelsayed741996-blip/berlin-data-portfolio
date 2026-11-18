@@ -86,3 +86,27 @@ jobs:
             grep -E "Error|ERROR|FAIL|Compilation" dbt.log | head -15 | while read -r line; do echo "::error::${line}"; done
             exit 1
           }
+
+  month-end-close-forecast:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: agritech-corporate-finance/month-end-close-forecast
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Run the close and forecast end to end
+        run: python -m close_forecast.pipeline --regenerate

@@ -1,0 +1,28 @@
+gl_account,account_name,account_type,account_group
+0400,Fixed assets,BS,Fixed assets
+0900,Assets under construction,BS,Assets under construction
+1100,Trade receivables,BS,Trade receivables
+1200,Bank,BS,Bank
+1400,Intercompany receivables,BS,Intercompany receivables
+1990,Suspense account,BS,Suspense account
+2900,Equity,BS,Equity
+3300,Trade payables,BS,Trade payables
+3310,GR/IR clearing,BS,GR/IR clearing
+3400,Intercompany payables,BS,Intercompany payables
+3700,Payroll liabilities,BS,Payroll liabilities
+3900,Accrued liabilities,BS,Accrued liabilities
+4000,Revenue sugarbeet seed,REV,Revenue sugarbeet seed
+4010,Revenue corn seed,REV,Revenue corn seed
+4020,Revenue cereal seed,REV,Revenue cereal seed
+4030,Revenue vegetable seed,REV,Revenue vegetable seed
+4800,Intercompany service income,REV_IC,Intercompany service income
+5000,Materials and seed stock,EXP,Materials
+6000,Personnel expenses,EXP,Personnel
+6200,Depreciation,EXP,Depreciation
+6400,Travel,EXP,Travel
+6500,External services,EXP,External services
+6600,Rent and facilities,EXP,Rent and facilities
+6700,IT and software,EXP,IT and software
+6800,Energy,EXP,Energy
+6900,Other operating expenses,EXP,Other
+6950,Intercompany service charges,EXP_IC,Intercompany charges

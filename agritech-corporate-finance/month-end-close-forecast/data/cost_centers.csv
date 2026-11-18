@@ -1,0 +1,26 @@
+cost_center,company_code,functional_area,cost_center_name,blocked
+1100,DE10,COS,Production Einbeck,False
+1110,DE10,COS,Seed processing,False
+1120,DE10,COS,Quality lab,False
+2100,DE10,SEL,Sales sugarbeet DACH,False
+2110,DE10,SEL,Sales corn DACH,False
+2120,DE10,SEL,Marketing,False
+2130,DE10,SEL,Customer service,False
+3100,DE10,RND,Breeding sugarbeet,False
+3110,DE10,RND,Breeding corn,False
+3120,DE10,RND,Biotech lab,False
+3130,DE10,RND,Field trials,False
+4100,DE10,GNA,Finance and controlling,False
+4110,DE10,GNA,Human resources,False
+4120,DE10,GNA,IT,False
+4130,DE10,GNA,Management,False
+1200,AT10,COS,Production Austria,False
+2200,AT10,SEL,Sales Austria,False
+3200,AT10,RND,Field trials Austria,False
+4200,AT10,GNA,Administration Austria,False
+1300,FR10,COS,Production France,False
+2300,FR10,SEL,Sales France,False
+2310,FR10,SEL,Marketing France,False
+3300,FR10,RND,Breeding cereals,False
+4300,FR10,GNA,Administration France,False
+4199,DE10,GNA,Controlling (locked since 01/2025),True

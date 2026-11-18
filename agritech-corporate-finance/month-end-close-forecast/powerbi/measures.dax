@@ -1,0 +1,62 @@
+// Measures for the controlling model. Load the CSVs in this folder, then create the relationships
+// described in model.md. Costs are positive in fact_cost; revenue is positive in fact_revenue.
+
+// ---------- base
+Actual Cost = CALCULATE ( SUM ( fact_cost[amount_eur] ), fact_cost[scenario] IN { "Actual", "Close adjustment" } )
+Budget Cost = CALCULATE ( SUM ( fact_cost[amount_eur] ), fact_cost[scenario] = "Budget" )
+Forecast Cost = CALCULATE ( SUM ( fact_cost[amount_eur] ), fact_cost[scenario] = "Forecast" )
+Actual Revenue = CALCULATE ( SUM ( fact_revenue[revenue_eur] ), fact_revenue[scenario] = "Actual" )
+Budget Revenue = CALCULATE ( SUM ( fact_revenue[revenue_eur] ), fact_revenue[scenario] = "Budget" )
+Forecast Revenue = CALCULATE ( SUM ( fact_revenue[revenue_eur] ), fact_revenue[scenario] = "Forecast" )
+
+// ---------- fiscal year to date (fiscal year July to June, kept in dim_date)
+Actual Cost YTD =
+VAR _fy = MAX ( dim_date[fiscal_year] )
+VAR _p = MAX ( dim_date[fiscal_period] )
+RETURN CALCULATE ( [Actual Cost], ALL ( dim_date ), dim_date[fiscal_year] = _fy, dim_date[fiscal_period] <= _p )
+
+Budget Cost YTD =
+VAR _fy = MAX ( dim_date[fiscal_year] )
+VAR _p = MAX ( dim_date[fiscal_period] )
+RETURN CALCULATE ( [Budget Cost], ALL ( dim_date ), dim_date[fiscal_year] = _fy, dim_date[fiscal_period] <= _p )
+
+Prior Year Cost YTD =
+VAR _fy = MAX ( dim_date[fiscal_year] )
+VAR _pyfy = FORMAT ( VALUE ( LEFT ( _fy, 4 ) ) - 1, "0" ) & "/" & RIGHT ( LEFT ( _fy, 4 ), 2 )
+VAR _p = MAX ( dim_date[fiscal_period] )
+RETURN CALCULATE ( [Actual Cost], ALL ( dim_date ), dim_date[fiscal_year] = _pyfy, dim_date[fiscal_period] <= _p )
+
+// ---------- variances (positive = cost above budget)
+Cost Var YTD = [Actual Cost YTD] - [Budget Cost YTD]
+Cost Var YTD % = DIVIDE ( [Cost Var YTD], [Budget Cost YTD] )
+Cost vs PY % = DIVIDE ( [Actual Cost YTD], [Prior Year Cost YTD] ) - 1
+Variance Flag =
+IF ( ABS ( [Cost Var YTD] ) > 25000 && ABS ( [Cost Var YTD %] ) > 0.10, "Check", BLANK () )
+
+// ---------- outlook (actual months + forecast months = full year)
+Outlook Cost FY =
+VAR _fy = MAX ( dim_date[fiscal_year] )
+RETURN CALCULATE ( [Actual Cost] + [Forecast Cost], ALL ( dim_date ), dim_date[fiscal_year] = _fy )
+
+Budget Cost FY =
+VAR _fy = MAX ( dim_date[fiscal_year] )
+RETURN CALCULATE ( [Budget Cost], ALL ( dim_date ), dim_date[fiscal_year] = _fy )
+
+Outlook vs Budget = [Outlook Cost FY] - [Budget Cost FY]
+
+Outlook Revenue FY =
+VAR _fy = MAX ( dim_date[fiscal_year] )
+RETURN CALCULATE ( [Actual Revenue] + [Forecast Revenue], ALL ( dim_date ), dim_date[fiscal_year] = _fy )
+
+// Group EBIT: intercompany charges (account 6950) are eliminated against intercompany income.
+Outlook EBIT FY =
+[Outlook Revenue FY]
+    - CALCULATE ( [Outlook Cost FY], dim_account[gl_account] <> "6950" )
+
+// ---------- revenue bridge by crop (use with dim crop from fact_revenue[crop])
+Units Actual = CALCULATE ( SUM ( fact_revenue[units] ), fact_revenue[scenario] = "Actual" )
+Units Budget = CALCULATE ( SUM ( fact_revenue[units] ), fact_revenue[scenario] = "Budget" )
+Price Actual = DIVIDE ( [Actual Revenue], [Units Actual] )
+Price Budget = DIVIDE ( [Budget Revenue], [Units Budget] )
+Volume Effect = SUMX ( VALUES ( fact_revenue[crop] ), ( [Units Actual] - [Units Budget] ) * [Price Budget] )
+Price Effect = SUMX ( VALUES ( fact_revenue[crop] ), ( [Price Actual] - [Price Budget] ) * [Units Actual] )
