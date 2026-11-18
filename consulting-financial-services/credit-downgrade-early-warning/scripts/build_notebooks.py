@@ -171,7 +171,7 @@ An AUC on a test set says little about how a language model will behave on Monda
     md("""
 ## A shortcut found and removed
 
-The first version of the article model did not mask sectors, cities or quarters. Its strongest words were "utilities", "transport" and "Q2". Sector shocks and reporting seasons happen to line up with downgrades in the training years, so the model learned the calendar instead of the language. That will not hold next year. Masking those tokens cost a little in-sample fit and removed the shortcut. The current top words are about cash, refinancing and outlooks.
+The first version of the article model did not mask sectors, cities or quarters. Its strongest words were "transport", "utilities" and "automotive". Sector shocks and reporting seasons happen to line up with downgrades in the training years, so the model learned the calendar instead of the language. That will not hold next year. Masking those tokens cost a little in-sample fit and removed the shortcut. The current top words are about cash, refinancing and outlooks.
 """),
     code('''explain.top_terms(run.text_model, 8, "en")[["term", "weight", "direction"]].reset_index(drop=True)'''),
     md("## Behavioural tests"),

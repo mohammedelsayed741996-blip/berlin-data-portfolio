@@ -58,7 +58,7 @@ The test-set numbers are not enough for a model that reads language, so the text
 
 Two of these findings changed the model:
 
-- The first version did not mask sectors, cities or quarters, and its strongest words were "utilities", "transport" and "Q2". Sector shocks and reporting seasons lined up with downgrades in the training years, so it had learned the calendar. Masking removed that shortcut.
+- The first version did not mask sectors, cities or quarters, and its strongest words were "transport", "utilities" and "automotive". Sector shocks and reporting seasons lined up with downgrades in the training years, so it had learned the calendar. Masking removed that shortcut.
 - Denials score almost as high as admissions. Checking against the hidden topics showed why: issuers that denied problems were downgraded within three months about 11% of the time, three to four times the rate after neutral news. So the model is right here, and the test was wrong to expect otherwise. That needs checking on real data before anyone relies on it.
 
 ![Score by topic](outputs/figures/topic_scores.png)
