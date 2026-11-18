@@ -1,0 +1,77 @@
+{
+  "evaluation": [
+    {
+      "model": "Outlook only",
+      "roc_auc": 0.636,
+      "pr_auc": 0.073,
+      "brier": 0.0363,
+      "alerts_per_month": 39.4167,
+      "alert_precision": 0.1311,
+      "downgrades": 65,
+      "caught": 30,
+      "event_recall": 0.4615,
+      "median_lead_months": 3.0
+    },
+    {
+      "model": "Ratings + financials",
+      "roc_auc": 0.64,
+      "pr_auc": 0.0814,
+      "brier": 0.0373,
+      "alerts_per_month": 15.0,
+      "alert_precision": 0.1333,
+      "downgrades": 65,
+      "caught": 15,
+      "event_recall": 0.2308,
+      "median_lead_months": 3.0
+    },
+    {
+      "model": "+ keyword rules",
+      "roc_auc": 0.73,
+      "pr_auc": 0.1869,
+      "brier": 0.0345,
+      "alerts_per_month": 15.0,
+      "alert_precision": 0.25,
+      "downgrades": 65,
+      "caught": 27,
+      "event_recall": 0.4154,
+      "median_lead_months": 2.0
+    },
+    {
+      "model": "+ NLP news scores",
+      "roc_auc": 0.7779,
+      "pr_auc": 0.2577,
+      "brier": 0.0331,
+      "alerts_per_month": 15.0,
+      "alert_precision": 0.2889,
+      "downgrades": 65,
+      "caught": 32,
+      "event_recall": 0.4923,
+      "median_lead_months": 2.0
+    }
+  ],
+  "behavioural_tests": [
+    {
+      "test": "Invariance: 20 company names",
+      "passed": "20/20",
+      "detail": "score range 0.00e+00"
+    },
+    {
+      "test": "Negation: denial scores lower than the problem",
+      "passed": "4/5",
+      "detail": "0.71->0.71; 0.68->0.67; 0.72->0.69; 0.63->0.68; 0.69->0.67"
+    },
+    {
+      "test": "Directional: red flag raises score",
+      "passed": "2/3",
+      "detail": "0.50->0.57; 0.50->0.61; 0.59->0.55"
+    },
+    {
+      "test": "Unseen paraphrases classified correctly",
+      "passed": "7/12",
+      "detail": "AUC 0.64"
+    }
+  ],
+  "story_issuer": "ISS0300",
+  "n_articles": 65908,
+  "test_base_rate": 0.038747099767981436
+}

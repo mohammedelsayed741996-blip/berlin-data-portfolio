@@ -1,0 +1,361 @@
+issuer_id,issuer_name,sector,country,listed,size,start_rating
+ISS0001,Veneon Handel SpA,Retail,IT,False,0.92,BBB
+ISS0002,Ardund Property SA,Real estate,FR,False,0.55,BBB
+ISS0003,Linax Technik AG,Industrials,DE,False,0.31,BB+
+ISS0004,Wesora Property BV,Real estate,NL,False,0.43,BB+
+ISS0005,Calen Industrie GmbH,Industrials,DE,True,0.76,BB
+ISS0006,Steova Wohnen GmbH,Real estate,DE,False,2.33,A+
+ISS0007,Valeon Drive AG,Automotive,DE,True,0.63,BB
+ISS0008,Norvalt Power SA,Utilities,FR,True,1.39,AA-
+ISS0009,Wesova Health AG,Healthcare,AT,False,0.84,BB+
+ISS0010,Lineon Wohnen AG,Real estate,DE,False,1.22,B
+ISS0011,Berent Energie NV,Utilities,NL,True,1.61,BB
+ISS0012,Altis Chemie SA,Chemicals,ES,False,1.52,BB
+ISS0013,Toren Consumer SA,Consumer goods,FR,True,0.27,BBB
+ISS0014,Savund Automotive SE,Automotive,DE,False,0.51,A+
+ISS0015,Marova Logistik AG,Transport & logistics,DE,True,0.71,BB
+ISS0016,Marova Technik BV,Industrials,NL,True,2.0,BBB
+ISS0017,Venis Property SA,Real estate,ES,False,1.38,BBB-
+ISS0018,Solast Wohnen GmbH,Real estate,DE,False,1.23,BBB+
+ISS0019,Melex Industrie SpA,Industrials,IT,False,1.4,BB-
+ISS0020,Berica Chemicals SpA,Chemicals,IT,False,1.08,A
+ISS0021,Calica Shipping NV,Transport & logistics,NL,True,0.29,BBB+
+ISS0022,Norara Automotive SE,Automotive,DE,False,0.97,BBB-
+ISS0023,Korur Chemicals GmbH,Chemicals,DE,False,1.0,A
+ISS0024,Saveon Wohnen AG,Real estate,DE,True,0.72,BBB+
+ISS0025,Caleon Foods BV,Consumer goods,NL,True,0.7,A+
+ISS0026,Graara Logistik GmbH,Transport & logistics,DE,False,1.14,BBB
+ISS0027,Fenur Stores NV,Retail,NL,True,1.84,BBB+
+ISS0028,Dorora Wohnen SE,Real estate,DE,True,2.56,BBB+
+ISS0029,Telion Consumer AG,Consumer goods,DE,False,1.37,A-
+ISS0030,Telund Materials SA,Chemicals,ES,False,0.62,BBB
+ISS0031,Fenova Motoren AG,Automotive,DE,True,0.39,BBB
+ISS0032,Heleon Utilities AG,Utilities,AT,False,1.42,BB-
+ISS0033,Savica Stores SE,Retail,DE,False,1.76,BBB
+ISS0034,Fenova Pharma SpA,Healthcare,IT,True,1.1,A
+ISS0035,Calora Networks AG,Telecoms,AT,False,3.8,BB+
+ISS0036,Linova Health SAS,Healthcare,FR,True,0.66,A-
+ISS0037,Calen Materials SAS,Chemicals,FR,False,2.09,A
+ISS0038,Venund Logistik AG,Transport & logistics,AT,False,1.78,A-
+ISS0039,Ardur Chemicals AG,Chemicals,DE,True,0.84,BB-
+ISS0040,Rheeon Logistik NV,Transport & logistics,NL,False,2.04,BBB
+ISS0041,Koren Power SpA,Utilities,IT,False,1.42,BBB
+ISS0042,Norent Connect SE,Telecoms,DE,False,0.47,BB+
+ISS0043,Eldeon Logistik SA,Transport & logistics,ES,False,1.9,BBB
+ISS0044,Korur Utilities SE,Utilities,DE,False,0.76,BB
+ISS0045,Fenast Pharma SE,Healthcare,DE,True,0.38,A
+ISS0046,Solvalt Transport BV,Transport & logistics,NL,True,2.47,B+
+ISS0047,Lunur Health SpA,Healthcare,IT,False,0.76,BB-
+ISS0048,Berova Systems SE,Industrials,DE,False,0.4,BB-
+ISS0049,Briica Energie GmbH,Utilities,DE,False,0.6,AA
+ISS0050,Briur Foods SE,Consumer goods,DE,True,0.45,BB-
+ISS0051,Lunyn Stores SE,Retail,DE,False,0.57,A-
+ISS0052,Rheent Systems SAS,Industrials,FR,False,0.91,A
+ISS0053,Torova Technik BV,Industrials,NL,False,0.29,BBB+
+ISS0054,Steent Industrie AG,Industrials,DE,False,0.97,BBB
+ISS0055,Roven Drive AG,Automotive,DE,True,0.7,BB+
+ISS0056,Dorex Motoren AG,Automotive,DE,True,2.02,BB+
+ISS0057,Graova Power GmbH,Utilities,DE,True,1.85,BB+
+ISS0058,Lunund Connect SA,Telecoms,ES,True,0.86,BBB+
+ISS0059,Dorvalt Foods SpA,Consumer goods,IT,False,1.83,A-
+ISS0060,Grais Motoren GmbH,Automotive,DE,False,1.59,A-
+ISS0061,Telen Industrie AG,Industrials,DE,False,0.62,BBB
+ISS0062,Graen Logistik AG,Transport & logistics,DE,True,0.56,BB+
+ISS0063,Marova Power SA,Utilities,ES,True,1.16,BB+
+ISS0064,Briova Systems SE,Industrials,DE,True,1.48,B
+ISS0065,Solex Health AG,Healthcare,DE,True,1.89,A
+ISS0066,Torara Property AG,Real estate,AT,True,1.33,A-
+ISS0067,Rheen Stores GmbH,Retail,DE,False,1.85,BB+
+ISS0068,Doryn Automotive GmbH,Automotive,DE,True,2.65,BBB-
+ISS0069,Solex Connect SAS,Telecoms,FR,True,0.89,BBB-
+ISS0070,Lineon Retail SpA,Retail,IT,False,1.36,BBB
+ISS0071,Rovara Networks SpA,Telecoms,IT,True,0.22,BBB+
+ISS0072,Ardur Shipping SpA,Transport & logistics,IT,True,0.47,BBB+
+ISS0073,Ardis Technik SE,Industrials,DE,False,0.55,BB+
+ISS0074,Ostara Wohnen AG,Real estate,DE,True,0.58,BB+
+ISS0075,Fenis Motoren AG,Automotive,DE,True,2.31,AA-
+ISS0076,Valyn Handel SE,Retail,DE,True,1.46,BBB
+ISS0077,Marica Systems SE,Industrials,DE,True,2.62,BBB
+ISS0078,Torex Automotive SAS,Automotive,FR,True,3.7,BB-
+ISS0079,Dorion Systems AG,Industrials,DE,True,5.88,BB+
+ISS0080,Wesica Energie SE,Utilities,DE,True,0.9,BBB+
+ISS0081,Lunion Medical SpA,Healthcare,IT,False,2.41,BB
+ISS0082,Wesion Systems SAS,Industrials,FR,True,2.26,BBB
+ISS0083,Ardur Connect AG,Telecoms,AT,True,0.88,A-
+ISS0084,Lunur Chemicals SE,Chemicals,DE,False,1.42,BBB-
+ISS0085,Korund Power SE,Utilities,DE,False,0.34,BBB
+ISS0086,Fenion Drive SpA,Automotive,IT,True,0.87,BBB-
+ISS0087,Steast Transport SA,Transport & logistics,ES,True,2.89,BBB
+ISS0088,Korex Industrie AG,Industrials,AT,True,0.99,BBB+
+ISS0089,Telara Stores AG,Retail,DE,False,0.93,A-
+ISS0090,Briund Health SA,Healthcare,ES,False,0.77,BB+
+ISS0091,Rhevalt Medical AG,Healthcare,AT,False,0.76,BBB
+ISS0092,Graeon Networks SA,Telecoms,ES,False,1.12,A
+ISS0093,Berent Industrie SpA,Industrials,IT,True,1.11,A
+ISS0094,Wesast Industrie SE,Industrials,DE,True,1.04,A
+ISS0095,Zanova Materials SpA,Chemicals,IT,False,0.98,B
+ISS0096,Ostora Health SA,Healthcare,FR,False,1.29,BBB-
+ISS0097,Zanara Networks NV,Telecoms,NL,True,1.61,A-
+ISS0098,Wesund Brands SA,Consumer goods,FR,True,0.94,BB+
+ISS0099,Helur Wohnen GmbH,Real estate,DE,True,0.58,BBB
+ISS0100,Grais Immobilien SA,Real estate,ES,True,0.34,BB+
+ISS0101,Veneon Industrie GmbH,Industrials,DE,True,0.75,BB+
+ISS0102,Altent Logistik AG,Transport & logistics,AT,True,1.67,BBB
+ISS0103,Dorica Materials AG,Chemicals,DE,False,1.12,BB+
+ISS0104,Valyn Health AG,Healthcare,DE,False,0.59,A-
+ISS0105,Linast Immobilien BV,Real estate,NL,False,0.42,BBB+
+ISS0106,Grais Pharma SpA,Healthcare,IT,True,0.7,BB-
+ISS0107,Altica Industrie AG,Industrials,DE,True,0.63,BBB
+ISS0108,Rovyn Medical SA,Healthcare,ES,True,0.53,BBB-
+ISS0109,Eldova Chemicals AG,Chemicals,AT,False,1.77,BBB
+ISS0110,Eldex Automotive AG,Automotive,DE,True,1.2,A+
+ISS0111,Altex Foods SpA,Consumer goods,IT,True,3.27,BBB-
+ISS0112,Torund Retail GmbH,Retail,DE,True,0.4,BB+
+ISS0113,Dorvalt Handel AG,Retail,DE,False,1.56,BB+
+ISS0114,Norund Networks AG,Telecoms,DE,False,1.61,BBB+
+ISS0115,Telis Medical GmbH,Healthcare,DE,True,1.56,BB+
+ISS0116,Fenur Immobilien SE,Real estate,DE,True,0.88,A
+ISS0117,Lunyn Technik GmbH,Industrials,DE,True,0.65,BBB
+ISS0118,Altica Drive BV,Automotive,NL,True,3.42,BB
+ISS0119,Rheova Technik AG,Industrials,DE,False,1.14,B+
+ISS0120,Helis Industrie BV,Industrials,NL,True,1.26,BBB-
+ISS0121,Zanica Materials GmbH,Chemicals,DE,True,1.33,BB+
+ISS0122,Korova Energie BV,Utilities,NL,True,0.77,BBB
+ISS0123,Fenara Wohnen GmbH,Real estate,DE,False,0.2,BB
+ISS0124,Doren Immobilien SE,Real estate,DE,False,1.21,BBB
+ISS0125,Venyn Chemicals SE,Chemicals,DE,True,1.54,BBB+
+ISS0126,Wesund Wohnen SAS,Real estate,FR,True,0.71,BBB
+ISS0127,Teleon Wohnen BV,Real estate,NL,False,1.66,A+
+ISS0128,Linis Power SE,Utilities,DE,False,1.56,BBB+
+ISS0129,Grayn Energie AG,Utilities,DE,False,1.52,A+
+ISS0130,Graica Networks SE,Telecoms,DE,False,2.02,BB
+ISS0131,Briis Utilities SA,Utilities,FR,True,1.38,BB-
+ISS0132,Lunent Property AG,Real estate,AT,True,0.75,A-
+ISS0133,Dorion Technik GmbH,Industrials,DE,False,0.89,B+
+ISS0134,Zanen Motoren SA,Automotive,ES,True,0.9,AA-
+ISS0135,Steica Immobilien SpA,Real estate,IT,False,0.67,A-
+ISS0136,Lunora Motoren AG,Automotive,DE,False,0.56,BBB+
+ISS0137,Calund Chemicals GmbH,Chemicals,DE,False,0.9,A-
+ISS0138,Savora Medical SAS,Healthcare,FR,True,1.1,BBB-
+ISS0139,Rheica Brands BV,Consumer goods,NL,True,0.36,A-
+ISS0140,Altica Stores SA,Retail,ES,True,0.55,A
+ISS0141,Dorent Retail SE,Retail,DE,True,1.0,BBB-
+ISS0142,Valen Pharma SpA,Healthcare,IT,True,1.41,BB-
+ISS0143,Rovion Technik SE,Industrials,DE,False,1.92,BBB
+ISS0144,Dorur Industrie SAS,Industrials,FR,False,1.49,BBB
+ISS0145,Beryn Networks NV,Telecoms,NL,False,0.63,BB-
+ISS0146,Calent Health SA,Healthcare,ES,True,0.82,A+
+ISS0147,Altvalt Handel GmbH,Retail,DE,True,0.49,BB+
+ISS0148,Ardion Utilities SA,Utilities,FR,True,1.37,BB-
+ISS0149,Rheica Shipping SpA,Transport & logistics,IT,False,1.39,A
+ISS0150,Telex Transport GmbH,Transport & logistics,DE,True,0.84,BBB
+ISS0151,Ardeon Chemie AG,Chemicals,AT,False,2.05,BB
+ISS0152,Beren Property SA,Real estate,FR,False,0.8,BB+
+ISS0153,Briund Foods AG,Consumer goods,AT,True,1.1,BB+
+ISS0154,Wesex Materials GmbH,Chemicals,DE,True,0.69,BBB
+ISS0155,Norex Energie SE,Utilities,DE,True,1.57,BBB-
+ISS0156,Rheast Foods AG,Consumer goods,AT,True,1.22,A
+ISS0157,Graara Motoren SE,Automotive,DE,True,0.93,BB+
+ISS0158,Korent Handel GmbH,Retail,DE,True,0.91,BBB
+ISS0159,Telara Stores SE,Retail,DE,True,0.68,A+
+ISS0160,Norast Immobilien SE,Real estate,DE,False,1.23,BBB-
+ISS0161,Alteon Connect SA,Telecoms,ES,False,1.32,BBB-
+ISS0162,Melent Retail AG,Retail,AT,True,2.44,A
+ISS0163,Fenex Foods AG,Consumer goods,DE,True,2.29,A-
+ISS0164,Briora Telekom NV,Telecoms,NL,False,0.78,BBB+
+ISS0165,Rheion Chemicals BV,Chemicals,NL,True,1.44,BBB
+ISS0166,Valax Materials AG,Chemicals,DE,False,0.78,BB+
+ISS0167,Norova Shipping SAS,Transport & logistics,FR,True,3.0,BBB+
+ISS0168,Torora Retail GmbH,Retail,DE,False,0.38,BBB-
+ISS0169,Ardast Utilities GmbH,Utilities,DE,False,1.64,BBB
+ISS0170,Lunion Stores SpA,Retail,IT,False,0.98,BBB
+ISS0171,Venax Property NV,Real estate,NL,True,0.74,BBB-
+ISS0172,Ardara Industrie SpA,Industrials,IT,True,0.6,BBB-
+ISS0173,Rheora Materials GmbH,Chemicals,DE,True,2.06,BBB+
+ISS0174,Rovion Energie SA,Utilities,ES,False,1.21,BB+
+ISS0175,Koryn Technik SAS,Industrials,FR,False,0.46,BBB+
+ISS0176,Savast Energie GmbH,Utilities,DE,True,1.99,BBB-
+ISS0177,Eldion Wohnen NV,Real estate,NL,False,0.24,A
+ISS0178,Savund Chemie GmbH,Chemicals,DE,True,1.28,BBB-
+ISS0179,Helax Handel NV,Retail,NL,False,0.71,BBB+
+ISS0180,Roven Drive SA,Automotive,FR,True,1.46,BBB-
+ISS0181,Zanvalt Power SpA,Utilities,IT,True,2.24,BB-
+ISS0182,Helion Medical AG,Healthcare,AT,True,1.21,A+
+ISS0183,Berion Networks SpA,Telecoms,IT,True,0.51,BB+
+ISS0184,Karast Shipping GmbH,Transport & logistics,DE,False,0.27,A-
+ISS0185,Altund Medical SA,Healthcare,ES,False,1.66,BBB
+ISS0186,Haven Property GmbH,Real estate,DE,True,0.79,BB+
+ISS0187,Telara Chemicals SA,Chemicals,FR,True,2.64,BB+
+ISS0188,Valvalt Transport GmbH,Transport & logistics,DE,True,0.21,A+
+ISS0189,Altis Property GmbH,Real estate,DE,True,1.59,B+
+ISS0190,Karova Motoren SE,Automotive,DE,True,0.93,A-
+ISS0191,Calion Materials SA,Chemicals,ES,True,1.0,BBB+
+ISS0192,Solund Medical BV,Healthcare,NL,True,0.64,BB+
+ISS0193,Rheent Telekom GmbH,Telecoms,DE,False,1.68,BBB+
+ISS0194,Arden Industrie SpA,Industrials,IT,False,0.63,A-
+ISS0195,Calex Retail AG,Retail,DE,True,0.98,BBB-
+ISS0196,Helova Transport SAS,Transport & logistics,FR,False,1.8,BBB-
+ISS0197,Telica Chemicals GmbH,Chemicals,DE,False,0.62,BBB-
+ISS0198,Rheen Power SA,Utilities,FR,True,1.22,A+
+ISS0199,Rovax Technik SA,Industrials,FR,False,1.11,BBB
+ISS0200,Dorast Drive AG,Automotive,DE,True,0.65,BBB-
+ISS0201,Brien Energie AG,Utilities,DE,True,1.87,BBB+
+ISS0202,Zanyn Medical AG,Healthcare,AT,False,1.3,BBB
+ISS0203,Wesica Health SAS,Healthcare,FR,True,0.72,BBB-
+ISS0204,Karast Wohnen SpA,Real estate,IT,False,1.77,BB+
+ISS0205,Telund Telekom SE,Telecoms,DE,True,1.35,BB-
+ISS0206,Havex Chemie AG,Chemicals,DE,True,0.96,BB-
+ISS0207,Venund Health GmbH,Healthcare,DE,False,0.75,A-
+ISS0208,Lunyn Retail SE,Retail,DE,False,1.38,A
+ISS0209,Melund Chemicals SE,Chemicals,DE,False,1.79,BB+
+ISS0210,Ostora Stores AG,Retail,DE,False,1.46,A+
+ISS0211,Graora Stores NV,Retail,NL,True,1.58,BB-
+ISS0212,Helica Industrie SE,Industrials,DE,True,1.82,BBB-
+ISS0213,Graora Chemicals SE,Chemicals,DE,False,1.35,BBB-
+ISS0214,Torion Automotive SE,Automotive,DE,False,1.73,BB+
+ISS0215,Graent Systems SE,Industrials,DE,False,3.53,B
+ISS0216,Calova Shipping SpA,Transport & logistics,IT,True,2.42,BBB
+ISS0217,Melex Telekom AG,Telecoms,AT,True,0.58,BBB-
+ISS0218,Wesax Wohnen SE,Real estate,DE,True,1.11,BBB
+ISS0219,Graara Utilities AG,Utilities,DE,True,2.69,BBB-
+ISS0220,Savax Medical GmbH,Healthcare,DE,True,0.95,BBB-
+ISS0221,Valund Utilities GmbH,Utilities,DE,True,0.82,BBB-
+ISS0222,Beren Retail NV,Retail,NL,True,0.61,BBB-
+ISS0223,Rovis Motoren SpA,Automotive,IT,False,1.75,A-
+ISS0224,Berica Technik SA,Industrials,FR,False,0.83,BBB-
+ISS0225,Ardax Transport SE,Transport & logistics,DE,True,0.94,BBB
+ISS0226,Berica Foods SA,Consumer goods,ES,True,1.39,BB
+ISS0227,Helion Systems NV,Industrials,NL,False,0.5,BB+
+ISS0228,Karara Energie SE,Utilities,DE,False,0.3,BB+
+ISS0229,Fenen Chemie SA,Chemicals,FR,False,0.89,BBB+
+ISS0230,Altora Industrie SAS,Industrials,FR,False,2.64,A-
+ISS0231,Eldvalt Energie SA,Utilities,ES,True,0.98,BBB
+ISS0232,Ardion Power GmbH,Utilities,DE,True,1.16,BBB+
+ISS0233,Linent Networks SA,Telecoms,ES,True,2.66,BBB-
+ISS0234,Marur Utilities AG,Utilities,AT,False,1.32,BBB
+ISS0235,Altion Retail GmbH,Retail,DE,True,0.56,BBB-
+ISS0236,Zanyn Drive NV,Automotive,NL,False,2.69,BBB+
+ISS0237,Eldora Industrie GmbH,Industrials,DE,True,1.97,BBB+
+ISS0238,Zanex Industrie NV,Industrials,NL,False,1.38,BBB
+ISS0239,Calast Power SpA,Utilities,IT,False,0.86,BBB-
+ISS0240,Rheova Consumer SpA,Consumer goods,IT,True,0.86,BBB+
+ISS0241,Eldur Stores AG,Retail,AT,False,2.19,BBB
+ISS0242,Rovica Handel SE,Retail,DE,False,1.31,BBB
+ISS0243,Ardica Medical AG,Healthcare,AT,True,0.21,A+
+ISS0244,Ostast Immobilien AG,Real estate,DE,True,0.44,BB
+ISS0245,Soleon Chemicals GmbH,Chemicals,DE,False,1.13,BBB-
+ISS0246,Steica Pharma AG,Healthcare,DE,True,0.93,BBB-
+ISS0247,Korast Property AG,Real estate,DE,True,1.04,A-
+ISS0248,Briyn Handel BV,Retail,NL,True,0.56,A-
+ISS0249,Altent Wohnen AG,Real estate,AT,False,0.84,BB
+ISS0250,Steora Chemie AG,Chemicals,DE,False,2.54,BBB
+ISS0251,Marund Property GmbH,Real estate,DE,True,1.03,BBB-
+ISS0252,Norent Foods SA,Consumer goods,ES,False,1.03,A+
+ISS0253,Calion Automotive AG,Automotive,DE,False,1.53,BBB
+ISS0254,Zanora Brands SE,Consumer goods,DE,False,0.75,BBB
+ISS0255,Elden Medical SpA,Healthcare,IT,False,1.03,B+
+ISS0256,Melyn Motoren SE,Automotive,DE,True,0.97,BBB+
+ISS0257,Telex Medical AG,Healthcare,AT,False,0.6,A-
+ISS0258,Graeon Property SA,Real estate,FR,False,0.78,BBB-
+ISS0259,Stevalt Telekom AG,Telecoms,AT,True,0.81,A-
+ISS0260,Berex Systems SA,Industrials,FR,True,0.77,BB
+ISS0261,Saveon Health SE,Healthcare,DE,True,0.94,BBB
+ISS0262,Eldora Chemicals SE,Chemicals,DE,True,3.45,BBB
+ISS0263,Osten Immobilien SA,Real estate,FR,True,1.49,A
+ISS0264,Wesax Handel AG,Retail,AT,False,2.27,AA
+ISS0265,Telica Handel SE,Retail,DE,True,3.49,BB
+ISS0266,Saven Technik GmbH,Industrials,DE,True,2.18,BBB-
+ISS0267,Lunis Logistik GmbH,Transport & logistics,DE,True,0.28,BBB
+ISS0268,Teleon Immobilien SA,Real estate,ES,True,1.25,AA-
+ISS0269,Eldex Utilities BV,Utilities,NL,True,2.69,BBB-
+ISS0270,Beris Logistik SA,Transport & logistics,FR,False,3.72,BB
+ISS0271,Zanica Energie GmbH,Utilities,DE,False,0.96,BBB
+ISS0272,Marur Health SA,Healthcare,FR,True,0.75,BBB+
+ISS0273,Rheora Energie SA,Utilities,ES,False,0.78,BBB
+ISS0274,Bereon Immobilien SA,Real estate,ES,True,0.51,BBB
+ISS0275,Norica Chemicals NV,Chemicals,NL,True,2.51,BBB-
+ISS0276,Graast Medical SpA,Healthcare,IT,True,0.68,BBB+
+ISS0277,Melis Stores NV,Retail,NL,True,0.73,BBB-
+ISS0278,Linur Property SA,Real estate,ES,True,0.7,AA-
+ISS0279,Berora Medical GmbH,Healthcare,DE,True,1.16,BB+
+ISS0280,Toryn Power GmbH,Utilities,DE,False,1.14,BBB+
+ISS0281,Rovyn Health BV,Healthcare,NL,True,0.68,BBB-
+ISS0282,Rheara Transport SA,Transport & logistics,ES,False,0.55,BB
+ISS0283,Rovund Power SE,Utilities,DE,False,1.01,BB
+ISS0284,Maren Networks SE,Telecoms,DE,False,2.39,BBB
+ISS0285,Torex Transport GmbH,Transport & logistics,DE,True,0.55,BB+
+ISS0286,Ostica Shipping SA,Transport & logistics,FR,False,0.53,BB-
+ISS0287,Lunex Stores SE,Retail,DE,False,0.39,BBB
+ISS0288,Eldund Consumer AG,Consumer goods,AT,True,0.85,BB
+ISS0289,Norara Utilities SA,Utilities,ES,False,0.54,BBB-
+ISS0290,Valund Stores SA,Retail,ES,True,1.82,BBB+
+ISS0291,Altund Drive AG,Automotive,DE,True,1.2,A+
+ISS0292,Karyn Chemicals SE,Chemicals,DE,True,1.53,BBB
+ISS0293,Havova Wohnen NV,Real estate,NL,False,0.77,BBB
+ISS0294,Savvalt Chemie SA,Chemicals,FR,True,0.52,A
+ISS0295,Rovex Handel AG,Retail,DE,True,0.98,A+
+ISS0296,Helora Property GmbH,Real estate,DE,False,2.38,BBB
+ISS0297,Marast Wohnen SAS,Real estate,FR,True,1.06,BBB+
+ISS0298,Telova Wohnen SA,Real estate,ES,True,2.04,A
+ISS0299,Dorara Telekom AG,Telecoms,DE,True,2.03,BBB
+ISS0300,Helyn Retail SA,Retail,FR,True,3.23,BBB+
+ISS0301,Briex Property GmbH,Real estate,DE,True,1.12,A-
+ISS0302,Helex Materials SA,Chemicals,ES,True,1.12,BBB
+ISS0303,Lunex Motoren AG,Automotive,DE,True,0.9,BBB+
+ISS0304,Linex Motoren SA,Automotive,ES,True,0.51,BBB-
+ISS0305,Dorica Retail SpA,Retail,IT,True,1.51,A
+ISS0306,Zanur Energie GmbH,Utilities,DE,True,1.39,BBB-
+ISS0307,Marur Stores SA,Retail,FR,False,1.36,BB+
+ISS0308,Melyn Industrie AG,Industrials,DE,True,0.49,BB
+ISS0309,Venvalt Telekom SE,Telecoms,DE,True,0.7,A-
+ISS0310,Zanova Logistik SA,Transport & logistics,ES,True,1.22,B
+ISS0311,Rovion Medical SA,Healthcare,ES,True,1.16,BB+
+ISS0312,Rheara Brands SpA,Consumer goods,IT,True,0.84,BBB-
+ISS0313,Briax Systems SE,Industrials,DE,False,2.13,BBB
+ISS0314,Korur Consumer AG,Consumer goods,DE,True,1.7,BB+
+ISS0315,Korica Chemie AG,Chemicals,DE,False,0.87,BBB-
+ISS0316,Briova Motoren SE,Automotive,DE,False,1.09,A
+ISS0317,Solis Handel AG,Retail,DE,False,0.44,BBB+
+ISS0318,Venora Connect AG,Telecoms,AT,False,1.2,BBB
+ISS0319,Zanion Handel AG,Retail,AT,True,1.4,BBB-
+ISS0320,Savova Utilities SpA,Utilities,IT,False,0.5,BBB-
+ISS0321,Torur Systems GmbH,Industrials,DE,True,1.89,A-
+ISS0322,Ardora Pharma SpA,Healthcare,IT,True,0.46,BBB-
+ISS0323,Havur Health BV,Healthcare,NL,False,0.65,BBB+
+ISS0324,Eldax Transport SpA,Transport & logistics,IT,True,0.59,BBB
+ISS0325,Koryn Automotive NV,Automotive,NL,False,1.43,BB+
+ISS0326,Melur Immobilien AG,Real estate,AT,False,0.77,A-
+ISS0327,Valara Telekom SE,Telecoms,DE,True,0.94,A-
+ISS0328,Ardent Immobilien GmbH,Real estate,DE,True,2.26,BBB+
+ISS0329,Savis Shipping SpA,Transport & logistics,IT,True,1.28,BBB
+ISS0330,Valara Transport SAS,Transport & logistics,FR,False,0.4,BBB-
+ISS0331,Marica Telekom AG,Telecoms,DE,True,0.94,AA-
+ISS0332,Korur Retail SpA,Retail,IT,False,3.31,BB+
+ISS0333,Calora Connect AG,Telecoms,AT,True,0.47,A-
+ISS0334,Rheeon Industrie AG,Industrials,DE,True,0.9,BBB-
+ISS0335,Ostur Consumer SA,Consumer goods,ES,True,1.96,BB+
+ISS0336,Valion Health SA,Healthcare,ES,True,1.24,A-
+ISS0337,Graast Motoren SA,Automotive,ES,True,1.93,BB+
+ISS0338,Altova Chemie SpA,Chemicals,IT,True,1.58,BBB-
+ISS0339,Valora Consumer BV,Consumer goods,NL,False,0.71,B+
+ISS0340,Wesex Materials SpA,Chemicals,IT,False,0.94,BBB-
+ISS0341,Linion Handel AG,Retail,DE,True,0.6,BB+
+ISS0342,Savis Materials BV,Chemicals,NL,False,0.62,BBB-
+ISS0343,Rovion Consumer NV,Consumer goods,NL,True,0.68,BBB-
+ISS0344,Venent Industrie SAS,Industrials,FR,False,0.89,BBB
+ISS0345,Lineon Telekom AG,Telecoms,DE,False,1.08,BBB-
+ISS0346,Torica Brands AG,Consumer goods,AT,False,1.02,BBB+
+ISS0347,Graora Energie GmbH,Utilities,DE,True,1.16,BB+
+ISS0348,Valion Retail SpA,Retail,IT,False,0.98,BBB+
+ISS0349,Zanent Telekom AG,Telecoms,AT,False,0.53,BBB
+ISS0350,Koris Stores SpA,Retail,IT,False,1.38,BBB+
+ISS0351,Veneon Chemie AG,Chemicals,AT,True,0.38,BB+
+ISS0352,Dorur Networks SA,Telecoms,ES,True,2.01,BB+
+ISS0353,Helion Telekom SA,Telecoms,ES,False,0.83,A-
+ISS0354,Maren Consumer GmbH,Consumer goods,DE,True,0.87,BB-
+ISS0355,Osten Shipping AG,Transport & logistics,AT,True,0.56,BB
+ISS0356,Beren Shipping AG,Transport & logistics,DE,False,1.12,A
+ISS0357,Marova Drive SA,Automotive,FR,False,4.82,BBB+
+ISS0358,Ardica Logistik AG,Transport & logistics,DE,False,2.06,BB+
+ISS0359,Melast Retail AG,Retail,AT,True,0.56,BB+
+ISS0360,Grais Connect SAS,Telecoms,FR,False,1.46,A

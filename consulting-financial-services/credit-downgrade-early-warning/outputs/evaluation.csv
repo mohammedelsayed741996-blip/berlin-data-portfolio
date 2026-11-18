@@ -1,0 +1,5 @@
+model,roc_auc,pr_auc,brier,alerts_per_month,alert_precision,downgrades,caught,event_recall,median_lead_months
+Outlook only,0.636,0.073,0.0363,39.4167,0.1311,65,30,0.4615,3.0
+Ratings + financials,0.64,0.0814,0.0373,15.0,0.1333,65,15,0.2308,3.0
++ keyword rules,0.73,0.1869,0.0345,15.0,0.25,65,27,0.4154,2.0
++ NLP news scores,0.7779,0.2577,0.0331,15.0,0.2889,65,32,0.4923,2.0

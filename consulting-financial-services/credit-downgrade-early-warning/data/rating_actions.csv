@@ -1,0 +1,828 @@
+issuer_id,month,action,from_rating,to_rating
+ISS0002,2022-11,outlook negative,BBB,BBB
+ISS0002,2023-02,downgrade,BBB,BBB-
+ISS0002,2026-03,outlook negative,BBB-,BBB-
+ISS0002,2026-04,downgrade,BBB-,BB+
+ISS0002,2026-06,downgrade,BB+,BB
+ISS0004,2022-10,outlook negative,BB+,BB+
+ISS0004,2023-02,downgrade,BB+,BB
+ISS0004,2023-04,outlook negative,BB,BB
+ISS0004,2025-01,downgrade,BB,B
+ISS0004,2025-11,outlook positive,B,B
+ISS0004,2026-08,upgrade,B,B+
+ISS0006,2023-06,outlook negative,A+,A+
+ISS0006,2024-06,outlook stable,A+,A+
+ISS0006,2024-12,downgrade,A+,A-
+ISS0006,2025-02,downgrade,A-,BB+
+ISS0006,2025-07,outlook positive,BB+,BB+
+ISS0006,2025-12,upgrade,BB+,BBB
+ISS0006,2026-09,outlook positive,BBB,BBB
+ISS0008,2025-03,downgrade,AA-,A
+ISS0008,2025-06,downgrade,A,A-
+ISS0008,2026-04,outlook positive,A-,A-
+ISS0009,2022-09,downgrade,BB+,B+
+ISS0009,2023-11,outlook positive,B+,B+
+ISS0009,2024-07,upgrade,B+,BB-
+ISS0009,2026-02,outlook positive,BB-,BB-
+ISS0009,2026-09,upgrade,BB-,BB
+ISS0010,2023-03,outlook negative,B,B
+ISS0010,2023-05,downgrade,B,B-
+ISS0010,2024-02,outlook stable,B-,B-
+ISS0011,2025-07,outlook negative,BB,BB
+ISS0011,2025-08,downgrade,BB,B+
+ISS0012,2023-05,outlook negative,BB,BB
+ISS0012,2023-07,downgrade,BB,BB-
+ISS0012,2024-02,outlook stable,BB-,BB-
+ISS0012,2024-05,outlook positive,BB-,BB-
+ISS0012,2024-09,upgrade,BB-,BB
+ISS0014,2025-08,outlook negative,A+,A+
+ISS0014,2025-10,downgrade,A+,BBB+
+ISS0014,2026-08,outlook positive,BBB+,BBB+
+ISS0016,2024-01,downgrade,BBB,BBB-
+ISS0016,2024-03,outlook negative,BBB-,BBB-
+ISS0016,2024-06,downgrade,BBB-,BB+
+ISS0016,2024-07,outlook stable,BB+,BB+
+ISS0016,2024-08,outlook negative,BB+,BB+
+ISS0016,2024-10,downgrade,BB+,BB-
+ISS0016,2026-03,upgrade,BB-,BB+
+ISS0017,2025-04,upgrade,BBB-,BBB+
+ISS0017,2026-01,downgrade,BBB+,BBB
+ISS0017,2026-04,downgrade,BBB,BBB-
+ISS0017,2026-06,downgrade,BBB-,BB
+ISS0018,2022-12,outlook negative,BBB+,BBB+
+ISS0018,2023-04,downgrade,BBB+,BBB
+ISS0019,2022-10,outlook positive,BB-,BB-
+ISS0019,2026-02,outlook stable,BB-,BB-
+ISS0020,2022-09,downgrade,A,A-
+ISS0020,2022-11,outlook negative,A-,A-
+ISS0020,2023-01,downgrade,A-,BBB+
+ISS0020,2024-12,outlook positive,BBB+,BBB+
+ISS0020,2025-05,upgrade,BBB+,A-
+ISS0020,2025-12,outlook positive,A-,A-
+ISS0020,2026-02,upgrade,A-,A
+ISS0022,2023-08,outlook positive,BBB-,BBB-
+ISS0022,2024-01,upgrade,BBB-,BBB+
+ISS0022,2025-01,outlook negative,BBB+,BBB+
+ISS0022,2025-05,downgrade,BBB+,BBB
+ISS0022,2025-07,outlook stable,BBB,BBB
+ISS0023,2022-08,outlook negative,A,A
+ISS0023,2022-09,downgrade,A,BBB+
+ISS0023,2023-12,outlook positive,BBB+,BBB+
+ISS0023,2024-04,upgrade,BBB+,A
+ISS0023,2025-03,outlook positive,A,A
+ISS0023,2025-08,upgrade,A,AA-
+ISS0023,2026-03,downgrade,AA-,A+
+ISS0024,2022-05,outlook negative,BBB+,BBB+
+ISS0024,2023-01,downgrade,BBB+,BBB
+ISS0024,2026-08,outlook stable,BBB,BBB
+ISS0024,2026-09,downgrade,BBB,BB
+ISS0025,2022-11,upgrade,A+,AA
+ISS0025,2023-06,downgrade,AA,AA-
+ISS0025,2023-10,downgrade,AA-,A
+ISS0027,2025-07,outlook negative,BBB+,BBB+
+ISS0027,2025-09,downgrade,BBB+,BBB
+ISS0027,2026-01,downgrade,BBB,BBB-
+ISS0028,2022-12,outlook negative,BBB+,BBB+
+ISS0028,2023-05,downgrade,BBB+,BBB
+ISS0028,2025-06,downgrade,BBB,BBB-
+ISS0028,2026-08,outlook stable,BBB-,BBB-
+ISS0029,2022-05,outlook negative,A-,A-
+ISS0029,2022-10,outlook stable,A-,A-
+ISS0029,2022-12,outlook negative,A-,A-
+ISS0029,2023-01,downgrade,A-,BBB-
+ISS0029,2024-02,upgrade,BBB-,BBB+
+ISS0030,2023-01,outlook negative,BBB,BBB
+ISS0030,2024-05,outlook stable,BBB,BBB
+ISS0030,2025-01,outlook positive,BBB,BBB
+ISS0030,2026-04,outlook stable,BBB,BBB
+ISS0031,2022-04,outlook negative,BBB,BBB
+ISS0031,2023-06,outlook stable,BBB,BBB
+ISS0031,2025-09,outlook negative,BBB,BBB
+ISS0032,2023-03,outlook positive,BB-,BB-
+ISS0033,2022-01,downgrade,BBB,BB
+ISS0033,2022-03,outlook stable,BB,BB
+ISS0033,2023-02,outlook positive,BB,BB
+ISS0033,2023-09,upgrade,BB,BB+
+ISS0033,2024-10,outlook positive,BB+,BB+
+ISS0033,2026-01,upgrade,BB+,BBB
+ISS0035,2025-12,outlook negative,BB+,BB+
+ISS0035,2026-02,downgrade,BB+,BB
+ISS0036,2024-06,upgrade,A-,A
+ISS0036,2025-08,outlook negative,A,A
+ISS0037,2023-11,outlook positive,A,A
+ISS0037,2024-07,outlook stable,A,A
+ISS0037,2024-12,outlook negative,A,A
+ISS0037,2025-02,downgrade,A,A-
+ISS0037,2025-12,upgrade,A-,A
+ISS0037,2026-08,outlook negative,A,A
+ISS0037,2026-09,downgrade,A,A-
+ISS0038,2024-10,downgrade,A-,BBB+
+ISS0038,2025-01,downgrade,BBB+,BBB
+ISS0038,2025-07,outlook stable,BBB,BBB
+ISS0038,2026-09,downgrade,BBB,BB+
+ISS0039,2023-03,outlook negative,BB-,BB-
+ISS0040,2025-04,outlook negative,BBB,BBB
+ISS0041,2025-03,downgrade,BBB,BB-
+ISS0041,2025-11,outlook positive,BB-,BB-
+ISS0041,2026-02,upgrade,BB-,BB
+ISS0042,2025-09,outlook negative,BB+,BB+
+ISS0044,2022-09,outlook positive,BB,BB
+ISS0044,2023-01,upgrade,BB,BB+
+ISS0044,2025-02,outlook negative,BB+,BB+
+ISS0044,2025-12,outlook stable,BB+,BB+
+ISS0046,2022-08,downgrade,B+,B
+ISS0046,2022-11,downgrade,B,B-
+ISS0046,2023-04,downgrade,B-,CCC
+ISS0046,2024-12,upgrade,CCC,B
+ISS0047,2024-11,downgrade,BB-,B-
+ISS0047,2025-12,outlook positive,B-,B-
+ISS0047,2026-01,upgrade,B-,B+
+ISS0048,2024-10,outlook negative,BB-,BB-
+ISS0048,2025-05,outlook stable,BB-,BB-
+ISS0049,2022-02,downgrade,AA,A+
+ISS0049,2022-04,outlook negative,A+,A+
+ISS0049,2022-07,downgrade,A+,A
+ISS0049,2023-09,outlook positive,A,A
+ISS0049,2023-10,upgrade,A,A+
+ISS0049,2024-06,outlook positive,A+,A+
+ISS0049,2024-11,upgrade,A+,AA-
+ISS0051,2025-10,downgrade,A-,BBB
+ISS0051,2025-11,outlook stable,BBB,BBB
+ISS0052,2023-08,outlook negative,A,A
+ISS0052,2023-09,downgrade,A,A-
+ISS0052,2024-07,outlook positive,A-,A-
+ISS0052,2024-10,upgrade,A-,A+
+ISS0052,2025-04,outlook negative,A+,A+
+ISS0052,2025-12,downgrade,A+,A
+ISS0053,2023-05,outlook positive,BBB+,BBB+
+ISS0053,2023-07,upgrade,BBB+,A
+ISS0053,2025-04,downgrade,A,A-
+ISS0053,2026-04,outlook negative,A-,A-
+ISS0054,2024-10,downgrade,BBB,BB
+ISS0054,2025-05,downgrade,BB,BB-
+ISS0054,2026-09,outlook positive,BB-,BB-
+ISS0055,2025-05,downgrade,BB+,BB
+ISS0056,2023-08,outlook negative,BB+,BB+
+ISS0056,2023-10,downgrade,BB+,BB
+ISS0059,2023-12,downgrade,A-,BBB+
+ISS0059,2024-04,downgrade,BBB+,BBB
+ISS0059,2024-12,outlook stable,BBB,BBB
+ISS0060,2025-04,outlook negative,A-,A-
+ISS0063,2026-08,outlook negative,BB+,BB+
+ISS0065,2024-07,outlook negative,A,A
+ISS0065,2024-12,outlook stable,A,A
+ISS0066,2022-12,outlook positive,A-,A-
+ISS0066,2023-08,outlook stable,A-,A-
+ISS0067,2023-07,outlook negative,BB+,BB+
+ISS0067,2025-03,outlook stable,BB+,BB+
+ISS0068,2025-05,outlook negative,BBB-,BBB-
+ISS0069,2023-06,outlook positive,BBB-,BBB-
+ISS0069,2025-05,outlook stable,BBB-,BBB-
+ISS0071,2026-06,outlook positive,BBB+,BBB+
+ISS0071,2026-08,upgrade,BBB+,A-
+ISS0072,2023-11,outlook positive,BBB+,BBB+
+ISS0072,2023-12,upgrade,BBB+,A-
+ISS0072,2026-02,outlook negative,A-,A-
+ISS0076,2023-02,outlook negative,BBB,BBB
+ISS0076,2025-11,downgrade,BBB,BB+
+ISS0076,2026-04,outlook negative,BB+,BB+
+ISS0076,2026-05,downgrade,BB+,BB-
+ISS0077,2026-08,outlook positive,BBB,BBB
+ISS0078,2023-07,outlook negative,BB-,BB-
+ISS0078,2023-10,downgrade,BB-,B+
+ISS0078,2025-12,outlook positive,B+,B+
+ISS0078,2026-01,upgrade,B+,BB
+ISS0079,2022-06,outlook negative,BB+,BB+
+ISS0079,2022-07,downgrade,BB+,B+
+ISS0079,2024-07,outlook positive,B+,B+
+ISS0079,2024-09,downgrade,B+,B
+ISS0079,2025-11,upgrade,B,BB-
+ISS0080,2023-12,outlook positive,BBB+,BBB+
+ISS0080,2024-08,downgrade,BBB+,BBB-
+ISS0080,2024-11,outlook stable,BBB-,BBB-
+ISS0080,2026-06,outlook positive,BBB-,BBB-
+ISS0082,2025-07,downgrade,BBB,BBB-
+ISS0082,2025-10,downgrade,BBB-,BB+
+ISS0083,2023-10,outlook negative,A-,A-
+ISS0083,2024-09,outlook stable,A-,A-
+ISS0083,2025-03,downgrade,A-,BBB-
+ISS0083,2025-10,outlook positive,BBB-,BBB-
+ISS0083,2025-12,upgrade,BBB-,BBB+
+ISS0084,2024-01,outlook negative,BBB-,BBB-
+ISS0084,2024-06,downgrade,BBB-,BB
+ISS0084,2025-11,outlook positive,BB,BB
+ISS0085,2025-06,downgrade,BBB,BB+
+ISS0085,2026-01,outlook positive,BB+,BB+
+ISS0085,2026-07,downgrade,BB+,B+
+ISS0088,2022-08,outlook negative,BBB+,BBB+
+ISS0088,2022-09,downgrade,BBB+,BBB
+ISS0088,2023-03,downgrade,BBB,BBB-
+ISS0088,2023-09,downgrade,BBB-,BB
+ISS0088,2025-10,downgrade,BB,B+
+ISS0088,2025-11,outlook stable,B+,B+
+ISS0088,2026-06,outlook positive,B+,B+
+ISS0089,2024-05,outlook negative,A-,A-
+ISS0089,2024-09,downgrade,A-,BBB+
+ISS0089,2025-01,downgrade,BBB+,BBB-
+ISS0090,2024-02,downgrade,BB+,BB-
+ISS0090,2024-06,outlook negative,BB-,BB-
+ISS0090,2025-04,outlook stable,BB-,BB-
+ISS0091,2026-01,outlook negative,BBB,BBB
+ISS0092,2024-03,outlook positive,A,A
+ISS0092,2024-07,upgrade,A,A+
+ISS0094,2023-10,outlook negative,A,A
+ISS0094,2024-02,downgrade,A,BBB+
+ISS0094,2025-04,outlook positive,BBB+,BBB+
+ISS0094,2025-07,upgrade,BBB+,A
+ISS0095,2026-04,downgrade,B,CCC
+ISS0097,2026-03,downgrade,A-,BBB
+ISS0099,2024-12,outlook positive,BBB,BBB
+ISS0099,2025-03,upgrade,BBB,BBB+
+ISS0100,2022-12,outlook negative,BB+,BB+
+ISS0100,2023-03,downgrade,BB+,BB
+ISS0102,2022-11,outlook negative,BBB,BBB
+ISS0102,2022-12,downgrade,BBB,BBB-
+ISS0102,2023-05,outlook negative,BBB-,BBB-
+ISS0102,2025-01,outlook stable,BBB-,BBB-
+ISS0103,2023-02,outlook negative,BB+,BB+
+ISS0103,2023-10,outlook stable,BB+,BB+
+ISS0103,2024-04,outlook positive,BB+,BB+
+ISS0103,2025-06,outlook stable,BB+,BB+
+ISS0104,2024-11,upgrade,A-,A
+ISS0104,2026-05,outlook positive,A,A
+ISS0105,2023-03,outlook negative,BBB+,BBB+
+ISS0105,2023-09,outlook stable,BBB+,BBB+
+ISS0106,2023-02,outlook positive,BB-,BB-
+ISS0107,2023-02,outlook positive,BBB,BBB
+ISS0107,2024-09,outlook stable,BBB,BBB
+ISS0107,2025-05,downgrade,BBB,BB+
+ISS0108,2022-12,downgrade,BBB-,BB
+ISS0108,2026-06,outlook positive,BB,BB
+ISS0110,2024-11,outlook negative,A+,A+
+ISS0110,2025-07,downgrade,A+,A
+ISS0110,2026-06,downgrade,A,BBB+
+ISS0110,2026-09,outlook stable,BBB+,BBB+
+ISS0113,2024-12,outlook positive,BB+,BB+
+ISS0113,2025-03,upgrade,BB+,BBB-
+ISS0113,2025-08,downgrade,BBB-,BB
+ISS0114,2022-04,outlook negative,BBB+,BBB+
+ISS0114,2022-06,downgrade,BBB+,BBB-
+ISS0114,2024-09,outlook positive,BBB-,BBB-
+ISS0114,2024-11,upgrade,BBB-,BBB+
+ISS0116,2022-07,downgrade,A,A-
+ISS0116,2022-11,downgrade,A-,BBB+
+ISS0116,2023-02,outlook stable,BBB+,BBB+
+ISS0116,2023-07,outlook negative,BBB+,BBB+
+ISS0116,2023-09,outlook stable,BBB+,BBB+
+ISS0116,2024-02,downgrade,BBB+,BBB
+ISS0116,2024-12,downgrade,BBB,BB+
+ISS0116,2025-01,outlook stable,BB+,BB+
+ISS0116,2026-02,outlook positive,BB+,BB+
+ISS0116,2026-04,upgrade,BB+,BBB
+ISS0117,2024-03,outlook negative,BBB,BBB
+ISS0117,2024-05,outlook stable,BBB,BBB
+ISS0118,2022-03,outlook negative,BB,BB
+ISS0118,2022-06,downgrade,BB,B
+ISS0118,2023-12,outlook positive,B,B
+ISS0118,2024-06,upgrade,B,BB-
+ISS0118,2025-07,outlook negative,BB-,BB-
+ISS0118,2026-07,outlook stable,BB-,BB-
+ISS0119,2025-12,outlook positive,B+,B+
+ISS0121,2024-06,outlook negative,BB+,BB+
+ISS0121,2024-07,downgrade,BB+,BB-
+ISS0121,2025-08,outlook positive,BB-,BB-
+ISS0123,2022-09,downgrade,BB,B
+ISS0123,2023-05,outlook negative,B,B
+ISS0123,2023-10,outlook stable,B,B
+ISS0123,2024-11,outlook positive,B,B
+ISS0123,2025-06,upgrade,B,BB-
+ISS0124,2022-09,downgrade,BBB,BB-
+ISS0124,2024-11,outlook positive,BB-,BB-
+ISS0124,2025-02,upgrade,BB-,BB+
+ISS0125,2023-12,outlook positive,BBB+,BBB+
+ISS0125,2026-02,outlook stable,BBB+,BBB+
+ISS0126,2022-07,outlook negative,BBB,BBB
+ISS0126,2022-08,downgrade,BBB,BB+
+ISS0126,2022-12,downgrade,BB+,BB
+ISS0126,2025-01,outlook positive,BB,BB
+ISS0126,2025-06,upgrade,BB,BBB-
+ISS0127,2022-03,downgrade,A+,A-
+ISS0127,2023-07,outlook negative,A-,A-
+ISS0127,2024-04,outlook stable,A-,A-
+ISS0127,2025-08,outlook positive,A-,A-
+ISS0127,2026-07,downgrade,A-,BBB-
+ISS0128,2022-08,outlook negative,BBB+,BBB+
+ISS0128,2024-05,outlook stable,BBB+,BBB+
+ISS0130,2023-01,outlook positive,BB,BB
+ISS0130,2023-04,upgrade,BB,BBB-
+ISS0130,2023-09,outlook negative,BBB-,BBB-
+ISS0130,2024-07,downgrade,BBB-,BB+
+ISS0130,2025-02,downgrade,BB+,B+
+ISS0132,2024-08,outlook negative,A-,A-
+ISS0132,2025-07,outlook stable,A-,A-
+ISS0133,2024-10,outlook positive,B+,B+
+ISS0133,2024-11,upgrade,B+,BB
+ISS0133,2025-03,outlook negative,BB,BB
+ISS0133,2026-08,downgrade,BB,BB-
+ISS0134,2023-06,outlook positive,AA-,AA-
+ISS0134,2023-10,upgrade,AA-,AA
+ISS0134,2025-03,outlook negative,AA,AA
+ISS0134,2025-05,downgrade,AA,AA-
+ISS0135,2023-03,outlook negative,A-,A-
+ISS0135,2023-07,downgrade,A-,BBB+
+ISS0135,2023-11,downgrade,BBB+,BB+
+ISS0135,2024-10,upgrade,BB+,BBB
+ISS0136,2023-03,outlook positive,BBB+,BBB+
+ISS0136,2025-01,outlook stable,BBB+,BBB+
+ISS0137,2026-07,outlook negative,A-,A-
+ISS0138,2025-07,downgrade,BBB-,BB
+ISS0140,2023-06,outlook negative,A,A
+ISS0140,2024-10,outlook stable,A,A
+ISS0141,2023-05,outlook negative,BBB-,BBB-
+ISS0141,2026-08,downgrade,BBB-,BB
+ISS0142,2025-12,outlook negative,BB-,BB-
+ISS0148,2023-07,downgrade,BB-,B
+ISS0148,2025-08,outlook positive,B,B
+ISS0148,2026-06,upgrade,B,BB-
+ISS0149,2023-07,downgrade,A,BBB+
+ISS0149,2023-11,outlook stable,BBB+,BBB+
+ISS0149,2025-05,outlook positive,BBB+,BBB+
+ISS0149,2026-03,upgrade,BBB+,A
+ISS0150,2023-04,outlook negative,BBB,BBB
+ISS0150,2023-08,downgrade,BBB,BBB-
+ISS0150,2023-12,outlook negative,BBB-,BBB-
+ISS0150,2024-05,outlook stable,BBB-,BBB-
+ISS0151,2023-03,outlook positive,BB,BB
+ISS0151,2025-01,upgrade,BB,BBB-
+ISS0151,2025-12,outlook negative,BBB-,BBB-
+ISS0151,2026-06,downgrade,BBB-,BB+
+ISS0152,2023-09,downgrade,BB+,BB
+ISS0152,2023-12,outlook negative,BB,BB
+ISS0152,2024-01,downgrade,BB,BB-
+ISS0153,2024-03,downgrade,BB+,B+
+ISS0153,2025-02,outlook positive,B+,B+
+ISS0153,2025-06,upgrade,B+,BB
+ISS0156,2026-03,outlook positive,A,A
+ISS0156,2026-06,upgrade,A,AA-
+ISS0158,2022-09,downgrade,BBB,BB
+ISS0158,2022-10,outlook stable,BB,BB
+ISS0158,2024-05,outlook positive,BB,BB
+ISS0158,2024-09,upgrade,BB,BB+
+ISS0158,2025-06,downgrade,BB+,B+
+ISS0158,2025-10,outlook positive,B+,B+
+ISS0158,2026-02,upgrade,B+,BB
+ISS0159,2022-06,downgrade,A+,A-
+ISS0159,2022-07,outlook stable,A-,A-
+ISS0159,2024-12,outlook positive,A-,A-
+ISS0160,2022-08,outlook negative,BBB-,BBB-
+ISS0160,2022-10,downgrade,BBB-,BB
+ISS0160,2023-05,outlook negative,BB,BB
+ISS0160,2024-05,outlook stable,BB,BB
+ISS0161,2025-06,outlook negative,BBB-,BBB-
+ISS0161,2025-09,downgrade,BBB-,BB
+ISS0162,2023-08,outlook negative,A,A
+ISS0162,2024-12,downgrade,A,BBB-
+ISS0162,2026-04,upgrade,BBB-,BBB+
+ISS0163,2022-09,outlook positive,A-,A-
+ISS0163,2022-11,upgrade,A-,A+
+ISS0163,2023-09,outlook negative,A+,A+
+ISS0163,2024-02,downgrade,A+,A
+ISS0163,2024-06,downgrade,A,BBB+
+ISS0164,2025-10,downgrade,BBB+,BBB-
+ISS0164,2026-04,downgrade,BBB-,BB
+ISS0166,2026-04,downgrade,BB+,B
+ISS0168,2023-09,outlook negative,BBB-,BBB-
+ISS0168,2024-08,downgrade,BBB-,BB
+ISS0168,2024-09,outlook negative,BB,BB
+ISS0168,2025-01,outlook stable,BB,BB
+ISS0169,2024-08,outlook negative,BBB,BBB
+ISS0169,2025-12,outlook stable,BBB,BBB
+ISS0170,2023-04,outlook negative,BBB,BBB
+ISS0171,2023-02,outlook negative,BBB-,BBB-
+ISS0171,2023-08,outlook stable,BBB-,BBB-
+ISS0171,2025-07,downgrade,BBB-,BB
+ISS0171,2025-08,outlook stable,BB,BB
+ISS0171,2026-09,outlook negative,BB,BB
+ISS0172,2024-06,outlook positive,BBB-,BBB-
+ISS0172,2024-10,upgrade,BBB-,BBB
+ISS0173,2022-02,outlook negative,BBB+,BBB+
+ISS0173,2022-12,downgrade,BBB+,BBB
+ISS0174,2023-06,outlook positive,BB+,BB+
+ISS0174,2023-10,upgrade,BB+,BBB-
+ISS0175,2024-06,downgrade,BBB+,BBB
+ISS0175,2026-08,outlook negative,BBB,BBB
+ISS0177,2023-07,outlook negative,A,A
+ISS0177,2025-04,outlook stable,A,A
+ISS0180,2024-12,outlook negative,BBB-,BBB-
+ISS0180,2026-08,downgrade,BBB-,BB
+ISS0181,2023-12,downgrade,BB-,B-
+ISS0181,2024-07,outlook negative,B-,B-
+ISS0181,2024-09,downgrade,B-,CCC
+ISS0181,2025-10,outlook positive,CCC,CCC
+ISS0181,2025-12,upgrade,CCC,B-
+ISS0181,2026-09,outlook positive,B-,B-
+ISS0183,2025-07,outlook negative,BB+,BB+
+ISS0184,2025-08,downgrade,A-,BBB
+ISS0184,2026-08,outlook negative,BBB,BBB
+ISS0184,2026-09,downgrade,BBB,BB+
+ISS0185,2023-03,downgrade,BBB,BB+
+ISS0185,2023-07,outlook negative,BB+,BB+
+ISS0185,2024-02,outlook stable,BB+,BB+
+ISS0185,2025-09,outlook positive,BB+,BB+
+ISS0185,2026-04,upgrade,BB+,BBB-
+ISS0186,2023-02,outlook negative,BB+,BB+
+ISS0186,2023-07,downgrade,BB+,BB
+ISS0187,2023-07,outlook negative,BB+,BB+
+ISS0187,2025-07,downgrade,BB+,BB-
+ISS0187,2025-11,downgrade,BB-,B+
+ISS0187,2026-02,outlook stable,B+,B+
+ISS0189,2023-01,outlook negative,B+,B+
+ISS0189,2023-07,downgrade,B+,B
+ISS0191,2023-02,outlook positive,BBB+,BBB+
+ISS0191,2023-03,upgrade,BBB+,A
+ISS0191,2023-05,outlook negative,A,A
+ISS0191,2024-04,downgrade,A,A-
+ISS0191,2026-04,outlook negative,A-,A-
+ISS0192,2022-12,outlook negative,BB+,BB+
+ISS0192,2023-06,outlook stable,BB+,BB+
+ISS0192,2026-08,outlook negative,BB+,BB+
+ISS0193,2022-07,downgrade,BBB+,BBB-
+ISS0193,2025-09,outlook negative,BBB-,BBB-
+ISS0193,2026-04,outlook stable,BBB-,BBB-
+ISS0194,2026-06,outlook positive,A-,A-
+ISS0197,2026-02,downgrade,BBB-,BB+
+ISS0198,2022-04,downgrade,A+,BBB+
+ISS0198,2023-07,outlook positive,BBB+,BBB+
+ISS0198,2023-12,upgrade,BBB+,A-
+ISS0198,2024-08,outlook negative,A-,A-
+ISS0198,2025-05,outlook stable,A-,A-
+ISS0198,2026-04,outlook positive,A-,A-
+ISS0200,2025-09,outlook negative,BBB-,BBB-
+ISS0200,2026-06,outlook stable,BBB-,BBB-
+ISS0201,2022-10,downgrade,BBB+,BBB
+ISS0201,2022-11,outlook negative,BBB,BBB
+ISS0201,2023-03,downgrade,BBB,BB+
+ISS0201,2024-11,outlook positive,BB+,BB+
+ISS0201,2024-12,upgrade,BB+,BBB-
+ISS0201,2026-06,outlook positive,BBB-,BBB-
+ISS0202,2022-04,downgrade,BBB,BB
+ISS0202,2023-06,upgrade,BB,BB+
+ISS0202,2024-08,outlook positive,BB+,BB+
+ISS0202,2025-08,upgrade,BB+,BBB
+ISS0203,2024-04,downgrade,BBB-,BB+
+ISS0203,2024-08,downgrade,BB+,BB
+ISS0203,2024-10,outlook stable,BB,BB
+ISS0204,2023-03,outlook negative,BB+,BB+
+ISS0204,2023-08,downgrade,BB+,BB
+ISS0204,2025-04,outlook positive,BB,BB
+ISS0204,2025-07,upgrade,BB,BBB-
+ISS0204,2026-04,outlook negative,BBB-,BBB-
+ISS0204,2026-07,outlook stable,BBB-,BBB-
+ISS0205,2024-11,downgrade,BB-,B
+ISS0205,2025-01,downgrade,B,CCC
+ISS0205,2025-02,outlook stable,CCC,CCC
+ISS0205,2025-08,outlook positive,CCC,CCC
+ISS0205,2025-09,upgrade,CCC,B
+ISS0206,2023-08,outlook negative,BB-,BB-
+ISS0209,2023-02,downgrade,BB+,BB
+ISS0209,2023-06,outlook negative,BB,BB
+ISS0209,2024-12,outlook stable,BB,BB
+ISS0210,2023-06,outlook negative,A+,A+
+ISS0210,2025-08,outlook stable,A+,A+
+ISS0211,2022-09,outlook positive,BB-,BB-
+ISS0211,2023-01,upgrade,BB-,BB
+ISS0211,2024-10,outlook negative,BB,BB
+ISS0211,2025-07,downgrade,BB,BB-
+ISS0213,2023-06,outlook positive,BBB-,BBB-
+ISS0213,2026-05,outlook stable,BBB-,BBB-
+ISS0213,2026-09,outlook negative,BBB-,BBB-
+ISS0214,2024-02,upgrade,BB+,BBB-
+ISS0214,2025-01,outlook negative,BBB-,BBB-
+ISS0214,2025-07,downgrade,BBB-,BB
+ISS0214,2025-09,outlook negative,BB,BB
+ISS0214,2025-11,downgrade,BB,BB-
+ISS0214,2026-08,downgrade,BB-,B-
+ISS0218,2023-03,outlook negative,BBB,BBB
+ISS0218,2023-05,downgrade,BBB,BBB-
+ISS0218,2023-12,outlook stable,BBB-,BBB-
+ISS0218,2024-09,downgrade,BBB-,BB
+ISS0218,2024-10,downgrade,BB,B
+ISS0218,2024-11,outlook stable,B,B
+ISS0218,2025-06,outlook positive,B,B
+ISS0218,2025-10,upgrade,B,BB-
+ISS0219,2022-12,downgrade,BBB-,BB
+ISS0219,2023-02,outlook negative,BB,BB
+ISS0219,2023-04,downgrade,BB,BB-
+ISS0219,2024-07,upgrade,BB-,BB+
+ISS0219,2026-08,outlook positive,BB+,BB+
+ISS0221,2023-04,downgrade,BBB-,BB+
+ISS0221,2023-08,outlook negative,BB+,BB+
+ISS0221,2023-09,downgrade,BB+,BB-
+ISS0221,2024-03,outlook positive,BB-,BB-
+ISS0221,2024-08,upgrade,BB-,BB
+ISS0221,2025-09,outlook positive,BB,BB
+ISS0221,2026-02,upgrade,BB,BB+
+ISS0222,2022-10,outlook negative,BBB-,BBB-
+ISS0222,2022-11,downgrade,BBB-,BB+
+ISS0222,2023-06,downgrade,BB+,BB
+ISS0222,2023-08,outlook stable,BB,BB
+ISS0222,2025-06,outlook positive,BB,BB
+ISS0222,2026-08,upgrade,BB,BBB-
+ISS0225,2025-03,outlook negative,BBB,BBB
+ISS0229,2023-02,outlook negative,BBB+,BBB+
+ISS0229,2024-12,outlook stable,BBB+,BBB+
+ISS0230,2022-07,outlook positive,A-,A-
+ISS0230,2022-09,upgrade,A-,A
+ISS0230,2022-11,downgrade,A,BBB
+ISS0230,2023-04,outlook positive,BBB,BBB
+ISS0230,2024-01,upgrade,BBB,BBB+
+ISS0231,2025-04,downgrade,BBB,BB+
+ISS0236,2025-02,outlook negative,BBB+,BBB+
+ISS0238,2023-09,downgrade,BBB,BBB-
+ISS0238,2024-09,outlook stable,BBB-,BBB-
+ISS0238,2025-10,downgrade,BBB-,BB
+ISS0239,2024-10,upgrade,BBB-,BBB+
+ISS0239,2025-11,outlook negative,BBB+,BBB+
+ISS0239,2026-03,downgrade,BBB+,BB+
+ISS0240,2025-10,outlook positive,BBB+,BBB+
+ISS0240,2026-01,upgrade,BBB+,A
+ISS0241,2023-05,outlook negative,BBB,BBB
+ISS0243,2023-05,outlook positive,A+,A+
+ISS0244,2023-09,outlook negative,BB,BB
+ISS0244,2025-05,outlook stable,BB,BB
+ISS0246,2022-07,outlook positive,BBB-,BBB-
+ISS0246,2022-12,upgrade,BBB-,BBB
+ISS0246,2025-02,outlook negative,BBB,BBB
+ISS0246,2025-04,downgrade,BBB,BB+
+ISS0246,2026-07,downgrade,BB+,B+
+ISS0247,2023-10,outlook negative,A-,A-
+ISS0247,2024-10,outlook stable,A-,A-
+ISS0247,2026-02,outlook negative,A-,A-
+ISS0247,2026-03,downgrade,A-,BBB-
+ISS0248,2022-08,outlook negative,A-,A-
+ISS0248,2025-02,outlook stable,A-,A-
+ISS0248,2026-07,downgrade,A-,BBB
+ISS0249,2023-06,outlook negative,BB,BB
+ISS0249,2025-08,outlook stable,BB,BB
+ISS0251,2023-04,outlook negative,BBB-,BBB-
+ISS0251,2023-05,downgrade,BBB-,BB+
+ISS0253,2025-07,downgrade,BBB,BB+
+ISS0257,2025-09,downgrade,A-,BB+
+ISS0257,2026-02,outlook positive,BB+,BB+
+ISS0258,2022-11,outlook negative,BBB-,BBB-
+ISS0258,2023-01,downgrade,BBB-,BB+
+ISS0258,2023-03,downgrade,BB+,BB
+ISS0258,2023-04,outlook negative,BB,BB
+ISS0258,2023-06,downgrade,BB,B+
+ISS0258,2024-06,outlook positive,B+,B+
+ISS0258,2024-12,upgrade,B+,BB
+ISS0259,2024-11,outlook negative,A-,A-
+ISS0259,2025-07,outlook stable,A-,A-
+ISS0260,2025-03,upgrade,BB,BBB-
+ISS0260,2025-11,outlook negative,BBB-,BBB-
+ISS0260,2026-09,downgrade,BBB-,BB+
+ISS0261,2022-07,outlook negative,BBB,BBB
+ISS0261,2022-10,downgrade,BBB,BB+
+ISS0261,2024-04,outlook positive,BB+,BB+
+ISS0261,2025-07,upgrade,BB+,BBB
+ISS0261,2025-09,outlook negative,BBB,BBB
+ISS0262,2023-03,outlook negative,BBB,BBB
+ISS0262,2025-12,downgrade,BBB,BBB-
+ISS0263,2023-03,outlook negative,A,A
+ISS0263,2023-05,downgrade,A,A-
+ISS0263,2023-12,outlook stable,A-,A-
+ISS0265,2023-06,downgrade,BB,B+
+ISS0265,2023-11,downgrade,B+,B-
+ISS0265,2024-10,outlook negative,B-,B-
+ISS0265,2025-02,outlook stable,B-,B-
+ISS0265,2026-02,upgrade,B-,B+
+ISS0266,2022-08,downgrade,BBB-,BB+
+ISS0266,2022-10,downgrade,BB+,BB
+ISS0267,2026-09,outlook positive,BBB,BBB
+ISS0269,2022-08,outlook negative,BBB-,BBB-
+ISS0269,2022-09,downgrade,BBB-,BB+
+ISS0269,2023-02,downgrade,BB+,BB
+ISS0269,2025-06,outlook positive,BB,BB
+ISS0269,2025-09,upgrade,BB,BB+
+ISS0270,2025-12,upgrade,BB,BBB-
+ISS0270,2026-01,downgrade,BBB-,B+
+ISS0270,2026-03,outlook stable,B+,B+
+ISS0271,2022-03,outlook negative,BBB,BBB
+ISS0271,2022-06,downgrade,BBB,BB+
+ISS0271,2023-10,downgrade,BB+,BB
+ISS0271,2025-05,outlook positive,BB,BB
+ISS0271,2025-12,upgrade,BB,BB+
+ISS0271,2026-06,outlook positive,BB+,BB+
+ISS0272,2022-10,upgrade,BBB+,A
+ISS0272,2023-07,outlook negative,A,A
+ISS0272,2024-02,downgrade,A,A-
+ISS0272,2024-03,outlook stable,A-,A-
+ISS0272,2024-11,outlook negative,A-,A-
+ISS0274,2023-07,outlook negative,BBB,BBB
+ISS0274,2024-11,outlook stable,BBB,BBB
+ISS0275,2022-12,outlook negative,BBB-,BBB-
+ISS0275,2023-12,outlook stable,BBB-,BBB-
+ISS0275,2026-07,downgrade,BBB-,B+
+ISS0276,2022-06,downgrade,BBB+,BBB-
+ISS0276,2024-02,outlook positive,BBB-,BBB-
+ISS0276,2025-01,upgrade,BBB-,BBB
+ISS0276,2026-06,outlook positive,BBB,BBB
+ISS0276,2026-08,upgrade,BBB,A-
+ISS0277,2026-08,outlook negative,BBB-,BBB-
+ISS0277,2026-09,downgrade,BBB-,BB
+ISS0278,2022-10,outlook negative,AA-,AA-
+ISS0278,2023-01,downgrade,AA-,A+
+ISS0278,2024-01,outlook negative,A+,A+
+ISS0278,2024-09,outlook stable,A+,A+
+ISS0278,2026-08,downgrade,A+,A
+ISS0279,2022-09,outlook negative,BB+,BB+
+ISS0279,2022-11,downgrade,BB+,BB-
+ISS0279,2024-01,downgrade,BB-,B
+ISS0279,2025-02,outlook positive,B,B
+ISS0279,2025-04,upgrade,B,B+
+ISS0279,2025-10,upgrade,B+,BB
+ISS0279,2026-01,downgrade,BB,B+
+ISS0280,2026-05,outlook positive,BBB+,BBB+
+ISS0281,2024-02,downgrade,BBB-,BB
+ISS0281,2024-11,upgrade,BB,BBB-
+ISS0282,2023-04,outlook positive,BB,BB
+ISS0282,2023-05,upgrade,BB,BBB-
+ISS0282,2024-04,outlook negative,BBB-,BBB-
+ISS0282,2024-07,downgrade,BBB-,BB+
+ISS0282,2025-04,outlook negative,BB+,BB+
+ISS0282,2026-06,downgrade,BB+,BB
+ISS0284,2024-03,downgrade,BBB,BB+
+ISS0284,2025-02,outlook negative,BB+,BB+
+ISS0284,2025-04,downgrade,BB+,BB
+ISS0284,2026-01,outlook stable,BB,BB
+ISS0285,2022-06,downgrade,BB+,B+
+ISS0285,2023-05,outlook negative,B+,B+
+ISS0285,2023-08,downgrade,B+,B-
+ISS0285,2024-02,outlook positive,B-,B-
+ISS0285,2024-05,upgrade,B-,B+
+ISS0285,2026-06,outlook positive,B+,B+
+ISS0285,2026-08,upgrade,B+,BB-
+ISS0287,2023-02,downgrade,BBB,BBB-
+ISS0287,2023-04,outlook negative,BBB-,BBB-
+ISS0287,2023-06,downgrade,BBB-,BB+
+ISS0287,2025-03,downgrade,BB+,BB
+ISS0287,2026-08,outlook positive,BB,BB
+ISS0289,2025-01,downgrade,BBB-,BB-
+ISS0289,2026-04,outlook positive,BB-,BB-
+ISS0290,2025-12,downgrade,BBB+,BBB
+ISS0290,2026-04,downgrade,BBB,BBB-
+ISS0290,2026-08,outlook stable,BBB-,BBB-
+ISS0291,2023-05,downgrade,A+,A
+ISS0291,2023-09,outlook negative,A,A
+ISS0291,2024-02,downgrade,A,BBB+
+ISS0291,2026-09,outlook positive,BBB+,BBB+
+ISS0292,2022-12,outlook negative,BBB,BBB
+ISS0292,2023-07,outlook stable,BBB,BBB
+ISS0293,2023-02,outlook negative,BBB,BBB
+ISS0293,2023-06,downgrade,BBB,BBB-
+ISS0294,2023-01,outlook negative,A,A
+ISS0294,2024-02,outlook stable,A,A
+ISS0294,2024-06,downgrade,A,BBB+
+ISS0296,2023-02,downgrade,BBB,BBB-
+ISS0297,2024-03,outlook negative,BBB+,BBB+
+ISS0297,2025-11,downgrade,BBB+,BBB-
+ISS0297,2026-02,outlook negative,BBB-,BBB-
+ISS0297,2026-03,downgrade,BBB-,BB+
+ISS0298,2023-06,outlook negative,A,A
+ISS0298,2023-10,outlook stable,A,A
+ISS0299,2023-11,outlook negative,BBB,BBB
+ISS0299,2023-12,downgrade,BBB,BBB-
+ISS0299,2024-01,outlook stable,BBB-,BBB-
+ISS0300,2023-01,outlook negative,BBB+,BBB+
+ISS0300,2023-04,downgrade,BBB+,BBB
+ISS0300,2024-03,outlook stable,BBB,BBB
+ISS0300,2025-03,downgrade,BBB,BB+
+ISS0300,2025-12,outlook negative,BB+,BB+
+ISS0300,2026-01,downgrade,BB+,BB
+ISS0301,2023-02,outlook negative,A-,A-
+ISS0301,2023-06,downgrade,A-,BBB+
+ISS0301,2026-02,outlook positive,BBB+,BBB+
+ISS0302,2026-09,outlook negative,BBB,BBB
+ISS0304,2024-11,outlook negative,BBB-,BBB-
+ISS0304,2025-02,downgrade,BBB-,BB+
+ISS0304,2025-03,outlook stable,BB+,BB+
+ISS0305,2022-12,outlook positive,A,A
+ISS0305,2023-01,upgrade,A,A+
+ISS0305,2023-06,downgrade,A+,A-
+ISS0305,2023-11,outlook negative,A-,A-
+ISS0305,2024-04,outlook stable,A-,A-
+ISS0305,2025-04,downgrade,A-,BBB+
+ISS0306,2025-02,outlook negative,BBB-,BBB-
+ISS0306,2026-05,downgrade,BBB-,BB+
+ISS0307,2023-09,outlook negative,BB+,BB+
+ISS0307,2025-08,outlook stable,BB+,BB+
+ISS0308,2025-04,downgrade,BB,B+
+ISS0310,2022-06,outlook negative,B,B
+ISS0310,2026-07,outlook stable,B,B
+ISS0311,2023-01,downgrade,BB+,B
+ISS0311,2024-03,upgrade,B,BB-
+ISS0311,2025-12,outlook negative,BB-,BB-
+ISS0311,2026-01,downgrade,BB-,B
+ISS0311,2026-08,outlook positive,B,B
+ISS0313,2023-01,outlook negative,BBB,BBB
+ISS0314,2024-02,downgrade,BB+,B
+ISS0314,2025-01,outlook positive,B,B
+ISS0314,2025-05,upgrade,B,BB-
+ISS0315,2022-11,outlook negative,BBB-,BBB-
+ISS0315,2022-12,downgrade,BBB-,BB+
+ISS0315,2023-04,downgrade,BB+,BB
+ISS0315,2023-11,outlook stable,BB,BB
+ISS0315,2025-10,upgrade,BB,BB+
+ISS0316,2024-08,outlook positive,A,A
+ISS0316,2024-11,upgrade,A,A+
+ISS0316,2025-04,outlook negative,A+,A+
+ISS0316,2026-03,downgrade,A+,A
+ISS0317,2024-02,outlook negative,BBB+,BBB+
+ISS0317,2024-03,downgrade,BBB+,BBB
+ISS0317,2025-06,downgrade,BBB,BB
+ISS0317,2026-09,outlook positive,BB,BB
+ISS0318,2026-01,outlook negative,BBB,BBB
+ISS0319,2024-01,outlook negative,BBB-,BBB-
+ISS0319,2024-11,outlook stable,BBB-,BBB-
+ISS0322,2024-04,downgrade,BBB-,BB
+ISS0322,2024-06,outlook negative,BB,BB
+ISS0322,2024-12,outlook stable,BB,BB
+ISS0322,2026-07,outlook positive,BB,BB
+ISS0324,2023-07,downgrade,BBB,BB
+ISS0324,2023-08,outlook stable,BB,BB
+ISS0324,2025-01,upgrade,BB,BBB-
+ISS0324,2026-08,outlook negative,BBB-,BBB-
+ISS0325,2024-06,outlook negative,BB+,BB+
+ISS0325,2024-08,downgrade,BB+,BB-
+ISS0326,2023-07,outlook negative,A-,A-
+ISS0328,2023-01,outlook negative,BBB+,BBB+
+ISS0328,2023-07,downgrade,BBB+,BBB
+ISS0329,2022-05,downgrade,BBB,BB
+ISS0329,2023-06,outlook positive,BB,BB
+ISS0329,2024-03,upgrade,BB,BB+
+ISS0329,2024-09,outlook positive,BB+,BB+
+ISS0332,2026-01,downgrade,BB+,BB-
+ISS0333,2023-07,upgrade,A-,A+
+ISS0333,2024-02,outlook negative,A+,A+
+ISS0333,2024-07,downgrade,A+,A
+ISS0334,2023-02,outlook positive,BBB-,BBB-
+ISS0335,2023-03,outlook positive,BB+,BB+
+ISS0335,2023-06,upgrade,BB+,BBB-
+ISS0338,2024-07,downgrade,BBB-,BB
+ISS0338,2024-12,downgrade,BB,B+
+ISS0338,2025-01,outlook stable,B+,B+
+ISS0338,2025-12,outlook positive,B+,B+
+ISS0339,2024-09,downgrade,B+,B-
+ISS0339,2026-05,upgrade,B-,B
+ISS0340,2025-12,outlook positive,BBB-,BBB-
+ISS0340,2026-04,upgrade,BBB-,BBB
+ISS0341,2023-09,downgrade,BB+,BB-
+ISS0341,2023-11,outlook negative,BB-,BB-
+ISS0341,2024-01,downgrade,BB-,B
+ISS0341,2024-07,outlook positive,B,B
+ISS0341,2024-12,upgrade,B,B+
+ISS0341,2026-02,outlook positive,B+,B+
+ISS0342,2025-05,outlook positive,BBB-,BBB-
+ISS0343,2023-02,downgrade,BBB-,BB
+ISS0343,2025-09,outlook positive,BB,BB
+ISS0343,2026-06,outlook stable,BB,BB
+ISS0345,2022-10,outlook positive,BBB-,BBB-
+ISS0345,2023-02,upgrade,BBB-,BBB+
+ISS0345,2023-06,outlook negative,BBB+,BBB+
+ISS0345,2024-06,downgrade,BBB+,BBB
+ISS0347,2024-04,outlook negative,BB+,BB+
+ISS0347,2025-05,outlook stable,BB+,BB+
+ISS0348,2023-07,outlook negative,BBB+,BBB+
+ISS0348,2024-06,downgrade,BBB+,BBB
+ISS0348,2025-04,outlook negative,BBB,BBB
+ISS0348,2025-06,downgrade,BBB,BB+
+ISS0348,2025-10,outlook negative,BB+,BB+
+ISS0348,2026-02,outlook stable,BB+,BB+
+ISS0350,2023-04,downgrade,BBB+,BB+
+ISS0350,2024-03,outlook positive,BB+,BB+
+ISS0350,2024-07,upgrade,BB+,BBB-
+ISS0350,2025-04,outlook positive,BBB-,BBB-
+ISS0351,2023-08,outlook negative,BB+,BB+
+ISS0351,2024-05,outlook stable,BB+,BB+
+ISS0351,2026-02,outlook negative,BB+,BB+
+ISS0352,2022-07,outlook negative,BB+,BB+
+ISS0352,2023-05,downgrade,BB+,BB
+ISS0354,2022-07,outlook positive,BB-,BB-
+ISS0354,2024-09,outlook stable,BB-,BB-
+ISS0354,2025-05,downgrade,BB-,B
+ISS0355,2026-02,downgrade,BB,B+
+ISS0355,2026-05,outlook negative,B+,B+
+ISS0355,2026-07,downgrade,B+,B-
+ISS0357,2025-02,outlook negative,BBB+,BBB+
+ISS0357,2025-03,downgrade,BBB+,BBB
+ISS0357,2025-04,outlook negative,BBB,BBB
+ISS0357,2025-12,outlook stable,BBB,BBB
+ISS0358,2023-08,downgrade,BB+,BB
+ISS0358,2024-04,outlook stable,BB,BB
+ISS0358,2026-04,outlook positive,BB,BB
+ISS0358,2026-07,upgrade,BB,BBB-
+ISS0359,2022-09,downgrade,BB+,BB-
+ISS0359,2022-12,outlook negative,BB-,BB-
+ISS0359,2023-05,outlook stable,BB-,BB-
+ISS0359,2025-05,outlook positive,BB-,BB-
+ISS0359,2025-10,outlook stable,BB-,BB-
