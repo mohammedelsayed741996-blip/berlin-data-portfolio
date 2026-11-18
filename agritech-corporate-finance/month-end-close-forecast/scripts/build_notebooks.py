@@ -178,7 +178,7 @@ After the September close the forecast rolls forward: three months of actuals pl
 """),
     code('''display(run.backtest.groupby(["functional_area", "cost_type", "method"])["wape"].mean().unstack().round(4))
 display(Image(filename=str(reporting.plot_backtest(run.backtest, Path("outputs/figures/forecast_backtest.png")))))'''),
-    md("Run rate is the worst everywhere, because it ignores the harvest peak and the November salary. The driver method wins six of the eight cells. The chosen method is never worse than the plain budget, and for selling and production costs it cuts the error by a third or more."),
+    md("Run rate is the worst everywhere, because it ignores the harvest peak and the November salary. The driver method wins six of the eight cells. The chosen method is never worse than the plain budget, and for selling and production costs it cuts the error by 30% to 67%."),
     code('''run.choice'''),
     md("## The 3+9 forecast\n\nBuilt on September actuals after the proposed corrections from notebook 01."),
     code('''display(Image(filename=str(reporting.plot_cost_forecast(tables, run.cost_forecast, Path("outputs/figures/cost_forecast.png")))))'''),
