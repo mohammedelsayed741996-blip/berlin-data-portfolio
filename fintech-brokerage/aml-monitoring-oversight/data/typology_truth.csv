@@ -1,0 +1,167 @@
+client_id,typology,first_month,last_month
+C004764,T1 structuring,2026-03,2026-05
+C014856,T1 structuring,2026-01,2026-04
+C000044,T1 structuring,2025-10,2026-01
+C012277,T1 structuring,2026-03,2026-05
+C005730,T1 structuring,2026-01,2026-03
+C012510,T1 structuring,2025-12,2026-02
+C014175,T1 structuring,2026-05,2026-08
+C014779,T1 structuring,2025-10,2025-12
+C003350,T1 structuring,2026-01,2026-04
+C000651,T1 structuring,2025-11,2026-02
+C011108,T1 structuring,2025-12,2026-02
+C001799,T1 structuring,2025-10,2025-12
+C002998,T1 structuring,2026-03,2026-05
+C014982,T1 structuring,2026-03,2026-06
+C000168,T1 structuring,2026-02,2026-04
+C001426,T1 structuring,2026-05,2026-07
+C011116,T1 structuring,2026-03,2026-05
+C001003,T1 structuring,2026-01,2026-04
+C010247,T1 structuring,2026-02,2026-05
+C010172,T1 structuring,2026-05,2026-08
+C011746,T1 structuring,2026-02,2026-05
+C009931,T1 structuring,2026-02,2026-04
+C014191,T1 structuring,2026-03,2026-05
+C006608,T1 structuring,2026-02,2026-04
+C011879,T1 structuring,2025-12,2026-02
+C011457,T2 pass-through,2026-04,2026-07
+C001696,T2 pass-through,2026-04,2026-07
+C000782,T2 pass-through,2025-12,2026-03
+C000913,T2 pass-through,2026-03,2026-06
+C002110,T2 pass-through,2025-11,2026-01
+C003008,T2 pass-through,2026-02,2026-05
+C011896,T2 pass-through,2026-03,2026-05
+C004898,T2 pass-through,2025-12,2026-02
+C001830,T2 pass-through,2026-04,2026-07
+C003606,T2 pass-through,2025-11,2026-02
+C004289,T2 pass-through,2025-11,2026-01
+C004793,T2 pass-through,2025-11,2026-01
+C005916,T2 pass-through,2026-01,2026-04
+C011928,T2 pass-through,2026-01,2026-03
+C005456,T2 pass-through,2026-04,2026-07
+C010225,T2 pass-through,2025-12,2026-02
+C003089,T2 pass-through,2026-01,2026-03
+C000866,T2 pass-through,2026-03,2026-06
+C011228,T2 pass-through,2026-05,2026-07
+C007571,T2 pass-through,2026-03,2026-05
+C004774,T2 pass-through,2026-02,2026-04
+C008015,T2 pass-through,2026-05,2026-08
+C007078,T2 pass-through,2026-03,2026-06
+C002347,T2 pass-through,2025-12,2026-02
+C009884,T2 pass-through,2026-05,2026-08
+C004089,T2 pass-through,2026-02,2026-04
+C004131,T2 pass-through,2026-04,2026-07
+C007236,T2 pass-through,2025-11,2026-02
+C001452,T2 pass-through,2026-01,2026-04
+C012336,T2 pass-through,2026-01,2026-03
+C005768,T3 third-party funding,2026-01,2026-04
+C005191,T3 third-party funding,2025-11,2026-01
+C012417,T3 third-party funding,2026-05,2026-07
+C011464,T3 third-party funding,2025-12,2026-02
+C008367,T3 third-party funding,2026-05,2026-07
+C006651,T3 third-party funding,2025-11,2026-01
+C001590,T3 third-party funding,2026-05,2026-07
+C006828,T3 third-party funding,2026-03,2026-05
+C002044,T3 third-party funding,2026-02,2026-05
+C000556,T3 third-party funding,2025-12,2026-02
+C013586,T3 third-party funding,2025-10,2026-01
+C002668,T3 third-party funding,2025-11,2026-02
+C014591,T3 third-party funding,2025-10,2025-12
+C004138,T3 third-party funding,2025-11,2026-02
+C014742,T3 third-party funding,2026-04,2026-06
+C001532,T3 third-party funding,2025-12,2026-03
+C012176,T3 third-party funding,2025-11,2026-02
+C006048,T3 third-party funding,2026-04,2026-07
+C001339,T3 third-party funding,2025-12,2026-03
+C001616,T3 third-party funding,2025-12,2026-02
+C007879,T3 third-party funding,2026-01,2026-03
+C009209,T3 third-party funding,2026-01,2026-04
+C005673,T3 third-party funding,2025-11,2026-01
+C008436,T3 third-party funding,2025-12,2026-02
+C011407,T3 third-party funding,2025-12,2026-02
+C007372,T3 third-party funding,2026-02,2026-04
+C013245,T3 third-party funding,2026-05,2026-08
+C004215,T3 third-party funding,2026-04,2026-07
+C004217,T3 third-party funding,2026-02,2026-05
+C008184,T3 third-party funding,2026-03,2026-06
+C002167,T4 mule ring,2025-12,2026-02
+C006322,T4 mule ring,2025-12,2026-02
+C005210,T4 mule ring,2025-12,2026-02
+C008455,T4 mule ring,2025-12,2026-02
+C006531,T4 mule ring,2025-12,2026-02
+C010753,T4 mule ring,2025-12,2026-02
+C001356,T4 mule ring,2025-11,2026-02
+C007784,T4 mule ring,2025-11,2026-02
+C006502,T4 mule ring,2025-11,2026-02
+C003131,T4 mule ring,2025-11,2026-02
+C008581,T4 mule ring,2025-11,2026-02
+C010586,T4 mule ring,2025-11,2026-02
+C004923,T4 mule ring,2026-03,2026-05
+C002170,T4 mule ring,2026-03,2026-05
+C001026,T4 mule ring,2026-03,2026-05
+C006321,T4 mule ring,2026-03,2026-05
+C008508,T4 mule ring,2026-03,2026-05
+C013558,T4 mule ring,2026-03,2026-05
+C014818,T4 mule ring,2026-05,2026-08
+C008282,T4 mule ring,2026-05,2026-08
+C000983,T4 mule ring,2026-05,2026-08
+C013519,T4 mule ring,2026-05,2026-08
+C001562,T4 mule ring,2026-05,2026-08
+C013006,T4 mule ring,2026-05,2026-08
+C010310,T4 mule ring,2025-11,2026-01
+C000093,T4 mule ring,2025-11,2026-01
+C008632,T4 mule ring,2025-11,2026-01
+C008072,T4 mule ring,2025-11,2026-01
+C012456,T4 mule ring,2025-11,2026-01
+C000706,T4 mule ring,2025-11,2026-01
+C007936,T4 mule ring,2026-04,2026-06
+C002241,T4 mule ring,2026-04,2026-06
+C009026,T4 mule ring,2026-04,2026-06
+C013257,T4 mule ring,2026-04,2026-06
+C013580,T4 mule ring,2026-04,2026-06
+C014173,T4 mule ring,2026-04,2026-06
+C000040,T5 high-risk jurisdiction,2026-03,2026-06
+C009647,T5 high-risk jurisdiction,2026-02,2026-05
+C003742,T5 high-risk jurisdiction,2025-12,2026-02
+C004597,T5 high-risk jurisdiction,2026-03,2026-05
+C008272,T5 high-risk jurisdiction,2026-05,2026-08
+C003332,T5 high-risk jurisdiction,2026-04,2026-07
+C002491,T5 high-risk jurisdiction,2025-10,2026-01
+C012648,T5 high-risk jurisdiction,2025-12,2026-03
+C007339,T5 high-risk jurisdiction,2025-12,2026-02
+C003913,T5 high-risk jurisdiction,2025-11,2026-01
+C011040,T5 high-risk jurisdiction,2025-11,2026-01
+C000209,T5 high-risk jurisdiction,2026-05,2026-08
+C009795,T5 high-risk jurisdiction,2025-12,2026-03
+C006798,T5 high-risk jurisdiction,2026-04,2026-06
+C009944,T5 high-risk jurisdiction,2026-01,2026-03
+C001492,T5 high-risk jurisdiction,2026-01,2026-03
+C011443,T5 high-risk jurisdiction,2026-01,2026-03
+C007216,T5 high-risk jurisdiction,2026-03,2026-05
+C013675,T5 high-risk jurisdiction,2026-04,2026-06
+C003563,T5 high-risk jurisdiction,2026-02,2026-04
+C013154,T6 profile mismatch,2026-02,2026-05
+C003257,T6 profile mismatch,2026-05,2026-08
+C004984,T6 profile mismatch,2025-12,2026-02
+C011182,T6 profile mismatch,2025-10,2025-12
+C000601,T6 profile mismatch,2026-05,2026-07
+C010059,T6 profile mismatch,2026-04,2026-06
+C009945,T6 profile mismatch,2026-01,2026-04
+C010170,T6 profile mismatch,2026-03,2026-05
+C014224,T6 profile mismatch,2026-02,2026-04
+C013060,T6 profile mismatch,2026-04,2026-07
+C010112,T6 profile mismatch,2025-11,2026-02
+C002181,T6 profile mismatch,2026-02,2026-05
+C001299,T6 profile mismatch,2025-11,2026-02
+C013799,T6 profile mismatch,2026-05,2026-07
+C013467,T6 profile mismatch,2026-03,2026-06
+C002034,T6 profile mismatch,2025-12,2026-02
+C014701,T6 profile mismatch,2026-04,2026-07
+C010528,T6 profile mismatch,2025-12,2026-02
+C009738,T6 profile mismatch,2025-11,2026-02
+C014623,T6 profile mismatch,2026-04,2026-07
+C012507,T6 profile mismatch,2026-04,2026-07
+C007192,T6 profile mismatch,2026-01,2026-03
+C000530,T6 profile mismatch,2026-03,2026-05
+C007455,T6 profile mismatch,2025-10,2025-12
+C005325,T6 profile mismatch,2026-04,2026-07

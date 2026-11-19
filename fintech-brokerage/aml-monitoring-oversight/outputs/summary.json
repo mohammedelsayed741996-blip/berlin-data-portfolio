@@ -1,0 +1,64 @@
+{
+  "findings": [
+    {
+      "finding_id": "F05",
+      "severity": "Critical",
+      "area": "Sanctions screening"
+    },
+    {
+      "finding_id": "F01",
+      "severity": "High",
+      "area": "TM data completeness"
+    },
+    {
+      "finding_id": "F03",
+      "severity": "High",
+      "area": "Typology coverage"
+    },
+    {
+      "finding_id": "F02",
+      "severity": "High",
+      "area": "Rule governance"
+    },
+    {
+      "finding_id": "F04",
+      "severity": "High",
+      "area": "Alert decision quality"
+    },
+    {
+      "finding_id": "F06",
+      "severity": "Medium",
+      "area": "Alert timeliness"
+    },
+    {
+      "finding_id": "F07",
+      "severity": "Medium",
+      "area": "Documentation"
+    },
+    {
+      "finding_id": "F08",
+      "severity": "Medium",
+      "area": "Screening timeliness"
+    },
+    {
+      "finding_id": "F09",
+      "severity": "Medium",
+      "area": "Periodic reviews"
+    }
+  ],
+  "alerts": 1919,
+  "transactions": 327703,
+  "clients": 15000,
+  "missing_from_feed": 1016,
+  "networks": 6,
+  "lookback_cases": 46,
+  "r02_change_pct": -0.8017241379310345,
+  "screening": {
+    "hits": 1228,
+    "true_matches_confirmed": 59,
+    "false_positive_rate": 0.9519543973941368,
+    "new_clients_screened": 3161,
+    "screened_late": 62,
+    "late_window": "2026-03-09 to 2026-03-13"
+  }
+}

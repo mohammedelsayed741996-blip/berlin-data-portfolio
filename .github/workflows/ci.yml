@@ -134,3 +134,27 @@ jobs:
         run: python -m pytest -q
       - name: Run the pipeline end to end
         run: python -m downgrade_ews.pipeline --regenerate
+
+  aml-monitoring-oversight:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: fintech-brokerage/aml-monitoring-oversight
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Run the oversight pipeline end to end
+        run: python -m aml_oversight.pipeline --regenerate
