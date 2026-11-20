@@ -1,0 +1,110 @@
+{
+  "submissions": 428,
+  "analysed": 399,
+  "choices": 23940,
+  "excluded": 17,
+  "careless_caught": 16,
+  "completeness": {
+    "oracle": 1.0,
+    "ml_person": 0.84,
+    "hybrid": 0.839,
+    "itch_eb": 0.789,
+    "hyperbolic_eb": 0.666,
+    "itch": 0.627,
+    "hyperbolic": 0.612,
+    "exponential": 0.578,
+    "quasi_hyperbolic": 0.562,
+    "ml_pooled": 0.354,
+    "base_rate": 0.0
+  },
+  "accuracy": {
+    "oracle": 0.883,
+    "ml_person": 0.862,
+    "hybrid": 0.864,
+    "itch_eb": 0.863,
+    "hyperbolic_eb": 0.845,
+    "itch": 0.856,
+    "hyperbolic": 0.845,
+    "exponential": 0.836,
+    "quasi_hyperbolic": 0.85,
+    "ml_pooled": 0.786,
+    "base_rate": 0.727
+  },
+  "log_loss": {
+    "oracle": 0.2672,
+    "ml_person": 0.3123,
+    "hybrid": 0.3126,
+    "itch_eb": 0.3268,
+    "hyperbolic_eb": 0.3615,
+    "itch": 0.3725,
+    "hyperbolic": 0.3768,
+    "exponential": 0.3863,
+    "quasi_hyperbolic": 0.3907,
+    "ml_pooled": 0.4494,
+    "base_rate": 0.5493
+  },
+  "ci": {
+    "itch_minus_hyperbolic": [
+      -0.0044,
+      -0.0172,
+      0.0084
+    ],
+    "itch_eb_minus_ml_person": [
+      0.0145,
+      0.0092,
+      0.0198
+    ],
+    "hybrid_minus_ml_person": [
+      0.0004,
+      -0.0022,
+      0.0028
+    ]
+  },
+  "recovery_r_log_k": 0.968,
+  "recovery_bias_log_k": -0.233,
+  "type_classification_accuracy": 0.534,
+  "framing": {
+    "log_k": {
+      "diff": -0.819,
+      "ci_low": -1.023,
+      "ci_high": -0.616,
+      "p_perm": 0.0,
+      "cohens_d": -0.755
+    },
+    "share_later": {
+      "diff": 0.132,
+      "ci_low": 0.095,
+      "ci_high": 0.167,
+      "p_perm": 0.0,
+      "cohens_d": 0.719
+    },
+    "beta": {
+      "diff": 0.079,
+      "ci_low": 0.052,
+      "ci_high": 0.105,
+      "p_perm": 0.0,
+      "cohens_d": 0.572
+    }
+  },
+  "magnitude": {
+    "cut_eur": 70.0,
+    "mean_diff_log_k": -0.502,
+    "median_diff_log_k": -0.345,
+    "ci_low": -0.594,
+    "ci_high": -0.412,
+    "p_signflip": 0.0,
+    "share_lower_k_for_large": 0.749,
+    "n": 399
+  },
+  "text": {
+    "kappa_annotators": 0.76,
+    "agreement_annotators": 0.841,
+    "gold_accuracy_vs_truth": 0.988,
+    "f1_random_split": 0.956,
+    "f1_grouped_cv": 0.508,
+    "f1_lexicon": 0.652,
+    "n_labelled": 900
+  },
+  "weekly_r_classifier": 0.932,
+  "weekly_r_lexicon": 0.838
+}

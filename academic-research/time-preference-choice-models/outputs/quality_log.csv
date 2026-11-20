@@ -1,0 +1,6 @@
+rule,check,participants,detail
+Q1,Duplicate submissions (second attempt dropped),12,12 codes submitted twice
+Q2,Failed 2 or more of 4 catch trials,15,"distribution of fails: {0: 357, 1: 44, 2: 3, 3: 4, 4: 8}"
+Q3,Median response time under 450 ms,16,fastest median 294 ms
+Q4,Same answer on all 60 real trials,7,flag only
+Q5,Conditions balanced after exclusions,0,"delay/date before 207/209, after 200/199, p = 1.00"
