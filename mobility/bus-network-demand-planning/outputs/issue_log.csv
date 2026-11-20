@@ -1,0 +1,9 @@
+check_id,check,status,issues,example,owner,action
+V01,Stop coordinates lie in Europe,FAIL,1,S24; Regensburg central bus station; 12.1; 49.01,Network data,Correct the coordinates in the planning tool (latitude and longitude look swapped)
+V02,No duplicate stops (two records within 1 km),FAIL,1,S03; Munich central bus station; S99; Muenchen ZOB,Network data,Merge the duplicate into the main stop and re-point the lines that use it
+V03,Every trip with passengers is in the operations log,FAIL,140,L040B-20260302-0800; 41; 248.3,Operations / partner management,Ask the partners for the missing trip records; partner payments are based on the log
+V04,Every booking belongs to a timetabled departure,FAIL,60,L012B-20251109-0545; 40; 732.33,Ticketing / data,Find the source of the departures that are not in the timetable and fix the ticketing mapping
+V05,Bus used matches the bus sold in ticketing,FAIL,1,L017; P02; double; single,Network planning / partner management,Either sell single-decker capacity on this line or get the partner to run double-deckers
+V06,Partners operate only under a valid contract,FAIL,1,P07; 2026-06-30; 1265; 2026-07-01,Partner management,Renew the contract in the CRM or move the lines to another partner
+V07,Cancelled trips carry no passengers,PASS,0,,Operations,
+V08,Trip bookings agree with origin-destination totals,FAIL,55,2024-01; L014; 39,Ticketing / data,The difference equals the orphan bookings in V04; fix those and re-run

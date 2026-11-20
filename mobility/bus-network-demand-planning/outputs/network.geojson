@@ -1,0 +1,1835 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.4,
+     52.52
+    ]
+   },
+   "properties": {
+    "name": "Berlin",
+    "population_k": 3780,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.0,
+     53.55
+    ]
+   },
+   "properties": {
+    "name": "Hamburg",
+    "population_k": 1910,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.58,
+     48.14
+    ]
+   },
+   "properties": {
+    "name": "Munich",
+    "population_k": 1510,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.96,
+     50.94
+    ]
+   },
+   "properties": {
+    "name": "Cologne",
+    "population_k": 1080,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.68,
+     50.11
+    ]
+   },
+   "properties": {
+    "name": "Frankfurt",
+    "population_k": 775,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.18,
+     48.78
+    ]
+   },
+   "properties": {
+    "name": "Stuttgart",
+    "population_k": 630,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.77,
+     51.23
+    ]
+   },
+   "properties": {
+    "name": "Duesseldorf",
+    "population_k": 630,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.37,
+     51.34
+    ]
+   },
+   "properties": {
+    "name": "Leipzig",
+    "population_k": 620,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.47,
+     51.51
+    ]
+   },
+   "properties": {
+    "name": "Dortmund",
+    "population_k": 595,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.8,
+     53.08
+    ]
+   },
+   "properties": {
+    "name": "Bremen",
+    "population_k": 570,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.74,
+     51.05
+    ]
+   },
+   "properties": {
+    "name": "Dresden",
+    "population_k": 565,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.73,
+     52.38
+    ]
+   },
+   "properties": {
+    "name": "Hanover",
+    "population_k": 545,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.08,
+     49.45
+    ]
+   },
+   "properties": {
+    "name": "Nuremberg",
+    "population_k": 525,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.63,
+     51.96
+    ]
+   },
+   "properties": {
+    "name": "Muenster",
+    "population_k": 320,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.4,
+     49.01
+    ]
+   },
+   "properties": {
+    "name": "Karlsruhe",
+    "population_k": 310,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.47,
+     49.49
+    ]
+   },
+   "properties": {
+    "name": "Mannheim",
+    "population_k": 315,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.85,
+     47.99
+    ]
+   },
+   "properties": {
+    "name": "Freiburg",
+    "population_k": 235,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.14,
+     54.32
+    ]
+   },
+   "properties": {
+    "name": "Kiel",
+    "population_k": 250,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.1,
+     54.09
+    ]
+   },
+   "properties": {
+    "name": "Rostock",
+    "population_k": 210,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.03,
+     50.98
+    ]
+   },
+   "properties": {
+    "name": "Erfurt",
+    "population_k": 215,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.48,
+     51.31
+    ]
+   },
+   "properties": {
+    "name": "Kassel",
+    "population_k": 200,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.93,
+     51.54
+    ]
+   },
+   "properties": {
+    "name": "Goettingen",
+    "population_k": 118,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.95,
+     49.79
+    ]
+   },
+   "properties": {
+    "name": "Wuerzburg",
+    "population_k": 128,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.1,
+     49.01
+    ]
+   },
+   "properties": {
+    "name": "Regensburg",
+    "population_k": 155,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.08,
+     50.78
+    ]
+   },
+   "properties": {
+    "name": "Aachen",
+    "population_k": 250,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.63,
+     52.12
+    ]
+   },
+   "properties": {
+    "name": "Magdeburg",
+    "population_k": 240,
+    "country": "DE",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.44,
+     50.08
+    ]
+   },
+   "properties": {
+    "name": "Prague",
+    "population_k": 1360,
+    "country": "CZ",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.37,
+     48.21
+    ]
+   },
+   "properties": {
+    "name": "Vienna",
+    "population_k": 2000,
+    "country": "AT",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.9,
+     52.37
+    ]
+   },
+   "properties": {
+    "name": "Amsterdam",
+    "population_k": 930,
+    "country": "NL",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.57,
+     55.68
+    ]
+   },
+   "properties": {
+    "name": "Copenhagen",
+    "population_k": 660,
+    "country": "DK",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.01,
+     52.23
+    ]
+   },
+   "properties": {
+    "name": "Warsaw",
+    "population_k": 1860,
+    "country": "PL",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.54,
+     47.38
+    ]
+   },
+   "properties": {
+    "name": "Zurich",
+    "population_k": 440,
+    "country": "CH",
+    "marker-size": "small",
+    "marker-color": "#1F3864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      12.37,
+      51.34
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Leipzig",
+    "lines": "L010",
+    "avg_passengers_on_board": 87578.7,
+    "km": 181.8,
+    "stroke": "#2a78d6",
+    "stroke-width": 1752.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      13.74,
+      51.05
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Dresden",
+    "lines": "L011",
+    "avg_passengers_on_board": 108428.3,
+    "km": 201.4,
+    "stroke": "#2a78d6",
+    "stroke-width": 2169.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      10.0,
+      53.55
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Hamburg",
+    "lines": "L012",
+    "avg_passengers_on_board": 80006.5,
+    "km": 310.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 1601.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      12.1,
+      54.09
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Rostock",
+    "lines": "L013",
+    "avg_passengers_on_board": 39361.7,
+    "km": 237.6,
+    "stroke": "#2a78d6",
+    "stroke-width": 788.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      9.73,
+      52.38
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Hanover",
+    "lines": "L014",
+    "avg_passengers_on_board": 73236.6,
+    "km": 304.0,
+    "stroke": "#2a78d6",
+    "stroke-width": 1465.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      11.63,
+      52.12
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Magdeburg",
+    "lines": "L015",
+    "avg_passengers_on_board": 72860.5,
+    "km": 156.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 1458.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      21.01,
+      52.23
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Warsaw",
+    "lines": "L016",
+    "avg_passengers_on_board": 31210.0,
+    "km": 631.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 625.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      11.03,
+      50.98
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Berlin - Erfurt",
+    "lines": "L017",
+    "avg_passengers_on_board": 37261.9,
+    "km": 288.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 746.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      10.14,
+      54.32
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hamburg - Kiel",
+    "lines": "L012",
+    "avg_passengers_on_board": 80006.5,
+    "km": 105.1,
+    "stroke": "#2a78d6",
+    "stroke-width": 1601.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      8.8,
+      53.08
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hamburg - Bremen",
+    "lines": "L020",
+    "avg_passengers_on_board": 108994.0,
+    "km": 116.3,
+    "stroke": "#2a78d6",
+    "stroke-width": 2180.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      9.73,
+      52.38
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hamburg - Hanover",
+    "lines": "L021",
+    "avg_passengers_on_board": 44774.6,
+    "km": 160.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 896.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      12.57,
+      55.68
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hamburg - Copenhagen",
+    "lines": "L022",
+    "avg_passengers_on_board": 19101.0,
+    "km": 352.4,
+    "stroke": "#2a78d6",
+    "stroke-width": 383.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hamburg - Amsterdam",
+    "lines": "L023",
+    "avg_passengers_on_board": 13426.0,
+    "km": 446.3,
+    "stroke": "#2a78d6",
+    "stroke-width": 269.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.58,
+      48.14
+     ],
+     [
+      11.08,
+      49.45
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Munich - Nuremberg",
+    "lines": "L010",
+    "avg_passengers_on_board": 87578.7,
+    "km": 183.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 1752.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.58,
+      48.14
+     ],
+     [
+      9.18,
+      48.78
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Munich - Stuttgart",
+    "lines": "L030",
+    "avg_passengers_on_board": 60617.2,
+    "km": 232.7,
+    "stroke": "#2a78d6",
+    "stroke-width": 1213.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.58,
+      48.14
+     ],
+     [
+      8.54,
+      47.38
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Munich - Zurich",
+    "lines": "L031",
+    "avg_passengers_on_board": 12197.0,
+    "km": 295.8,
+    "stroke": "#2a78d6",
+    "stroke-width": 244.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.58,
+      48.14
+     ],
+     [
+      12.1,
+      49.01
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Munich - Regensburg",
+    "lines": "L032",
+    "avg_passengers_on_board": 31384.7,
+    "km": 126.9,
+    "stroke": "#2a78d6",
+    "stroke-width": 628.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.58,
+      48.14
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Munich - Vienna",
+    "lines": "L033",
+    "avg_passengers_on_board": 22992.0,
+    "km": 433.4,
+    "stroke": "#2a78d6",
+    "stroke-width": 460.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      7.47,
+      51.51
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Cologne - Dortmund",
+    "lines": "L014, L020",
+    "avg_passengers_on_board": 182230.6,
+    "km": 88.6,
+    "stroke": "#2a78d6",
+    "stroke-width": 3645.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      6.77,
+      51.23
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Cologne - Duesseldorf",
+    "lines": "L040",
+    "avg_passengers_on_board": 54364.1,
+    "km": 42.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 1088.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      6.08,
+      50.78
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Cologne - Aachen",
+    "lines": "L041",
+    "avg_passengers_on_board": 28238.8,
+    "km": 78.4,
+    "stroke": "#2a78d6",
+    "stroke-width": 565.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.96,
+      50.94
+     ],
+     [
+      8.68,
+      50.11
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Cologne - Frankfurt",
+    "lines": "L042",
+    "avg_passengers_on_board": 50560.0,
+    "km": 186.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 1012.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.68,
+      50.11
+     ],
+     [
+      11.03,
+      50.98
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Frankfurt - Erfurt",
+    "lines": "L017",
+    "avg_passengers_on_board": 37261.9,
+    "km": 234.4,
+    "stroke": "#2a78d6",
+    "stroke-width": 746.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.68,
+      50.11
+     ],
+     [
+      9.48,
+      51.31
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Frankfurt - Kassel",
+    "lines": "L021",
+    "avg_passengers_on_board": 44774.6,
+    "km": 176.7,
+    "stroke": "#2a78d6",
+    "stroke-width": 896.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.68,
+      50.11
+     ],
+     [
+      8.4,
+      49.01
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Frankfurt - Karlsruhe",
+    "lines": "L030, L044",
+    "avg_passengers_on_board": 84722.2,
+    "km": 151.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 1695.4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.68,
+      50.11
+     ],
+     [
+      8.47,
+      49.49
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Frankfurt - Mannheim",
+    "lines": "L042",
+    "avg_passengers_on_board": 50560.0,
+    "km": 86.1,
+    "stroke": "#2a78d6",
+    "stroke-width": 1012.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.68,
+      50.11
+     ],
+     [
+      9.95,
+      49.79
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Frankfurt - Wuerzburg",
+    "lines": "L043",
+    "avg_passengers_on_board": 24260.4,
+    "km": 119.1,
+    "stroke": "#2a78d6",
+    "stroke-width": 486.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      9.18,
+      48.78
+     ],
+     [
+      8.4,
+      49.01
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Stuttgart - Karlsruhe",
+    "lines": "L030",
+    "avg_passengers_on_board": 60617.2,
+    "km": 76.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 1213.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      9.18,
+      48.78
+     ],
+     [
+      8.47,
+      49.49
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Stuttgart - Mannheim",
+    "lines": "L042",
+    "avg_passengers_on_board": 50560.0,
+    "km": 115.1,
+    "stroke": "#2a78d6",
+    "stroke-width": 1012.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.77,
+      51.23
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Duesseldorf - Amsterdam",
+    "lines": "L040",
+    "avg_passengers_on_board": 54364.1,
+    "km": 220.3,
+    "stroke": "#2a78d6",
+    "stroke-width": 1088.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.37,
+      51.34
+     ],
+     [
+      11.08,
+      49.45
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Leipzig - Nuremberg",
+    "lines": "L010",
+    "avg_passengers_on_board": 87578.7,
+    "km": 279.6,
+    "stroke": "#2a78d6",
+    "stroke-width": 1752.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.37,
+      51.34
+     ],
+     [
+      9.93,
+      51.54
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Leipzig - Goettingen",
+    "lines": "L045",
+    "avg_passengers_on_board": 18621.0,
+    "km": 208.1,
+    "stroke": "#2a78d6",
+    "stroke-width": 373.4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      7.47,
+      51.51
+     ],
+     [
+      9.73,
+      52.38
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Dortmund - Hanover",
+    "lines": "L014",
+    "avg_passengers_on_board": 73236.6,
+    "km": 222.8,
+    "stroke": "#2a78d6",
+    "stroke-width": 1465.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      7.47,
+      51.51
+     ],
+     [
+      7.63,
+      51.96
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Dortmund - Muenster",
+    "lines": "L020",
+    "avg_passengers_on_board": 108994.0,
+    "km": 62.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 2180.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      7.47,
+      51.51
+     ],
+     [
+      9.48,
+      51.31
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Dortmund - Kassel",
+    "lines": "L045",
+    "avg_passengers_on_board": 18621.0,
+    "km": 172.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 373.4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.8,
+      53.08
+     ],
+     [
+      9.73,
+      52.38
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Bremen - Hanover",
+    "lines": "L015",
+    "avg_passengers_on_board": 72860.5,
+    "km": 121.9,
+    "stroke": "#2a78d6",
+    "stroke-width": 1458.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.8,
+      53.08
+     ],
+     [
+      7.63,
+      51.96
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Bremen - Muenster",
+    "lines": "L020",
+    "avg_passengers_on_board": 108994.0,
+    "km": 180.0,
+    "stroke": "#2a78d6",
+    "stroke-width": 2180.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.74,
+      51.05
+     ],
+     [
+      14.44,
+      50.08
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Dresden - Prague",
+    "lines": "L011",
+    "avg_passengers_on_board": 108428.3,
+    "km": 144.8,
+    "stroke": "#2a78d6",
+    "stroke-width": 2169.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      9.73,
+      52.38
+     ],
+     [
+      11.63,
+      52.12
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hanover - Magdeburg",
+    "lines": "L015",
+    "avg_passengers_on_board": 72860.5,
+    "km": 161.7,
+    "stroke": "#2a78d6",
+    "stroke-width": 1458.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      9.73,
+      52.38
+     ],
+     [
+      9.48,
+      51.31
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Hanover - Kassel",
+    "lines": "L021",
+    "avg_passengers_on_board": 44774.6,
+    "km": 146.7,
+    "stroke": "#2a78d6",
+    "stroke-width": 896.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.08,
+      49.45
+     ],
+     [
+      9.95,
+      49.79
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Nuremberg - Wuerzburg",
+    "lines": "L043",
+    "avg_passengers_on_board": 24260.4,
+    "km": 109.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 486.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.08,
+      49.45
+     ],
+     [
+      12.1,
+      49.01
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Nuremberg - Regensburg",
+    "lines": "L043",
+    "avg_passengers_on_board": 24260.4,
+    "km": 108.3,
+    "stroke": "#2a78d6",
+    "stroke-width": 486.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.4,
+      49.01
+     ],
+     [
+      7.85,
+      47.99
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Karlsruhe - Freiburg",
+    "lines": "L044",
+    "avg_passengers_on_board": 24105.0,
+    "km": 146.9,
+    "stroke": "#2a78d6",
+    "stroke-width": 483.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      7.85,
+      47.99
+     ],
+     [
+      8.54,
+      47.38
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Freiburg - Zurich",
+    "lines": "L044",
+    "avg_passengers_on_board": 24105.0,
+    "km": 104.0,
+    "stroke": "#2a78d6",
+    "stroke-width": 483.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.1,
+      54.09
+     ],
+     [
+      12.57,
+      55.68
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Rostock - Copenhagen",
+    "lines": "L013",
+    "avg_passengers_on_board": 39361.7,
+    "km": 218.8,
+    "stroke": "#2a78d6",
+    "stroke-width": 788.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      9.48,
+      51.31
+     ],
+     [
+      9.93,
+      51.54
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Kassel - Goettingen",
+    "lines": "L045",
+    "avg_passengers_on_board": 18621.0,
+    "km": 49.2,
+    "stroke": "#2a78d6",
+    "stroke-width": 373.4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.1,
+      49.01
+     ],
+     [
+      14.44,
+      50.08
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Regensburg - Prague",
+    "lines": "L032",
+    "avg_passengers_on_board": 31384.7,
+    "km": 252.0,
+    "stroke": "#2a78d6",
+    "stroke-width": 628.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.08,
+      50.78
+     ],
+     [
+      4.9,
+      52.37
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Aachen - Amsterdam",
+    "lines": "L041",
+    "avg_passengers_on_board": 28238.8,
+    "km": 237.5,
+    "stroke": "#2a78d6",
+    "stroke-width": 565.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      14.44,
+      50.08
+     ],
+     [
+      16.37,
+      48.21
+     ]
+    ]
+   },
+   "properties": {
+    "segment": "Prague - Vienna",
+    "lines": "L011",
+    "avg_passengers_on_board": 108428.3,
+    "km": 306.1,
+    "stroke": "#2a78d6",
+    "stroke-width": 2169.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      12.37,
+      51.34
+     ]
+    ]
+   },
+   "properties": {
+    "demand_gap": "Hamburg - Leipzig",
+    "expected_pax_per_day_each_way": 26.9,
+    "stroke": "#eb6834",
+    "stroke-width": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.0,
+      53.55
+     ],
+     [
+      12.1,
+      54.09
+     ]
+    ]
+   },
+   "properties": {
+    "demand_gap": "Hamburg - Rostock",
+    "expected_pax_per_day_each_way": 26.1,
+    "stroke": "#eb6834",
+    "stroke-width": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.37,
+      51.34
+     ],
+     [
+      14.44,
+      50.08
+     ]
+    ]
+   },
+   "properties": {
+    "demand_gap": "Leipzig - Prague",
+    "expected_pax_per_day_each_way": 26.0,
+    "stroke": "#eb6834",
+    "stroke-width": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.4,
+      52.52
+     ],
+     [
+      6.77,
+      51.23
+     ]
+    ]
+   },
+   "properties": {
+    "demand_gap": "Berlin - Duesseldorf",
+    "expected_pax_per_day_each_way": 25.7,
+    "stroke": "#eb6834",
+    "stroke-width": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      16.37,
+      48.21
+     ],
+     [
+      21.01,
+      52.23
+     ]
+    ]
+   },
+   "properties": {
+    "demand_gap": "Vienna - Warsaw",
+    "expected_pax_per_day_each_way": 24.2,
+    "stroke": "#eb6834",
+    "stroke-width": 2
+   }
+  }
+ ]
+}

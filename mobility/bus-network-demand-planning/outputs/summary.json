@@ -1,0 +1,26 @@
+{
+  "checks_failed": 7,
+  "checks": 8,
+  "network_load_factor": 0.596,
+  "loss_making_lines": [
+    "L023",
+    "L031",
+    "L040"
+  ],
+  "top_hub": "Frankfurt",
+  "gravity_r2": 0.953,
+  "top_gap": "Hamburg - Leipzig",
+  "backtest": {
+    "model_wape_vs_true_demand": 0.045,
+    "naive_wape_vs_true_demand": 0.158,
+    "bookings_understate_demand_pct": 0.041,
+    "model_bias_pct": -0.004,
+    "weeks": 747
+  },
+  "plan_line_directions_changed": 20,
+  "plan_contribution_change_pct": 0.05,
+  "plan_bus_hours_change_pct": -0.056,
+  "plan_passengers_change_pct": 0.0008,
+  "sold_out_share_now": 0.172,
+  "sold_out_share_plan": 0.118
+}

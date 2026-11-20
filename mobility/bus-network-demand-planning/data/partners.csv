@@ -1,0 +1,10 @@
+partner_id,partner_name,home_depot,contract_status,contract_end,fleet_single,fleet_double,account_owner
+P01,Nordwind Reisen GmbH (fictional),Hamburg,active,2027-12-31,16,8,Partner Manager North
+P02,Elbtal Bus GmbH (fictional),Dresden,active,2027-12-31,13,4,Partner Manager North
+P03,Alpenlinie GmbH (fictional),Munich,active,2027-12-31,12,8,Partner Manager North
+P04,Rheinland Touristik GmbH (fictional),Cologne,active,2027-12-31,8,7,Partner Manager North
+P05,Ostsee Express GmbH (fictional),Rostock,active,2027-12-31,16,7,Partner Manager North
+P06,Mainfranken Mobil GmbH (fictional),Nuremberg,active,2027-12-31,13,5,Partner Manager South
+P07,Weichsel Coach GmbH (fictional),Berlin,expired,2026-06-30,9,9,Partner Manager South
+P08,Schwarzwald Reisen GmbH (fictional),Freiburg,active,2027-12-31,14,5,Partner Manager South
+P09,Hansa Fernbus GmbH (fictional),Bremen,active,2027-12-31,11,3,Partner Manager South
