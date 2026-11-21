@@ -224,3 +224,69 @@ jobs:
         run: Rscript r/fit_hyperbolic.R data outputs/hyperbolic_fits_r.csv
       - name: Compare R and Python estimates
         run: python scripts/compare_r_python.py
+
+  hr-policy-rag-assistant:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: hr-tech/hr-policy-rag-assistant
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: hrrag
+          POSTGRES_USER: hrrag
+          POSTGRES_PASSWORD: ci-only-password
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U hrrag -d hrrag" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-postgres.txt
+      - name: Run tests, including PostgreSQL
+        env:
+          DATABASE_URL: postgresql://hrrag:ci-only-password@localhost:5432/hrrag
+        run: python -m pytest -q
+      - name: Evaluation gate on held-out questions
+        run: python scripts/evaluate.py --gate
+
+  hr-policy-rag-web-and-container:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: hr-tech/hr-policy-rag-assistant
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Type-check the TypeScript front end
+        working-directory: hr-tech/hr-policy-rag-assistant/web
+        run: npm install --no-audit --no-fund && npx tsc -p tsconfig.json --noEmit
+      - name: Build the Docker image
+        run: docker build -t hr-policy-assistant:ci .
+      - name: Start the container and ask it a question
+        run: |
+          docker run -d --name hrrag -p 8000:8000 hr-policy-assistant:ci
+          for i in $(seq 1 30); do curl -fs http://localhost:8000/health && break; sleep 1; done
+          curl -fs http://localhost:8000/health
+          answer=$(curl -fs -X POST http://localhost:8000/api/ask -H 'Content-Type: application/json' \
+            -d '{"question": "How long can I take Elternzeit?", "session": "ci"}')
+          echo "$answer"
+          echo "$answer" | grep -q "three years"
+          curl -fs http://localhost:8000/ | grep -q "HR policy assistant"
+          curl -fs http://localhost:8000/static/app.js > /dev/null
+      - name: Container logs
+        if: always()
+        run: docker logs hrrag || true

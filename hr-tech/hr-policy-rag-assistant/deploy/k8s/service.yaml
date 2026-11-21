@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hr-policy-assistant
+  labels: {app: hr-policy-assistant}
+spec:
+  selector: {app: hr-policy-assistant}
+  ports:
+    - port: 80
+      targetPort: 8000

@@ -1,0 +1,8 @@
+**/__pycache__
+**/.pytest_cache
+outputs
+notebooks
+web/node_modules
+web/dist
+tests
+docs

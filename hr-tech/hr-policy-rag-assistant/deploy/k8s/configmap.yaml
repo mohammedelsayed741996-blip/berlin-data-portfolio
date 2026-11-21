@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hr-policy-assistant
+  labels: {app: hr-policy-assistant}
+data:
+  RETRIEVER: hybrid
+  TOP_K: "4"
+  MIN_SCORE: "0.17"
+  DEMO_MODE: "false"        # in production the role comes from the identity proxy (X-User-Role header)
+  LOG_QUERIES: "true"

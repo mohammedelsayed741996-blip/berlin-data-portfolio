@@ -1,0 +1,31 @@
+# Local stack: the assistant plus PostgreSQL for the query and feedback log.
+#   docker compose up --build    then open http://localhost:8000
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: hrrag
+      POSTGRES_USER: hrrag
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-locally}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hrrag -d hrrag"]
+      interval: 5s
+      retries: 10
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://hrrag:${POSTGRES_PASSWORD:-change-me-locally}@db:5432/hrrag
+      DEMO_MODE: "true"
+      # optional: any OpenAI-compatible endpoint; leave empty for the offline extractive answers
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  pgdata:

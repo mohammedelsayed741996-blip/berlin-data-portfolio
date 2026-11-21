@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HR policy assistant (demo, fictional company)</title>
+<style>
+  :root { --ink:#0b0b0b; --muted:#52514e; --line:#e4e3df; --surface:#fcfcfb; --blue:#2a78d6; --navy:#1f3864; --amber:#fff6e0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--surface); }
+  header { background: var(--navy); color: #fff; padding: 20px 24px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; opacity: .8; font-size: 14px; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px; }
+  form { display: flex; gap: 8px; flex-wrap: wrap; }
+  input[type=text] { flex: 1 1 360px; padding: 12px 14px; font-size: 16px; border: 1px solid var(--line); border-radius: 8px; }
+  select, button { padding: 12px 14px; font-size: 15px; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+  #ask { background: var(--blue); color: #fff; border: none; font-weight: 600; }
+  #ask:disabled { opacity: .6; }
+  .examples { margin: 14px 0 22px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .example { font-size: 13px; padding: 6px 10px; color: var(--muted); }
+  .card { border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; background: #fff; }
+  .declined { background: var(--amber); }
+  .ref { color: var(--blue); font-weight: 600; }
+  .sources { padding-left: 18px; font-size: 14px; }
+  .muted, .meta { color: var(--muted); font-size: 13px; }
+  .meta { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+  .rate button { padding: 2px 10px; margin-left: 6px; font-size: 13px; }
+  .note { font-size: 13px; color: var(--muted); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>HR policy assistant</h1>
+  <p>Demo for a fictional company. Answers come only from the policy documents, with sources.</p>
+</header>
+<main>
+  <form id="form">
+    <input id="q" type="text" placeholder="e.g. How many vacation days do I get?" maxlength="500" autocomplete="off" aria-label="Your question">
+    <span id="role-wrap" hidden>
+      <select id="role" aria-label="Role (demo only)">
+        <option value="employee">Employee</option>
+        <option value="manager">Manager</option>
+        <option value="hr">HR</option>
+      </select>
+    </span>
+    <button id="ask" type="submit">Ask</button>
+  </form>
+  <div class="examples">
+    <button class="example" type="button">Can I take leftover vacation into next year?</button>
+    <button class="example" type="button">What is the night shift allowance?</button>
+    <button class="example" type="button">How long can I take Elternzeit?</button>
+    <button class="example" type="button">What is the merit budget for 2026?</button>
+  </div>
+  <div id="answer" class="card" hidden></div>
+  <footer>Questions are stored for 90 days with personal data removed, to improve the answers. No account data is stored. Not legal advice: for your individual case, contact HR.</footer>
+</main>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>
