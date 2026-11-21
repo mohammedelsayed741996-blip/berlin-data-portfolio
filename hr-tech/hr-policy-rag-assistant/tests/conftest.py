@@ -37,7 +37,8 @@ class ASGIClient:
             if not sent:
                 sent = True
                 return {"type": "http.request", "body": data, "more_body": False}
-            return {"type": "http.disconnect"}
+            # a real client stays connected until the response is complete; never report a disconnect early
+            await asyncio.Event().wait()
 
         async def send(m):
             msgs.append(m)
