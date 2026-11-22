@@ -1,0 +1,4 @@
+plant,plant_name,country,source_system
+DE10,Berlin,DE,ERP_A
+DE20,Erfurt,DE,ERP_A
+PL30,Gdansk,PL,ERP_B

@@ -1,0 +1,86 @@
+# Data quality rules for procurement data. Owner is a role, not a person.
+# dimension follows DAMA: completeness, uniqueness, validity, consistency, timeliness.
+- id: DQ01
+  dataset: erp_a_ekpo
+  dimension: uniqueness
+  rule: An order line appears once per export
+  severity: high
+  owner: ERP_A data steward (procurement operations)
+  action: Remove exact duplicates before loading; ask IT why the delta export overlaps
+- id: DQ02
+  dataset: po_lines
+  dimension: validity
+  rule: Every order line points to a supplier that exists in the supplier master
+  severity: high
+  owner: Supplier master data team
+  action: Create or map one-time vendors; spend stays visible as "unknown supplier" until fixed
+- id: DQ03
+  dataset: erp_b_orders
+  dimension: completeness
+  rule: Every order line has a material group (category)
+  severity: medium
+  owner: ERP_B data steward (plant Gdansk purchasing)
+  action: Classify from the description with keyword rules; make the field mandatory in ERP_B
+- id: DQ04
+  dataset: po_lines
+  dimension: validity
+  rule: Unit price is within 20x of the median price of the same material
+  severity: high
+  owner: Category buyer
+  action: Lines about 1000x the median are priced per tonne on a per-kg line; divide by 1000 and correct in the ERP
+- id: DQ05
+  dataset: erp_b_orders
+  dimension: validity
+  rule: Order quantity is positive
+  severity: low
+  owner: ERP_B data steward (plant Gdansk purchasing)
+  action: Negative quantities are returns; report them separately instead of netting them into spend
+- id: DQ06
+  dataset: supplier_master
+  dimension: completeness
+  rule: Every supplier has a country
+  severity: medium
+  owner: Supplier master data team
+  action: Fill from the VAT ID prefix or the matched record in the other ERP
+- id: DQ07
+  dataset: supplier_master
+  dimension: uniqueness
+  rule: One real company has one golden supplier record
+  severity: high
+  owner: Supplier master data team
+  action: Merge by VAT ID or normalised name; near-matches with conflicting VAT IDs or legal forms go to manual review
+- id: DQ08
+  dataset: supplier_master
+  dimension: consistency
+  rule: Payment terms use one format that converts to net days
+  severity: medium
+  owner: Finance (accounts payable)
+  action: Harmonise to net days; agree one terms catalogue for both ERPs
+- id: DQ09
+  dataset: goods_receipts
+  dimension: consistency
+  rule: A goods receipt is not dated before its order
+  severity: medium
+  owner: Warehouse / receiving
+  action: Exclude from delivery performance until corrected
+- id: DQ10
+  dataset: po_lines
+  dimension: validity
+  rule: No orders are placed with a blocked supplier
+  severity: high
+  owner: Category buyer and compliance
+  action: Review why the supplier is blocked and whether the orders were authorised
+- id: DQ11
+  dataset: supplier_master
+  dimension: completeness
+  rule: Every supplier has a VAT ID
+  severity: low
+  owner: Supplier master data team
+  action: Request from the supplier at the next master data review
+- id: DQ12
+  dataset: po_lines
+  dimension: consistency
+  rule: The material group in ERP_A matches the category the description implies
+  severity: low
+  owner: Category buyer
+  action: Correct the material group; checks that the keyword classifier is safe to use for ERP_B

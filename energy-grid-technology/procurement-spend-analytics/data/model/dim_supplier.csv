@@ -1,0 +1,117 @@
+supplier_id,supplier_name,country,vat_id,terms_days,blocked,source_records,systems,country_filled_from_vat,country_risk
+S0001,Ruhr Draht Co. Ltd.,CN,CN592316056,45.0,False,1,ERP_A,False,3
+S0002,Lech Kupferwerk Sp. z o.o.,PL,PL161758413,45.0,False,2,"ERP_A,ERP_B",False,1
+S0003,Ems Leiter GmbH & Co. KG,DE,DE552045294,45.0,False,1,ERP_A,False,1
+S0004,Mosel Draht S.A.,PL,PL515712018,60.0,False,2,"ERP_A,ERP_B",False,1
+S0005,Neisse Leiter,DE,DE522562264,45.0,False,2,ERP_A,False,1
+S0006,Lech Draht A.S.,TR,TR985019645,45.0,False,1,ERP_A,False,3
+S0007,Fulda Kupferwerk A.S.,TR,TR978307396,45.0,False,1,ERP_A,False,3
+S0008,Warta Draht GmbH & Co. KG,DE,DE230764282,45.0,False,1,ERP_A,False,1
+S0009,Saar Draht GmbH & Co. KG,DE,DE107064408,45.0,False,2,"ERP_A,ERP_B",False,1
+S0010,Pegnitz Magnetstahl Co. Ltd.,KR,KR145045428,45.0,False,2,"ERP_A,ERP_B",False,2
+S0011,Regen Magnetstahl Co. Ltd.,CN,CN596300772,30.0,False,1,ERP_A,False,3
+S0012,Oder Kernblech Co. Ltd.,KR,KR417721926,45.0,False,2,"ERP_A,ERP_B",False,2
+S0013,Tauber Kernblech Pvt. Ltd.,IN,IN201622986,60.0,False,2,ERP_A,False,3
+S0014,Havel Stahlbau s.r.o.,CZ,CZ348796632,30.0,False,1,ERP_A,False,1
+S0015,Regen Stahlbau GmbH,DE,DE612403758,45.0,False,1,ERP_A,False,1
+S0016,Fulda Blechwerk AG,DE,DE302860961,60.0,False,1,ERP_A,False,1
+S0017,Pegnitz Stahlbau S.A.,PL,PL370119178,30.0,False,2,"ERP_A,ERP_B",False,1
+S0018,Mulde Stahl s.r.o.,CZ,CZ841279629,30.0,False,1,ERP_A,False,1
+S0019,Saale Blechwerk GmbH & Co. KG,DE,DE891804345,60.0,False,2,"ERP_A,ERP_B",False,1
+S0020,Ruhr Stahlbau S.A.,PL,PL990958075,60.0,False,2,"ERP_A,ERP_B",False,1
+S0021,Oder Stahl GmbH,DE,DE639531353,30.0,False,2,ERP_A,False,1
+S0022,Warta Stahlbau GmbH & Co. KG,DE,DE686770973,45.0,False,2,"ERP_A,ERP_B",False,1
+S0023,Regen Stahl S.A.,PL,PL596059409,30.0,False,2,"ERP_A,ERP_B",False,1
+S0024,Nahe Blechwerk GmbH,DE,DE199899385,45.0,False,1,ERP_A,False,1
+S0025,Saale Stahl AG,DE,DE323121761,45.0,False,1,ERP_A,False,1
+S0026,Lech Alu GmbH,DE,DE186200940,45.0,False,2,"ERP_A,ERP_B",False,1
+S0027,Regen Leichtmetall A.S.,TR,TR958326367,30.0,False,1,ERP_A,True,3
+S0028,Spree Aluguss S.p.A.,IT,IT133520250,30.0,False,2,"ERP_A,ERP_B",False,2
+S0029,Ems Alu AG,DE,DE905402586,45.0,False,1,ERP_A,False,1
+S0030,Tauber Leichtmetall A.S.,TR,TR649516935,30.0,False,1,ERP_A,False,3
+S0031,Nahe Leichtmetall GmbH & Co. KG,DE,DE533247499,45.0,False,2,"ERP_A,ERP_B",False,1
+S0032,Main Isolieroel Inc.,US,US966080348,30.0,False,1,ERP_A,False,1
+S0033,Werra Fluid GmbH,DE,DE888314125,45.0,False,2,"ERP_A,ERP_B",False,1
+S0034,Saar Oelwerk AB,SE,SE374079272,45.0,False,1,ERP_A,False,1
+S0035,Spree Fluid Inc.,US,US221439463,60.0,False,1,ERP_A,False,1
+S0036,Saar Isolation AB,SE,SE863267591,45.0,False,1,ERP_A,True,1
+S0037,Inn Isotech AG,DE,DE362227594,45.0,False,1,ERP_A,False,1
+S0038,Saar Isotech Co. Ltd.,CN,CN164706270,45.0,False,2,"ERP_A,ERP_B",False,3
+S0039,Oder Isolation Co. Ltd.,CN,CN982155907,60.0,False,1,ERP_A,False,3
+S0040,Saale Isotech GmbH,DE,DE643812145,30.0,False,2,"ERP_A,ERP_B",False,1
+S0041,Havel Isolation Co. Ltd.,CN,CN593087515,45.0,False,1,ERP_A,False,3
+S0042,Ruhr Isolation AG,DE,DE764668194,30.0,False,1,ERP_A,False,1
+S0043,Vistula Isotech Co. Ltd.,CN,CN968606878,60.0,False,2,"ERP_A,ERP_B",False,3
+S0044,Werra Durchfuehrung Co. Ltd.,CN,CN671132014,45.0,False,1,ERP_A,False,3
+S0045,Warta Durchfuehrung S.p.A.,IT,IT180070106,45.0,False,1,ERP_A,False,2
+S0046,Isar Isotech GmbH & Co. KG,DE,DE346019689,45.0,False,1,ERP_A,False,1
+S0047,Spree Isotech S.p.A.,IT,IT226158136,30.0,False,1,ERP_A,False,2
+S0048,Vistula Durchfuehrung AB,SE,SE609071160,30.0,False,2,"ERP_A,ERP_B",False,1
+S0049,Warta Durchfuehrung GmbH,DE,DE919192688,30.0,False,1,ERP_A,False,1
+S0050,Lech Isolation Co. Ltd.,CN,CN203837680,30.0,False,1,ERP_A,False,3
+S0051,Elbe Isolation S.p.A.,IT,IT196138616,30.0,False,1,ERP_A,False,2
+S0052,Elbe Regeltechnik GmbH,AT,AT811828528,60.0,False,1,ERP_A,True,1
+S0053,Inn Regeltechnik AG,DE,DE103248001,30.0,False,1,ERP_A,False,1
+S0054,Oder Sensorik GmbH,AT,AT777241294,60.0,False,1,ERP_A,False,1
+S0055,Lahn Sensorik GmbH,AT,AT503100034,45.0,False,1,ERP_A,False,1
+S0056,Saale Regeltechnik Co. Ltd.,CN,CN525782005,30.0,False,1,ERP_A,False,3
+S0057,Spree Sensorik GmbH,AT,AT994746435,60.0,False,1,ERP_A,False,1
+S0058,Regen Regeltechnik GmbH,AT,AT562828710,45.0,True,1,ERP_A,False,1
+S0059,Werra Elektronik Co. Ltd.,CN,CN333288363,30.0,False,1,ERP_A,False,3
+S0060,Nahe Sensorik GmbH,DE,DE230559411,30.0,False,1,ERP_A,False,1
+S0061,Nahe Elektronik GmbH,DE,DE578514311,45.0,False,1,ERP_A,False,1
+S0062,Mulde Regeltechnik,DE,DE161437327,45.0,False,2,ERP_A,False,1
+S0063,Lahn Regeltechnik GmbH,AT,AT769404557,60.0,False,2,"ERP_A,ERP_B",False,1
+S0064,Lech Elektronik GmbH,DE,DE524706793,45.0,False,2,"ERP_A,ERP_B",False,1
+S0065,Saar Regeltechnik GmbH & Co. KG,DE,DE538035044,30.0,False,1,ERP_A,False,1
+S0066,Havel Regeltechnik GmbH,AT,AT877076030,30.0,False,2,"ERP_A,ERP_B",False,1
+S0067,Weser Regeltechnik GmbH & Co. KG,DE,DE560291449,60.0,False,1,ERP_A,False,1
+S0068,Inn Spedition GmbH,DE,DE295415010,30.0,False,2,"ERP_A,ERP_B",False,1
+S0069,Ems Logistik AG,DE,DE353007723,60.0,False,1,ERP_A,False,1
+S0070,Neisse Spedition S.A.,PL,PL437338781,60.0,False,3,"ERP_A,ERP_B",False,1
+S0071,Saale Logistik AG,DE,DE104126506,30.0,False,1,ERP_A,False,1
+S0072,Lahn Logistik Sp. z o.o.,PL,PL477669024,30.0,False,2,"ERP_A,ERP_B",False,1
+S0073,Inn Spedition S.A.,PL,PL865885009,45.0,False,2,"ERP_A,ERP_B",False,1
+S0074,Neisse Transport GmbH,DE,DE818592076,45.0,False,2,"ERP_A,ERP_B",False,1
+S0075,Spree Transport AG,DE,DE822266542,45.0,False,1,ERP_A,True,1
+S0076,Tauber Transport AG,DE,DE476177766,45.0,False,1,ERP_A,False,1
+S0077,Oder Transport Sp. z o.o.,PL,PL648526064,30.0,False,2,"ERP_A,ERP_B",False,1
+S0078,Lech Logistik S.A.,PL,PL329843375,45.0,False,2,"ERP_A,ERP_B",False,1
+S0079,Regen Transport AG,DE,DE236799021,30.0,False,2,"ERP_A,ERP_B",False,1
+S0080,Weser Service GmbH & Co. KG,DE,DE257021205,60.0,False,2,ERP_A,False,1
+S0081,Main Service GmbH,DE,DE625397887,45.0,False,2,"ERP_A,ERP_B",False,1
+S0082,Isar Dienste S.A.,PL,PL839859069,30.0,False,2,"ERP_A,ERP_B",False,1
+S0083,Werra Dienste Sp. z o.o.,PL,PL665666398,60.0,False,2,"ERP_A,ERP_B",False,1
+S0084,Ems Dienste AG,DE,DE142609489,45.0,False,1,ERP_A,False,1
+S0085,Werra Technik GmbH,DE,DE612766206,45.0,False,1,ERP_A,False,1
+S0086,Vistula Service AG,DE,DE195441389,60.0,False,1,ERP_A,True,1
+S0087,Weser Technik Sp.z.o.o.,PL,PL979752205,30.0,False,3,"ERP_A,ERP_B",False,1
+S0088,Elbe Technik GmbH,DE,DE322104606,60.0,False,1,ERP_A,False,1
+S0089,Werra Service AG,DE,DE171324835,30.0,False,2,"ERP_A,ERP_B",False,1
+S0090,Isar Service GmbH & Co. KG,DE,DE709543836,30.0,False,2,"ERP_A,ERP_B",False,1
+S0091,Lahn Dienste S.A.,PL,PL522126151,45.0,False,2,"ERP_A,ERP_B",False,1
+S0092,Lech Service,DE,DE311389848,30.0,False,2,ERP_A,False,1
+S0093,Vistula Service Sp. z o.o.,PL,PL499037312,45.0,False,2,"ERP_A,ERP_B",False,1
+S0094,Saale Dienste Sp. z o.o.,PL,PL662351563,60.0,False,2,"ERP_A,ERP_B",False,1
+S0095,Mulde Service GmbH & Co. KG,DE,DE359608924,60.0,False,1,ERP_A,False,1
+S0096,Main Dienste GmbH,DE,DE705995075,45.0,False,1,ERP_A,False,1
+S0097,Weser Technik GmbH & Co. KG,DE,DE584413091,45.0,False,1,ERP_A,False,1
+S0098,Nahe Service GmbH & Co. KG,DE,DE757646560,45.0,False,2,"ERP_A,ERP_B",False,1
+S0099,Isar Dienste Sp. z o.o.,PL,PL593116519,45.0,False,2,"ERP_A,ERP_B",False,1
+S0100,Neisse Service S.A.,PL,PL749594359,30.0,False,2,"ERP_A,ERP_B",False,1
+S0101,Tauber Dienste Sp. z o.o.,PL,PL555643361,60.0,False,3,"ERP_A,ERP_B",False,1
+S0102,Nahe Dienste GmbH,DE,DE703414904,45.0,False,1,ERP_A,False,1
+S0103,Lahn Service S.A.,PL,PL232406185,30.0,False,2,"ERP_A,ERP_B",False,1
+S0104,Unstrut Service GmbH & Co. KG,DE,DE863134827,60.0,False,1,ERP_A,True,1
+S0105,Inn Technik AG,DE,DE963979791,45.0,False,1,ERP_A,False,1
+S0106,Ilm Magnetstahl GmbH,AT,,30.0,False,1,ERP_B,False,1
+S0107,Regen Blechwerk s.r.o.,CZ,CZ523361233,45.0,False,1,ERP_B,False,1
+S0108,Ruhr Stahlbau Sp. z o.o.,PL,,60.0,False,1,ERP_B,False,1
+S0109,Oder Leichtmetall AG,DE,,90.0,False,1,ERP_B,False,1
+S0110,Lahn Sensorik Co. Ltd.,CN,,90.0,False,1,ERP_B,False,3
+S0111,Spree Elektronik Co. Ltd.,CN,CN331075379,30.0,False,1,ERP_B,False,3
+S0112,Oder Service GmbH & Co. KG,DE,DE312864576,90.0,False,1,ERP_B,False,1
+S0113,Regen Service AG,DE,,90.0,False,1,ERP_B,False,1
+S0114,Neisse Dienste Sp. z o.o.,PL,PL439817694,90.0,False,1,ERP_B,False,1
+S0115,Fulda Service Sp. z o.o.,PL,PL478289278,45.0,False,1,ERP_B,False,1
+S9999,Unknown supplier (not in master),,,,False,0,,False,3

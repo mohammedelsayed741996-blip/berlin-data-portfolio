@@ -1,0 +1,16 @@
+a,b,name_a,name_b,score,not_merged_because
+1000147,PLS-5024,Ruhr Stahlbau S.A.,Ruhr Stahlbau Sp. z o.o.,1.0,different legal forms
+1000336,1000364,Warta Durchfuehrung S.p.A.,Warta Durchfuehrung GmbH,1.0,different VAT IDs
+1000413,PLS-5058,Lahn Sensorik GmbH,Lahn Sensorik Co. Ltd.,1.0,different legal forms
+1000511,1000546,Inn Spedition GmbH,Inn Spedition S.A.,1.0,different VAT IDs
+1000511,PLS-5078,Inn Spedition GmbH,Inn Spedition S.A.,1.0,different VAT IDs
+1000546,PLS-5073,Inn Spedition S.A.,INN SPEDITION GMBH,1.0,different VAT IDs
+1000616,1000749,Isar Dienste S.A.,Isar Dienste Sp. z o.o.,1.0,different VAT IDs
+1000616,PLS-5107,Isar Dienste S.A.,ISAR DIENSTE SP. Z O.O.,1.0,different legal forms
+1000644,1000700,Vistula Service AG,Vistula Service Sp. z o.o.,1.0,different VAT IDs
+1000644,PLS-5100,Vistula Service AG,VISTULA SERVICE SP. Z O.O.,1.0,different VAT IDs
+1000651,1000735,Weser Technik Sp. z o.o.,Weser Technik GmbH & Co. KG,1.0,different VAT IDs
+1000749,PLS-5088,Isar Dienste Sp. z o.o.,Isar Dienste,1.0,different VAT IDs
+PLS-5021,PLS-5024,Ruhr  Stahlbau S.A. ,Ruhr Stahlbau Sp. z o.o.,1.0,different legal forms
+PLS-5073,PLS-5078,INN SPEDITION GMBH,Inn Spedition S.A.,1.0,different VAT IDs
+PLS-5088,PLS-5107,Isar Dienste,ISAR DIENSTE SP. Z O.O.,1.0,different VAT IDs

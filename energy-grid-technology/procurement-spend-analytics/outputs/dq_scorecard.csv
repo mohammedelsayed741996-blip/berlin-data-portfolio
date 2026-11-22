@@ -1,0 +1,6 @@
+dataset,completeness,consistency,uniqueness,validity
+erp_a_ekpo,,,0.9963,
+erp_b_orders,0.8199,,,0.9947
+goods_receipts,,0.9989,,
+po_lines,,1.0,,0.9974
+supplier_master,0.8862,0.5808,0.6886,

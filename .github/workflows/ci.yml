@@ -340,3 +340,31 @@ jobs:
         run: terraform init -backend=false -input=false
       - name: Validate
         run: terraform validate
+
+  procurement-spend-analytics:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: energy-grid-technology/procurement-spend-analytics
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests (exports regenerated from scratch)
+        run: python -m pytest -q
+      - name: Run the pipeline end to end and check every planted problem is found
+        run: |
+          python -m spendcube.pipeline --regenerate > /tmp/result.json
+          python -c "import json; r=json.load(open('/tmp/result.json')); assert r['data_quality']['all_planted_found'], r['data_quality']; assert r['supplier_matching']['false_merges'] == 0"
+      - name: Committed data matches the generator
+        run: git diff --exit-code -- data/raw data/model

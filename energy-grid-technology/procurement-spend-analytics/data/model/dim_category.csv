@@ -1,0 +1,10 @@
+category,category_name,commodity_index,spend_type
+CU,Copper conductors & windings,copper,direct
+ES,Electrical steel (GOES) cores,goes,direct
+ST,Tank & structural steel,steel_hrc,direct
+AL,Aluminium parts,aluminium,direct
+OI,Transformer oil,oil,direct
+IN,Insulation & bushings,,direct
+EL,Electronics & controls,,direct
+LG,Logistics & freight,,indirect
+SV,"Services, IT & facility",,indirect

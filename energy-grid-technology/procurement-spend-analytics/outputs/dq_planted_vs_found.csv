@@ -1,0 +1,9 @@
+planted_problem,planted,found
+Duplicate order lines in the ERP_A export,40,40
+Order lines with a supplier missing from the master,12,12
+ERP_B lines without a category,615,615
+Copper lines priced per tonne on a per-kg line,20,20
+Returns booked as negative quantities,18,18
+Suppliers without a country,14,14
+Goods receipts dated before the order,15,15
+Duplicate supplier pairs (within and across ERPs),55,55

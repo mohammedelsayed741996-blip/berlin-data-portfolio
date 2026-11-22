@@ -1,0 +1,126 @@
+{
+  "data_quality": {
+    "rules": 12,
+    "rules_with_findings": 11,
+    "planted_problems_found": "789 of 789",
+    "all_planted_found": true,
+    "cleaning": {
+      "duplicate_lines_removed": 40,
+      "prices_corrected_per_tonne": 20,
+      "lines_unknown_supplier": 12
+    }
+  },
+  "supplier_matching": {
+    "true_pairs": 55,
+    "found": 55,
+    "false_merges": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "records": 167,
+    "golden_records": 115,
+    "true_suppliers": 115,
+    "left_for_review": 15
+  },
+  "spend": {
+    "spend_eur": 393724161.41,
+    "suppliers": 112,
+    "on_contract_share": 0.7016,
+    "maverick_eur": 117486498.09,
+    "maverick_share": 0.2984,
+    "maverick_expired_contract_eur": 17408692.55,
+    "maverick_no_contract_eur": 100077805.54,
+    "returns_eur": 482950.49,
+    "suppliers_for_80pct": 17,
+    "tail_suppliers": 72,
+    "tail_spend_share": 0.0527,
+    "on_time_rate": 0.8889
+  },
+  "forecast": {
+    "backtest_mape_naive_by_index": {
+      "aluminium": 0.0571,
+      "copper": 0.0738,
+      "goes": 0.0521,
+      "oil": 0.0876,
+      "steel_hrc": 0.117
+    },
+    "best_skill_vs_naive_by_index": {
+      "aluminium": 0.02,
+      "copper": 0.031,
+      "goes": -0.014,
+      "oil": -0.01,
+      "steel_hrc": -0.035
+    },
+    "models_chosen": {
+      "aluminium": "naive",
+      "copper": "naive",
+      "goes": "naive",
+      "oil": "naive",
+      "steel_hrc": "naive"
+    },
+    "band_coverage_80pct": 0.804
+  },
+  "pass_through": [
+    {
+      "category": "CU",
+      "index": "copper",
+      "lag_months": 1,
+      "pass_through": 0.733,
+      "r2": 0.996
+    },
+    {
+      "category": "ES",
+      "index": "goes",
+      "lag_months": 2,
+      "pass_through": 0.669,
+      "r2": 0.996
+    },
+    {
+      "category": "ST",
+      "index": "steel_hrc",
+      "lag_months": 1,
+      "pass_through": 0.528,
+      "r2": 0.998
+    },
+    {
+      "category": "AL",
+      "index": "aluminium",
+      "lag_months": 1,
+      "pass_through": 0.562,
+      "r2": 0.979
+    },
+    {
+      "category": "OI",
+      "index": "oil",
+      "lag_months": 1,
+      "pass_through": 0.48,
+      "r2": 0.974
+    }
+  ],
+  "budget_impact_6m_eur": {
+    "AL": {
+      "expected": 36547,
+      "low": -116450,
+      "high": 150915
+    },
+    "CU": {
+      "expected": -3365037,
+      "low": -6043520,
+      "high": -820926
+    },
+    "ES": {
+      "expected": -176804,
+      "low": -490973,
+      "high": 197025
+    },
+    "OI": {
+      "expected": -17330,
+      "low": -47185,
+      "high": 14859
+    },
+    "ST": {
+      "expected": 783552,
+      "low": 132241,
+      "high": 1604405
+    }
+  }
+}

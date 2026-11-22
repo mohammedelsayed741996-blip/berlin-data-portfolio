@@ -1,0 +1,41 @@
+material_id,description,category,uom
+M001,Aluminium busbar 80x10 mm,AL,KG
+M002,Aluminium cast housing,AL,PC
+M003,Aluminium foil winding 1.0 mm,AL,KG
+M004,Calibration service,SV,EA
+M005,Composite insulator 110 kV,IN,PC
+M006,Condenser bushing 145 kV,IN,PC
+M007,Condenser bushing 36 kV,IN,PC
+M008,"Control cabinet, wired",EL,PC
+M009,Copper busbar 60x10 mm,CU,KG
+M010,"Copper flat wire 10x2 mm, enamelled",CU,KG
+M011,Copper lead cable 240 mm2,CU,KG
+M012,Copper round wire 3.0 mm,CU,KG
+M013,Copper strip 100x3 mm,CU,KG
+M014,Copper winding wire CTC 40 strands,CU,KG
+M015,"Core lamination stack, cut",ES,KG
+M016,Epoxy spacer,IN,PC
+M017,"Facility cleaning, monthly",SV,EA
+M018,Grain-oriented electrical steel 0.23 mm Hi-B,ES,KG
+M019,Grain-oriented electrical steel 0.27 mm,ES,KG
+M020,Heavy haulage transport,LG,EA
+M021,IT software licence,SV,EA
+M022,Insulating paper crepe,IN,KG
+M023,Laser-scribed GOES 0.23 mm,ES,KG
+M024,"Mineral transformer oil, inhibited",OI,L
+M025,Monitoring sensor DGA,EL,PC
+M026,Natural ester transformer fluid,OI,L
+M027,Pressboard 3 mm,IN,KG
+M028,Radiator panel 520 mm,ST,PC
+M029,Relay protection unit,EL,PC
+M030,"Road freight, full truck",LG,EA
+M031,Sea freight container,LG,EA
+M032,Steel plate S235 8 mm,ST,KG
+M033,Steel plate S355 12 mm,ST,KG
+M034,Steel profile HEB 200,ST,KG
+M035,"Tank cover, welded",ST,PC
+M036,Tap changer motor drive,EL,PC
+M037,Temperature sensor PT100,EL,PC
+M038,"Temporary staff, engineering",SV,EA
+M039,Terminal block set,EL,PC
+M040,Test lab service,SV,EA

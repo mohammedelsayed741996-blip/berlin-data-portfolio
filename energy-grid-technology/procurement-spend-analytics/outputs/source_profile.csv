@@ -1,0 +1,60 @@
+source,file,column,rows,filled,distinct,unique,format,example
+erp_a_ekpo,erp_a_ekpo.csv,EBELN,10703,1.0,10663,False,number,4500000001
+erp_a_ekpo,erp_a_ekpo.csv,EBELP,10703,1.0,1,False,number,00010
+erp_a_ekpo,erp_a_ekpo.csv,BEDAT,10703,1.0,672,False,date DD.MM.YYYY,18.11.2024
+erp_a_ekpo,erp_a_ekpo.csv,WERKS,10703,1.0,2,False,code,DE10
+erp_a_ekpo,erp_a_ekpo.csv,LIFNR,10703,1.0,121,False,number,1000063
+erp_a_ekpo,erp_a_ekpo.csv,MATNR,10703,1.0,40,False,code,ES-102
+erp_a_ekpo,erp_a_ekpo.csv,TXZ01,10703,1.0,40,False,text,Laser-scribed GOES 0.23 mm
+erp_a_ekpo,erp_a_ekpo.csv,MATKL,10703,1.0,9,False,code,ES
+erp_a_ekpo,erp_a_ekpo.csv,MENGE,10703,1.0,4526,False,"number, German format","2.038,000"
+erp_a_ekpo,erp_a_ekpo.csv,MEINS,10703,1.0,4,False,text,KG
+erp_a_ekpo,erp_a_ekpo.csv,NETPR,10703,1.0,7098,False,"number, German format","438,25"
+erp_a_ekpo,erp_a_ekpo.csv,PEINH,10703,1.0,2,False,number,100
+erp_a_ekpo,erp_a_ekpo.csv,WAERS,10703,1.0,1,False,code,EUR
+erp_a_ekpo,erp_a_ekpo.csv,EINDT,10703,1.0,794,False,date DD.MM.YYYY,03.01.2025
+erp_a_ekpo,erp_a_ekpo.csv,ZLINE,10703,1.0,10663,False,number,0
+erp_a_lfa1,erp_a_lfa1.csv,LIFNR,114,1.0,114,True,number,1000000
+erp_a_lfa1,erp_a_lfa1.csv,NAME1,114,1.0,114,True,text,Ruhr Draht Co. Ltd.
+erp_a_lfa1,erp_a_lfa1.csv,LAND1,114,0.8772,12,False,code,CN
+erp_a_lfa1,erp_a_lfa1.csv,STCEG,114,0.9561,106,False,code,CN592316056
+erp_a_lfa1,erp_a_lfa1.csv,ZTERM,114,1.0,9,False,text,45 Tage netto
+erp_a_lfa1,erp_a_lfa1.csv,ERDAT,114,1.0,103,False,date DD.MM.YYYY,26.07.2014
+erp_a_lfa1,erp_a_lfa1.csv,SPERR,114,0.0088,2,False,text,X
+erp_b_orders,erp_b_orders.csv,order_no,3414,1.0,3414,True,code,B70001
+erp_b_orders,erp_b_orders.csv,order_date,3414,1.0,669,False,date YYYY-MM-DD,2024-11-26
+erp_b_orders,erp_b_orders.csv,plant,3414,1.0,1,False,code,PL30
+erp_b_orders,erp_b_orders.csv,supplier_code,3414,1.0,47,False,code,PLS-5001
+erp_b_orders,erp_b_orders.csv,material_no,3414,1.0,40,False,code,M80285
+erp_b_orders,erp_b_orders.csv,description,3414,1.0,40,False,text,Copper strip 100x3 mm
+erp_b_orders,erp_b_orders.csv,category,3414,0.8199,10,False,code,CU
+erp_b_orders,erp_b_orders.csv,quantity,3414,1.0,2117,False,number,3534.0
+erp_b_orders,erp_b_orders.csv,uom,3414,1.0,4,False,code,KG
+erp_b_orders,erp_b_orders.csv,unit_price,3414,1.0,2690,False,number,42.54
+erp_b_orders,erp_b_orders.csv,currency,3414,1.0,1,False,code,PLN
+erp_b_orders,erp_b_orders.csv,delivery_date,3414,1.0,765,False,date YYYY-MM-DD,2025-01-11
+erp_b_orders,erp_b_orders.csv,line_ref,3414,1.0,3414,True,number,449
+erp_b_suppliers,erp_b_suppliers.csv,supplier_code,53,1.0,53,True,code,PLS-5001
+erp_b_suppliers,erp_b_suppliers.csv,supplier_name,53,1.0,53,True,text,Lech Kupferwerk
+erp_b_suppliers,erp_b_suppliers.csv,country_code,53,1.0,8,False,code,PL
+erp_b_suppliers,erp_b_suppliers.csv,tax_number,53,0.6415,35,False,code,PL515712018
+erp_b_suppliers,erp_b_suppliers.csv,payment_days,53,1.0,4,False,number,45
+goods_receipts,goods_receipts.csv,line_id,13147,1.0,13147,True,number,0
+goods_receipts,goods_receipts.csv,receipt_date,13147,1.0,720,False,date YYYY-MM-DD,2025-01-03
+goods_receipts,goods_receipts.csv,received_qty,13147,1.0,5017,False,number,2038.0
+quality_notifications,quality_notifications.csv,notification,178,1.0,178,True,code,QN70000
+quality_notifications,quality_notifications.csv,line_id,178,1.0,178,True,number,18
+quality_notifications,quality_notifications.csv,defect_code,178,1.0,5,False,code,PACK
+quality_notifications,quality_notifications.csv,rejected_qty,178,1.0,99,False,number,2.0
+contracts,contracts.csv,contract_id,38,1.0,38,True,code,FA-001
+contracts,contracts.csv,category,38,1.0,9,False,code,AL
+contracts,contracts.csv,valid_from,38,1.0,1,False,date YYYY-MM-DD,2024-01-01
+contracts,contracts.csv,valid_to,38,1.0,2,False,date YYYY-MM-DD,2027-12-31
+contracts,contracts.csv,index_clause,38,0.3421,6,False,text,aluminium
+contracts,contracts.csv,supplier_ref,38,1.0,38,True,code,1000210
+commodity_indices,commodity_indices.csv,month,94,1.0,94,True,month YYYY-MM,2019-01
+commodity_indices,commodity_indices.csv,copper,94,1.0,94,True,number,9964.7
+commodity_indices,commodity_indices.csv,aluminium,94,1.0,94,True,number,2585.3
+commodity_indices,commodity_indices.csv,steel_hrc,94,1.0,94,True,number,555.7
+commodity_indices,commodity_indices.csv,goes,94,1.0,94,True,number,2813.0
+commodity_indices,commodity_indices.csv,oil,94,1.0,93,False,number,984.0
