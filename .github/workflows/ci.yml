@@ -367,4 +367,7 @@ jobs:
           python -m spendcube.pipeline --regenerate > /tmp/result.json
           python -c "import json; r=json.load(open('/tmp/result.json')); assert r['data_quality']['all_planted_found'], r['data_quality']; assert r['supplier_matching']['false_merges'] == 0"
       - name: Committed data matches the generator
-        run: git diff --exit-code -- data/raw data/model
+        run: |
+          git diff --exit-code -- data/raw data/model ':!*.gz'
+          # gzip bytes depend on the zlib version, so compare the content
+          diff <(git show HEAD:./data/raw/_truth_lines.csv.gz | gunzip) <(gunzip -c data/raw/_truth_lines.csv.gz) > /dev/null
