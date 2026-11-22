@@ -1,0 +1,8 @@
+{
+ "source": "ERP export (simulated)",
+ "as_of": "2026-11-20",
+ "planted": {
+  "duplicate_invoices": 25,
+  "missing_due_dates": 72
+ }
+}

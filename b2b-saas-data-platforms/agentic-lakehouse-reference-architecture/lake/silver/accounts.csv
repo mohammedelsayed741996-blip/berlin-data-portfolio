@@ -1,0 +1,61 @@
+account_id,name,region,segment,owner,payment_terms_days,credit_limit_eur,currency,contact_email
+A001,Alpenrand Maschinenbau GmbH,DACH,mid,AM01,60,81000,EUR,ap@account-001.example.de
+A002,Elbtal Maschinenbau GmbH,DACH,mid,AM02,45,81000,EUR,ap@account-002.example.de
+A003,Isarwerk Anlagentechnik AG,DACH,small,AM03,30,27000,EUR,ap@account-003.example.de
+A004,Alpenrand Industrieservice KG,DACH,key,AM04,30,209000,EUR,ap@account-004.example.de
+A005,Bodensee Fertigung GmbH,DACH,small,AM05,30,20000,EUR,ap@account-005.example.de
+A006,Weserfeld Logistik GmbH,DACH,key,AM06,45,262000,EUR,ap@account-006.example.de
+A007,Elbtal Logistik GmbH,DACH,mid,AM01,45,92000,EUR,ap@account-007.example.de
+A008,Alpenrand Anlagentechnik AG,DACH,key,AM02,30,272000,EUR,ap@account-008.example.de
+A009,Isarwerk Logistik GmbH,DACH,key,AM03,45,272000,EUR,ap@account-009.example.de
+A010,Nordhafen Logistik GmbH,DACH,key,AM04,60,259000,EUR,ap@account-010.example.de
+A011,Taunus Anlagentechnik AG,DACH,small,AM05,60,25000,EUR,ap@account-011.example.de
+A012,Nordhafen Maschinenbau GmbH,DACH,key,AM06,30,283000,EUR,ap@account-012.example.de
+A013,Oderblick Fertigung GmbH,DACH,key,AM01,30,209000,EUR,ap@account-013.example.de
+A014,Oderblick Industrieservice KG,DACH,mid,AM02,45,76000,EUR,ap@account-014.example.de
+A015,Rheinkraft Anlagentechnik AG,DACH,mid,AM03,60,90000,EUR,ap@account-015.example.de
+A016,Ruhrbogen Industrieservice KG,DACH,mid,AM04,45,76000,EUR,ap@account-016.example.de
+A017,Oderblick Anlagentechnik AG,DACH,mid,AM05,45,89000,EUR,ap@account-017.example.de
+A018,Elbtal Anlagentechnik AG,DACH,key,AM06,30,279000,EUR,ap@account-018.example.de
+A019,Spreewald Fertigung GmbH,DACH,mid,AM01,60,86000,EUR,ap@account-019.example.de
+A020,Spreewald Industrieservice KG,DACH,small,AM02,30,29000,EUR,ap@account-020.example.de
+A021,Taunus Logistik GmbH,DACH,small,AM03,45,26000,EUR,ap@account-021.example.de
+A022,Ruhrbogen Logistik GmbH,DACH,small,AM04,45,28000,EUR,ap@account-022.example.de
+A023,Isarwerk Maschinenbau GmbH,DACH,mid,AM05,60,89000,EUR,ap@account-023.example.de
+A024,Elbtal Fertigung GmbH,DACH,small,AM06,60,28000,EUR,ap@account-024.example.de
+A025,Havelstahl Industrieservice KG,DACH,key,AM01,30,284000,EUR,ap@account-025.example.de
+A026,Alpenrand Fertigung GmbH,DACH,small,AM02,30,29000,EUR,ap@account-026.example.de
+A027,Oderblick Maschinenbau GmbH,DACH,mid,AM03,30,79000,EUR,ap@account-027.example.de
+A028,Rheinkraft Fertigung GmbH,DACH,mid,AM04,45,94000,EUR,ap@account-028.example.de
+A029,Taunus Maschinenbau GmbH,DACH,small,AM05,30,27000,EUR,ap@account-029.example.de
+A030,Rheinkraft Industrieservice KG,DACH,mid,AM06,45,72000,EUR,ap@account-030.example.de
+A031,Elbtal Industrieservice KG,DACH,small,AM01,30,22000,EUR,ap@account-031.example.de
+A032,Isarwerk Industrieservice KG,DACH,mid,AM02,30,73000,EUR,ap@account-032.example.de
+A033,Bodensee Anlagentechnik AG,DACH,key,AM03,60,227000,EUR,ap@account-033.example.de
+A034,Nordhafen Anlagentechnik AG,DACH,key,AM04,30,204000,EUR,ap@account-034.example.de
+A035,Havelstahl Logistik GmbH,DACH,mid,AM05,30,86000,EUR,ap@account-035.example.de
+A036,Spreewald Maschinenbau GmbH,DACH,small,AM06,60,20000,EUR,ap@account-036.example.de
+A037,Taunus Industrieservice KG,DACH,mid,AM01,60,92000,EUR,ap@account-037.example.de
+A038,Havelstahl Maschinenbau GmbH,DACH,small,AM02,45,27000,EUR,ap@account-038.example.de
+A039,Havelstahl Fertigung GmbH,DACH,mid,AM03,45,83000,EUR,ap@account-039.example.de
+A040,Spreewald Anlagentechnik AG,DACH,mid,AM04,60,89000,EUR,ap@account-040.example.de
+A041,Ruhrbogen Maschinenbau GmbH,DACH,mid,AM05,45,72000,EUR,ap@account-041.example.de
+A042,Nordhafen Industrieservice KG,DACH,small,AM06,45,27000,EUR,ap@account-042.example.de
+A043,Marina Trading LLC,Gulf,small,AM05,45,25000,AED,ap@account-043.example.ae
+A044,Desert Line Facilities FZE,Gulf,small,AM06,30,27000,AED,ap@account-044.example.ae
+A045,Al Noor Contracting LLC,Gulf,mid,AM05,60,76000,AED,ap@account-045.example.ae
+A046,Al Noor Facilities FZE,Gulf,mid,AM06,45,94000,AED,ap@account-046.example.ae
+A047,Palm Ridge Contracting LLC,Gulf,mid,AM05,45,76000,AED,ap@account-047.example.ae
+A048,Corniche Trading LLC,Gulf,small,AM06,30,20000,AED,ap@account-048.example.ae
+A049,Marina Facilities FZE,Gulf,mid,AM05,60,66000,AED,ap@account-049.example.ae
+A050,Desert Line Engineering LLC,Gulf,mid,AM06,30,84000,AED,ap@account-050.example.ae
+A051,Palm Ridge Facilities FZE,Gulf,key,AM05,30,225000,AED,ap@account-051.example.ae
+A052,Desert Line Contracting LLC,Gulf,small,AM06,30,24000,AED,ap@account-052.example.ae
+A053,Desert Line Trading LLC,Gulf,mid,AM05,30,76000,AED,ap@account-053.example.ae
+A054,Al Noor Trading LLC,Gulf,key,AM06,30,281000,AED,ap@account-054.example.ae
+A055,Al Noor Engineering LLC,Gulf,small,AM05,45,27000,AED,ap@account-055.example.ae
+A056,Corniche Facilities FZE,Gulf,small,AM06,60,22000,AED,ap@account-056.example.ae
+A057,Gulf Crest Engineering LLC,Gulf,mid,AM05,60,91000,AED,ap@account-057.example.ae
+A058,Gulf Crest Contracting LLC,Gulf,mid,AM06,30,71000,AED,ap@account-058.example.ae
+A059,Gulf Crest Trading LLC,Gulf,small,AM05,30,25000,AED,ap@account-059.example.ae
+A060,Palm Ridge Engineering LLC,Gulf,small,AM06,30,26000,AED,ap@account-060.example.ae

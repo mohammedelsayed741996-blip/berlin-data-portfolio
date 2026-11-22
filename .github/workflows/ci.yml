@@ -290,3 +290,44 @@ jobs:
       - name: Container logs
         if: always()
         run: docker logs hrrag || true
+
+  agentic-lakehouse:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: b2b-saas-data-platforms/agentic-lakehouse-reference-architecture
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-aws.txt
+      - name: Run tests (lakehouse is rebuilt from scratch)
+        run: python -m pytest -q
+      - name: Release gate - task evaluation and red team
+        run: python scripts/evaluate.py --gate
+
+  agentic-lakehouse-terraform:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: b2b-saas-data-platforms/agentic-lakehouse-reference-architecture/infra/terraform
+    steps:
+      - uses: actions/checkout@v5
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9.8"
+      - name: Format check
+        run: terraform fmt -check -recursive -diff
+      - name: Init without a backend
+        run: terraform init -backend=false -input=false
+      - name: Validate
+        run: terraform validate
