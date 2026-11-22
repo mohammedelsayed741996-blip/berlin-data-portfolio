@@ -298,5 +298,5 @@ def write(raw=RAW, seed: int = SEED) -> dict:
              "golden_of_erp_a": dict(zip(d["supplier_master_erp_a"].LIFNR, d["supplier_master_erp_a"]._golden)),
              "golden_of_erp_b": dict(zip(d["supplier_master_erp_b"].supplier_code, d["supplier_master_erp_b"]._golden))}
     (raw / "_answer_key.json").write_text(json.dumps(truth, indent=1, default=str))
-    d["_truth_lines"].to_csv(raw / "_truth_lines.csv.gz", index=False)
+    d["_truth_lines"].to_csv(raw / "_truth_lines.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
     return d
