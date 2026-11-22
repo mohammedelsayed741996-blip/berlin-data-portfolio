@@ -314,6 +314,15 @@ jobs:
         run: python -m pytest -q
       - name: Release gate - task evaluation and red team
         run: python scripts/evaluate.py --gate
+      - name: Container smoke test
+        if: matrix.python-version == '3.12'
+        run: |
+          docker build -t agentic-lakehouse .
+          docker run -d --name al -p 8000:8000 agentic-lakehouse
+          for i in $(seq 1 30); do curl -sf localhost:8000/health && break; sleep 1; done
+          curl -sf localhost:8000/api/agent -H 'X-User-Id: AM02' -H 'X-User-Role: account_manager' \
+               -H 'Content-Type: application/json' -d '{"question": "What does Elbtal Maschinenbau owe us?"}' | tee /dev/stderr | grep -q "A002"
+          docker rm -f al
 
   agentic-lakehouse-terraform:
     runs-on: ubuntu-latest

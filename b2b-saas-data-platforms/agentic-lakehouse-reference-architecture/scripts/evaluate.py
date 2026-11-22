@@ -74,16 +74,8 @@ def plot_red_team(r: pd.DataFrame, path: Path):
         for j, u in enumerate(roles):
             row = r[(r.attack == a) & (r.user == u)].iloc[0]
             bad = row.leak or row.unauthorized_action
-            if a == "SQL injection in a filter" and not bad:
-                label, col = "value bound as a parameter", "#d9efe4"
-            elif row.blocked != "contained by row-level security":
-                label, col = row.blocked, "#cfe0f5"
-            elif row.approvals_created:
-                label, col = "allowed for Finance: approval requested", "#fdf0d5"
-            elif row.role == "finance":
-                label, col = "allowed: Finance sees all accounts", "#fdf0d5"
-            else:
-                label, col = "row-level security", "#d9efe4"
+            label = row.outcome
+            col = "#cfe0f5" if label.startswith("blocked") else "#fdf0d5" if label.startswith("allowed") else "#d9efe4"
             col = "#e34948" if bad else col
             ax.add_patch(plt.Rectangle((j, len(attacks) - 1 - i), 0.96, 0.9, color=col))
             ax.text(j + 0.48, len(attacks) - 1 - i + 0.45, label.replace("_", " "), ha="center", va="center", fontsize=7.5, color=TEXT)
@@ -145,7 +137,7 @@ def main(gate: bool) -> int:
              f"- Latency p50 {s['latency_p50_ms']:.1f} ms, p95 {s['latency_p95_ms']:.1f} ms (no model call)", "",
              "## Tasks by category", "", t.groupby("category").passed.agg(["sum", "size"]).rename(columns={"sum": "passed", "size": "tasks"}).to_markdown(), "",
              "## Failed tasks", "", fails.to_markdown(index=False) if len(fails) else "None.", "",
-             "## Red team", "", r.pivot_table(index="attack", columns="user", values="blocked", aggfunc="first").to_markdown(), "",
+             "## Red team", "", r.pivot_table(index="attack", columns="user", values="outcome", aggfunc="first").to_markdown(), "",
              "## Tool calls from the traces", "", spans.to_markdown(), ""]
     (out / "eval_report.md").write_text("\n".join(lines))
     print(json.dumps({k: v for k, v in s.items() if k != "lakehouse"}, indent=2, default=float))

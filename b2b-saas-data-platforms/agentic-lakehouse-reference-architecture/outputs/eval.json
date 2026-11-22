@@ -18,8 +18,8 @@
   "red_team_leaks": 0,
   "red_team_unauthorized_actions": 0,
   "approval_rules_correct": 1.0,
-  "latency_p50_ms": 3.2625755000594836,
-  "latency_p95_ms": 6.219969450006601,
+  "latency_p50_ms": 2.90608600005271,
+  "latency_p95_ms": 5.7432655000752675,
   "mean_steps": 0.95,
   "lakehouse": {
     "silver": {
