@@ -1,0 +1,6 @@
+,check,opportunities,examples
+0,Close date missing,6,"006Q100034, 006Q100088, 006Q100091"
+1,Probability does not match stage,5,"006Q100007, 006Q100028, 006Q100029"
+2,Volume is zero,4,"006Q100064, 006Q100086, 006Q100130"
+3,Open deal with close date in the past,52,"006Q100000, 006Q100007, 006Q100012"
+4,Open deal without activity for 60+ days,43,"006Q100000, 006Q100011, 006Q100015"

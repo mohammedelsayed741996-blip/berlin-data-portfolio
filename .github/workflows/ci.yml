@@ -371,3 +371,34 @@ jobs:
           git diff --exit-code -- data/raw data/model ':!*.gz'
           # gzip bytes depend on the zlib version, so compare the content
           diff <(git show HEAD:./data/raw/_truth_lines.csv.gz | gunzip) <(gunzip -c data/raw/_truth_lines.csv.gz) > /dev/null
+
+  ppa-pricing-market-analyzer:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: energy-trading/ppa-pricing-market-analyzer
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests (market regenerated from scratch)
+        run: python -m pytest -q
+      - name: Refresh everything (market, offers, BESS, pipeline, weekly report)
+        run: |
+          python -m ppalab.run --regenerate --scenarios 40
+          test -s outputs/weekly_market_report_de.md
+          test -s outputs/ppa_offer_calculator.xlsx
+      - name: Committed data matches the generator
+        run: |
+          git diff --exit-code -- data/raw ':!*.gz'
+          diff <(git show HEAD:./data/raw/de_hourly_market.csv.gz | gunzip) <(gunzip -c data/raw/de_hourly_market.csv.gz) > /dev/null

@@ -1,0 +1,347 @@
+{
+  "market": {
+    "years": [
+      {
+        "year": 2019,
+        "hours": 8760,
+        "base": 42.52,
+        "peak": 51.794,
+        "offpeak": 37.358,
+        "daily_vol": 7.46,
+        "intraday_spread": 38.471,
+        "negative_hours": 15,
+        "solar_capture": 38.797,
+        "wind_capture": 39.074,
+        "peak_base_spread": 9.274,
+        "solar_capture_rate": 0.912,
+        "wind_capture_rate": 0.919
+      },
+      {
+        "year": 2020,
+        "hours": 8784,
+        "base": 40.459,
+        "peak": 46.391,
+        "offpeak": 37.152,
+        "daily_vol": 6.244,
+        "intraday_spread": 34.156,
+        "negative_hours": 16,
+        "solar_capture": 36.125,
+        "wind_capture": 38.308,
+        "peak_base_spread": 5.932,
+        "solar_capture_rate": 0.893,
+        "wind_capture_rate": 0.947
+      },
+      {
+        "year": 2021,
+        "hours": 8760,
+        "base": 101.178,
+        "peak": 118.423,
+        "offpeak": 91.582,
+        "daily_vol": 23.274,
+        "intraday_spread": 93.629,
+        "negative_hours": 9,
+        "solar_capture": 81.447,
+        "wind_capture": 91.02,
+        "peak_base_spread": 17.244,
+        "solar_capture_rate": 0.805,
+        "wind_capture_rate": 0.9
+      },
+      {
+        "year": 2022,
+        "hours": 8760,
+        "base": 202.977,
+        "peak": 236.714,
+        "offpeak": 184.315,
+        "daily_vol": 63.512,
+        "intraday_spread": 237.595,
+        "negative_hours": 63,
+        "solar_capture": 144.653,
+        "wind_capture": 160.33,
+        "peak_base_spread": 33.736,
+        "solar_capture_rate": 0.713,
+        "wind_capture_rate": 0.79
+      },
+      {
+        "year": 2023,
+        "hours": 8760,
+        "base": 112.492,
+        "peak": 123.128,
+        "offpeak": 106.609,
+        "daily_vol": 23.436,
+        "intraday_spread": 104.902,
+        "negative_hours": 89,
+        "solar_capture": 79.938,
+        "wind_capture": 102.167,
+        "peak_base_spread": 10.636,
+        "solar_capture_rate": 0.711,
+        "wind_capture_rate": 0.908
+      },
+      {
+        "year": 2024,
+        "hours": 8784,
+        "base": 71.819,
+        "peak": 72.265,
+        "offpeak": 71.571,
+        "daily_vol": 12.448,
+        "intraday_spread": 65.495,
+        "negative_hours": 197,
+        "solar_capture": 50.33,
+        "wind_capture": 66.376,
+        "peak_base_spread": 0.446,
+        "solar_capture_rate": 0.701,
+        "wind_capture_rate": 0.924
+      },
+      {
+        "year": 2025,
+        "hours": 8760,
+        "base": 70.914,
+        "peak": 70.547,
+        "offpeak": 71.119,
+        "daily_vol": 15.015,
+        "intraday_spread": 73.531,
+        "negative_hours": 373,
+        "solar_capture": 44.357,
+        "wind_capture": 64.757,
+        "peak_base_spread": -0.368,
+        "solar_capture_rate": 0.626,
+        "wind_capture_rate": 0.913
+      },
+      {
+        "year": 2026,
+        "hours": 7296,
+        "base": 73.507,
+        "peak": 72.018,
+        "offpeak": 74.334,
+        "daily_vol": 17.075,
+        "intraday_spread": 85.593,
+        "negative_hours": 366,
+        "solar_capture": 43.014,
+        "wind_capture": 63.71,
+        "peak_base_spread": -1.49,
+        "solar_capture_rate": 0.585,
+        "wind_capture_rate": 0.867
+      }
+    ],
+    "last_full_year": 2025,
+    "cal27_base": 72.33,
+    "cal27_vol_annualised": 0.289
+  },
+  "ppa": {
+    "solar": {
+      "forward_base": 69.593,
+      "shape": -18.368,
+      "curtailment_uplift": 10.875,
+      "expected_capture": 62.1,
+      "balancing": -1.6,
+      "hedging": -0.35,
+      "profile_risk": -0.566,
+      "volume_risk": -0.576,
+      "credit": -0.099,
+      "margin": -1.0,
+      "offer_price": 57.909,
+      "capture_rate": 0.892,
+      "curtailed_share": 0.119
+    },
+    "wind": {
+      "forward_base": 69.593,
+      "shape": -4.423,
+      "curtailment_uplift": 3.355,
+      "expected_capture": 68.526,
+      "balancing": -2.8,
+      "hedging": -0.35,
+      "profile_risk": -0.428,
+      "volume_risk": -1.397,
+      "credit": -0.104,
+      "margin": -1.0,
+      "offer_price": 62.446,
+      "capture_rate": 0.985,
+      "curtailed_share": 0.034
+    }
+  },
+  "structures": {
+    "solar": {
+      "expected": {
+        "merchant": 62.1,
+        "pay_as_produced": 57.91,
+        "baseload": 60.42,
+        "swap": 58.92
+      },
+      "P90 (bad case)": {
+        "merchant": 46.79,
+        "pay_as_produced": 57.91,
+        "baseload": 56.95,
+        "swap": 55.45
+      },
+      "P10 (good case)": {
+        "merchant": 80.42,
+        "pay_as_produced": 57.91,
+        "baseload": 64.34,
+        "swap": 62.84
+      },
+      "spread P10-P90": {
+        "merchant": 33.63,
+        "pay_as_produced": 0.0,
+        "baseload": 7.39,
+        "swap": 7.39
+      }
+    },
+    "wind": {
+      "expected": {
+        "merchant": 68.53,
+        "pay_as_produced": 62.45,
+        "baseload": 66.88,
+        "swap": 65.38
+      },
+      "P90 (bad case)": {
+        "merchant": 51.79,
+        "pay_as_produced": 62.45,
+        "baseload": 65.35,
+        "swap": 63.85
+      },
+      "P10 (good case)": {
+        "merchant": 85.8,
+        "pay_as_produced": 62.45,
+        "baseload": 68.33,
+        "swap": 66.83
+      },
+      "spread P10-P90": {
+        "merchant": 34.01,
+        "pay_as_produced": 0.0,
+        "baseload": 2.98,
+        "swap": 2.98
+      }
+    }
+  },
+  "hpfc_check": {
+    "base": 72.33,
+    "peak": 73.04
+  },
+  "bess": [
+    {
+      "year": 2019,
+      "days": 365,
+      "revenue_eur": 18258.0,
+      "cycles": 384.0,
+      "revenue_eur_per_mw_year": 18258.0,
+      "realistic_eur_per_mw_year": 13694.0
+    },
+    {
+      "year": 2020,
+      "days": 366,
+      "revenue_eur": 14420.0,
+      "cycles": 412.0,
+      "revenue_eur_per_mw_year": 14380.0,
+      "realistic_eur_per_mw_year": 10785.0
+    },
+    {
+      "year": 2021,
+      "days": 365,
+      "revenue_eur": 50764.0,
+      "cycles": 570.0,
+      "revenue_eur_per_mw_year": 50764.0,
+      "realistic_eur_per_mw_year": 38073.0
+    },
+    {
+      "year": 2022,
+      "days": 365,
+      "revenue_eur": 145668.0,
+      "cycles": 708.0,
+      "revenue_eur_per_mw_year": 145668.0,
+      "realistic_eur_per_mw_year": 109251.0
+    },
+    {
+      "year": 2023,
+      "days": 365,
+      "revenue_eur": 58688.0,
+      "cycles": 602.0,
+      "revenue_eur_per_mw_year": 58688.0,
+      "realistic_eur_per_mw_year": 44016.0
+    },
+    {
+      "year": 2024,
+      "days": 366,
+      "revenue_eur": 32993.0,
+      "cycles": 532.0,
+      "revenue_eur_per_mw_year": 32903.0,
+      "realistic_eur_per_mw_year": 24677.0
+    },
+    {
+      "year": 2025,
+      "days": 365,
+      "revenue_eur": 38702.0,
+      "cycles": 529.0,
+      "revenue_eur_per_mw_year": 38702.0,
+      "realistic_eur_per_mw_year": 29027.0
+    },
+    {
+      "year": 2026,
+      "days": 304,
+      "revenue_eur": 39277.0,
+      "cycles": 440.0,
+      "revenue_eur_per_mw_year": 47158.0,
+      "realistic_eur_per_mw_year": 35369.0
+    }
+  ],
+  "solar_plus_storage": [
+    {
+      "year": 2019,
+      "solar_capture": 39.27,
+      "with_storage": 43.38,
+      "uplift_eur_mwh": 4.12
+    },
+    {
+      "year": 2020,
+      "solar_capture": 36.48,
+      "with_storage": 39.96,
+      "uplift_eur_mwh": 3.48
+    },
+    {
+      "year": 2021,
+      "solar_capture": 81.31,
+      "with_storage": 94.2,
+      "uplift_eur_mwh": 12.9
+    },
+    {
+      "year": 2022,
+      "solar_capture": 150.18,
+      "with_storage": 192.13,
+      "uplift_eur_mwh": 41.95
+    },
+    {
+      "year": 2023,
+      "solar_capture": 85.23,
+      "with_storage": 103.19,
+      "uplift_eur_mwh": 17.96
+    },
+    {
+      "year": 2024,
+      "solar_capture": 57.74,
+      "with_storage": 70.41,
+      "uplift_eur_mwh": 12.67
+    },
+    {
+      "year": 2025,
+      "solar_capture": 58.2,
+      "with_storage": 73.22,
+      "uplift_eur_mwh": 15.02
+    },
+    {
+      "year": 2026,
+      "solar_capture": 59.97,
+      "with_storage": 77.43,
+      "uplift_eur_mwh": 17.46
+    }
+  ],
+  "crm": {
+    "open_deals": 110,
+    "weighted_pipeline_eur": 15228664,
+    "data_issues": {
+      "Close date missing": 6,
+      "Probability does not match stage": 5,
+      "Volume is zero": 4,
+      "Open deal with close date in the past": 52,
+      "Open deal without activity for 60+ days": 43
+    }
+  },
+  "scenarios": 100
+}

@@ -1,0 +1,221 @@
+Opportunity ID,Account Name,Opportunity Owner,Product,Stage,Probability (%),Volume (GWh/yr),Tenor (years),Expected Margin (EUR/MWh),Created Date,Close Date,Last Activity Date
+006Q100000,Allgaeu Papier GmbH,Originator 3,Solar PPA,Qualification,20,58.9,10,1.53,2026-03-20,2026-07-06,2026-08-17
+006Q100001,Eifel Stahlwerk GmbH,Originator 2,Wind PPA,Prospecting,10,119.8,10,0.75,2026-08-07,2027-03-14,2026-09-18
+006Q100002,Harz Rechenzentrum GmbH,Originator 3,BESS Tolling,Closed Lost,0,38.5,1,2.93,2026-01-08,2026-11-28,2026-08-20
+006Q100003,Lausitz Stahlwerk GmbH,Originator 1,Solar PPA,Closed Won,100,111.3,3,0.77,2025-01-31,2025-09-19,2026-07-31
+006Q100004,Ostsee Glaswerk GmbH,Originator 3,Wind PPA,Closed Lost,0,95.8,5,1.49,2025-03-19,2025-08-05,2026-08-06
+006Q100005,Havel Energie GmbH,Originator 5,Solar PPA,Closed Lost,0,113.9,5,1.09,2025-08-07,2025-12-12,2026-07-25
+006Q100006,Havel Windpark GmbH,Originator 1,Solar PPA,Closed Lost,0,113.7,1,1.64,2025-05-13,2026-04-16,2026-07-09
+006Q100007,Main Rechenzentrum GmbH,Originator 1,BESS Tolling,Qualification,90,15.4,1,3.52,2026-05-27,2026-08-29,2026-10-27
+006Q100008,Nord Windpark GmbH,Originator 1,BESS Tolling,Closed Won,100,34.5,1,3.71,2025-10-02,2026-04-22,2026-08-24
+006Q100009,Ostsee Glaswerk GmbH,Originator 4,Wind PPA,Closed Lost,0,96.8,5,1.39,2025-05-25,2026-05-11,2026-07-30
+006Q100010,Havel Windpark GmbH,Originator 5,Wind PPA,Qualification,20,224.6,1,1.28,2026-03-18,2026-11-30,2026-09-10
+006Q100011,Eifel Papier GmbH,Originator 3,Solar PPA,Negotiation,80,85.6,3,0.85,2026-03-10,2027-01-14,2026-08-14
+006Q100012,Isar Energie GmbH,Originator 5,Solar PPA,Qualification,20,66.1,3,1.74,2026-03-26,2026-07-22,2026-09-21
+006Q100013,Harz Zement GmbH,Originator 3,Wind PPA,Closed Lost,0,138.6,1,0.65,2024-12-22,2025-11-26,2026-07-23
+006Q100014,Harz Windpark GmbH,Originator 5,Wind PPA,Prospecting,10,89.2,3,1.15,2026-03-22,2026-10-26,2026-10-04
+006Q100015,Elb Papier GmbH,Originator 5,Wind PPA,Indicative Offer,35,237.4,3,1.31,2026-05-10,2026-09-27,2026-08-12
+006Q100016,Ostsee Stahlwerk GmbH,Originator 5,BESS Tolling,Prospecting,10,27.8,5,2.97,2026-09-28,2027-03-01,2026-11-02
+006Q100017,Rhein Rechenzentrum GmbH,Originator 2,Solar PPA,Closed Lost,0,90.1,3,1.42,2025-01-02,2025-08-16,2026-08-14
+006Q100018,Lausitz Rechenzentrum GmbH,Originator 2,Solar PPA,Closed Lost,0,68.9,1,0.9,2025-09-04,2026-08-06,2026-07-30
+006Q100019,Ostsee Zement GmbH,Originator 3,Wind PPA,Closed Lost,0,202.5,10,0.85,2025-09-10,2026-02-17,2026-07-09
+006Q100020,Ostsee Rechenzentrum GmbH,Originator 2,Baseload Swap,Qualification,20,80.8,1,0.33,2026-03-22,2026-09-25,2026-10-02
+006Q100021,Eifel Zement GmbH,Originator 1,Baseload Swap,Prospecting,10,74.9,5,0.34,2025-04-18,2026-01-15,2026-09-03
+006Q100022,Lausitz Energie GmbH,Originator 1,Baseload Swap,Negotiation,80,102.2,10,0.34,2026-05-16,2026-08-16,2026-10-10
+006Q100023,Lausitz Rechenzentrum GmbH,Originator 2,BESS Tolling,Negotiation,80,19.1,1,3.45,2025-02-16,2025-05-28,2026-07-26
+006Q100024,Elb Windpark GmbH,Originator 5,Solar PPA,Closed Lost,0,35.4,1,0.82,2025-02-19,2025-06-21,2026-07-13
+006Q100025,Isar Logistik GmbH,Originator 1,Wind PPA,Closed Won,100,204.6,5,0.82,2026-01-04,2026-12-25,2026-08-04
+006Q100026,Allgaeu Chemie GmbH,Originator 5,Baseload Swap,Closed Lost,0,74.2,5,0.35,2025-06-16,2026-01-10,2026-07-30
+006Q100027,Harz Windpark GmbH,Originator 3,BESS Tolling,Closed Lost,0,24.1,3,2.93,2025-09-16,2025-12-30,2026-07-20
+006Q100028,Isar Papier GmbH,Originator 2,Baseload Swap,Prospecting,90,94.4,3,0.41,2025-05-23,2025-11-22,2026-08-25
+006Q100029,Rhein Windpark GmbH,Originator 2,Solar PPA,Negotiation,90,78.1,1,1.27,2026-08-15,2027-04-25,2026-10-24
+006Q100030,Isar Energie GmbH,Originator 1,Solar PPA,Negotiation,80,34.1,5,1.43,2026-07-24,2027-07-18,2026-08-13
+006Q100031,Eifel Logistik GmbH,Originator 1,Baseload Swap,Indicative Offer,35,24.9,3,0.36,2026-04-12,2026-07-10,2026-10-12
+006Q100032,Isar Logistik GmbH,Originator 4,Solar PPA,Term Sheet,60,34.0,3,1.2,2026-05-22,2027-04-13,2026-10-15
+006Q100033,Elb Windpark GmbH,Originator 4,BESS Tolling,Closed Lost,0,13.8,5,3.44,2025-03-24,2025-07-06,2026-07-10
+006Q100034,Rhein Energie GmbH,Originator 1,Solar PPA,Closed Lost,0,105.0,5,0.74,2025-04-29,,2026-08-22
+006Q100035,Spree Glaswerk GmbH,Originator 5,Solar PPA,Closed Won,100,67.4,5,1.54,2025-05-08,2026-02-28,2026-09-07
+006Q100036,Allgaeu Papier GmbH,Originator 3,Baseload Swap,Closed Lost,0,78.0,3,0.56,2026-01-14,2026-05-18,2026-11-01
+006Q100037,Nord Energie GmbH,Originator 5,Solar PPA,Closed Lost,0,110.7,1,1.48,2025-05-14,2025-09-05,2026-10-19
+006Q100038,Spree Zement GmbH,Originator 1,Wind PPA,Qualification,20,162.6,10,0.64,2026-10-03,2027-09-17,2026-08-23
+006Q100039,Havel Stahlwerk GmbH,Originator 2,Baseload Swap,Prospecting,10,112.9,5,0.35,2025-10-07,2026-01-19,2026-08-03
+006Q100040,Isar Logistik GmbH,Originator 5,Solar PPA,Prospecting,10,89.2,10,1.02,2026-10-09,2027-08-08,2026-09-04
+006Q100041,Isar Windpark GmbH,Originator 5,Wind PPA,Closed Lost,0,165.4,5,0.84,2025-04-12,2026-03-15,2026-09-30
+006Q100042,Lausitz Stahlwerk GmbH,Originator 5,Solar PPA,Closed Won,100,101.5,3,1.01,2025-12-03,2026-10-24,2026-10-06
+006Q100043,Elb Stahlwerk GmbH,Originator 5,Solar PPA,Closed Lost,0,35.4,5,1.11,2025-04-25,2026-04-04,2026-07-20
+006Q100044,Harz Solarpark GmbH,Originator 1,Wind PPA,Closed Won,100,160.2,5,1.31,2025-08-09,2026-07-10,2026-07-14
+006Q100045,Havel Logistik GmbH,Originator 3,Wind PPA,Closed Lost,0,175.5,1,0.8,2024-12-18,2025-10-17,2026-09-02
+006Q100046,Elb Energie GmbH,Originator 4,BESS Tolling,Negotiation,90,15.8,3,3.42,2026-05-23,2026-07-26,2026-08-12
+006Q100047,Ostsee Chemie GmbH,Originator 2,Solar PPA,Closed Won,100,92.4,5,1.03,2025-03-10,2025-10-08,2026-07-30
+006Q100048,Harz Logistik GmbH,Originator 3,Solar PPA,Closed Won,100,98.3,5,1.59,2025-06-19,2026-06-04,2026-10-09
+006Q100049,Rhein Rechenzentrum GmbH,Originator 3,Solar PPA,Prospecting,10,50.0,3,1.43,2026-08-20,2027-05-09,2026-08-30
+006Q100050,Nord Solarpark GmbH,Originator 3,Wind PPA,Term Sheet,60,135.1,5,1.0,2026-10-11,2027-06-06,2026-09-03
+006Q100051,Harz Logistik GmbH,Originator 2,BESS Tolling,Closed Lost,0,30.2,5,2.63,2026-01-31,2026-07-06,2026-10-26
+006Q100052,Havel Energie GmbH,Originator 1,Baseload Swap,Closed Lost,0,30.7,1,0.52,2025-05-31,2025-09-19,2026-07-29
+006Q100053,Main Windpark GmbH,Originator 5,Solar PPA,Indicative Offer,35,58.2,5,1.27,2026-03-29,2027-01-09,2026-10-22
+006Q100054,Havel Rechenzentrum GmbH,Originator 2,BESS Tolling,Closed Won,100,35.1,3,2.67,2025-04-04,2026-01-02,2026-10-13
+006Q100055,Rhein Glaswerk GmbH,Originator 5,BESS Tolling,Qualification,20,35.7,5,3.48,2025-05-25,2026-02-23,2026-08-08
+006Q100056,Eifel Zement GmbH,Originator 3,BESS Tolling,Closed Lost,0,19.5,1,3.23,2025-12-19,2026-04-19,2026-09-10
+006Q100057,Eifel Stahlwerk GmbH,Originator 3,Wind PPA,Indicative Offer,35,166.8,3,1.19,2026-06-26,2027-02-14,2026-08-30
+006Q100058,Spree Windpark GmbH,Originator 2,Baseload Swap,Prospecting,10,53.7,3,0.41,2026-04-08,2026-06-09,2026-10-04
+006Q100059,Main Stahlwerk GmbH,Originator 5,BESS Tolling,Closed Lost,0,18.2,5,1.95,2025-06-14,2025-08-30,2026-10-06
+006Q100060,Nord Energie GmbH,Originator 2,Solar PPA,Closed Lost,0,78.3,3,0.89,2025-08-29,2026-03-01,2026-09-22
+006Q100061,Main Windpark GmbH,Originator 5,Wind PPA,Qualification,20,207.4,5,0.96,2026-08-03,2026-11-18,2026-10-25
+006Q100062,Spree Zement GmbH,Originator 2,Solar PPA,Qualification,20,59.8,10,1.2,2025-10-22,2026-10-16,2026-10-31
+006Q100063,Elb Logistik GmbH,Originator 3,Wind PPA,Indicative Offer,35,247.2,10,0.72,2025-10-27,2026-06-14,2026-07-13
+006Q100064,Spree Papier GmbH,Originator 4,Solar PPA,Prospecting,10,0.0,1,1.74,2024-12-08,2025-07-12,2026-08-02
+006Q100065,Eifel Solarpark GmbH,Originator 2,Solar PPA,Indicative Offer,35,99.6,3,1.63,2026-07-17,2027-05-24,2026-09-25
+006Q100066,Lausitz Stahlwerk GmbH,Originator 4,Wind PPA,Closed Won,100,106.6,3,0.61,2025-06-02,2025-08-04,2026-08-27
+006Q100067,Isar Energie GmbH,Originator 3,Solar PPA,Indicative Offer,35,98.3,5,0.73,2026-03-08,2026-09-30,2026-10-11
+006Q100068,Allgaeu Rechenzentrum GmbH,Originator 3,Baseload Swap,Closed Won,100,90.1,3,0.57,2025-01-03,2025-11-17,2026-08-17
+006Q100069,Elb Papier GmbH,Originator 4,Wind PPA,Term Sheet,60,61.4,1,0.93,2026-08-08,2027-01-31,2026-08-31
+006Q100070,Main Zement GmbH,Originator 2,BESS Tolling,Closed Lost,0,13.6,5,1.76,2025-09-12,2026-02-19,2026-08-11
+006Q100071,Lausitz Rechenzentrum GmbH,Originator 2,Solar PPA,Prospecting,10,57.4,3,1.01,2026-09-20,2027-03-05,2026-09-23
+006Q100072,Ostsee Chemie GmbH,Originator 3,Wind PPA,Closed Lost,0,210.7,5,0.86,2025-01-14,2025-05-19,2026-07-09
+006Q100073,Elb Chemie GmbH,Originator 3,BESS Tolling,Closed Lost,0,35.5,3,2.86,2025-04-09,2026-02-02,2026-07-17
+006Q100074,Ostsee Energie GmbH,Originator 3,Solar PPA,Closed Won,100,78.8,5,0.84,2025-07-30,2026-04-19,2026-10-13
+006Q100075,Havel Stahlwerk GmbH,Originator 3,Baseload Swap,Qualification,20,32.8,10,0.5,2026-08-18,2027-05-09,2026-09-15
+006Q100076,Harz Logistik GmbH,Originator 3,Solar PPA,Closed Lost,0,103.7,1,0.81,2024-12-10,2025-11-14,2026-07-15
+006Q100077,Havel Papier GmbH,Originator 2,BESS Tolling,Indicative Offer,35,15.9,3,2.33,2026-06-14,2026-09-02,2026-08-09
+006Q100078,Eifel Energie GmbH,Originator 4,Wind PPA,Qualification,20,180.6,3,1.25,2026-09-23,2027-08-03,2026-08-10
+006Q100079,Main Solarpark GmbH,Originator 1,Baseload Swap,Term Sheet,60,96.2,1,0.42,2026-05-27,2027-03-10,2026-10-29
+006Q100080,Isar Solarpark GmbH,Originator 5,BESS Tolling,Indicative Offer,35,39.4,3,2.79,2026-09-08,2027-05-23,2026-08-07
+006Q100081,Harz Solarpark GmbH,Originator 5,Wind PPA,Closed Won,100,108.3,3,1.05,2025-09-20,2026-06-07,2026-08-13
+006Q100082,Nord Logistik GmbH,Originator 1,Solar PPA,Closed Lost,0,85.2,5,0.96,2026-02-22,2026-09-17,2026-10-17
+006Q100083,Allgaeu Rechenzentrum GmbH,Originator 1,Wind PPA,Closed Lost,0,105.9,3,1.16,2025-03-09,2025-05-08,2026-10-03
+006Q100084,Spree Solarpark GmbH,Originator 2,Solar PPA,Closed Won,100,119.8,10,0.93,2026-01-17,2026-06-01,2026-11-01
+006Q100085,Lausitz Rechenzentrum GmbH,Originator 2,Baseload Swap,Term Sheet,60,140.2,5,0.33,2026-04-29,2027-03-04,2026-09-12
+006Q100086,Eifel Papier GmbH,Originator 3,Baseload Swap,Qualification,20,0.0,10,0.29,2026-08-14,2027-05-30,2026-10-19
+006Q100087,Lausitz Glaswerk GmbH,Originator 5,Baseload Swap,Term Sheet,60,20.9,3,0.46,2026-04-30,2026-08-18,2026-09-25
+006Q100088,Havel Stahlwerk GmbH,Originator 4,Baseload Swap,Closed Lost,0,121.4,10,0.33,2025-07-06,,2026-09-06
+006Q100089,Eifel Glaswerk GmbH,Originator 3,BESS Tolling,Qualification,90,23.8,5,2.88,2026-07-07,2026-09-23,2026-10-20
+006Q100090,Lausitz Windpark GmbH,Originator 4,Wind PPA,Closed Lost,0,142.0,5,0.61,2025-05-15,2026-01-19,2026-08-16
+006Q100091,Ostsee Rechenzentrum GmbH,Originator 3,Solar PPA,Closed Won,100,85.1,5,0.95,2025-10-08,,2026-08-07
+006Q100092,Nord Zement GmbH,Originator 2,Wind PPA,Closed Lost,0,137.5,5,0.91,2025-09-06,2025-12-29,2026-09-20
+006Q100093,Main Glaswerk GmbH,Originator 4,Wind PPA,Closed Lost,0,171.3,5,0.61,2025-08-31,2026-01-11,2026-08-11
+006Q100094,Havel Logistik GmbH,Originator 4,Solar PPA,Term Sheet,60,64.0,5,1.06,2026-06-27,2026-11-05,2026-09-08
+006Q100095,Rhein Papier GmbH,Originator 3,Solar PPA,Closed Lost,0,78.0,3,1.1,2025-07-01,2026-06-22,2026-08-14
+006Q100096,Allgaeu Glaswerk GmbH,Originator 3,BESS Tolling,Negotiation,80,13.9,3,1.63,2026-02-22,2026-09-14,2026-10-09
+006Q100097,Havel Logistik GmbH,Originator 2,Baseload Swap,Closed Lost,0,33.8,3,0.34,2025-06-05,2025-11-27,2026-10-21
+006Q100098,Havel Glaswerk GmbH,Originator 2,Solar PPA,Closed Lost,0,89.9,3,1.69,2026-01-19,2026-04-06,2026-10-15
+006Q100099,Main Stahlwerk GmbH,Originator 3,Wind PPA,Qualification,20,106.0,1,0.7,2025-09-14,2026-08-08,2026-08-05
+006Q100100,Isar Zement GmbH,Originator 4,Solar PPA,Qualification,20,48.9,3,1.57,2026-06-29,2027-06-09,2026-07-28
+006Q100101,Elb Rechenzentrum GmbH,Originator 5,Solar PPA,Closed Lost,0,55.4,10,1.27,2025-02-28,2026-01-22,2026-08-26
+006Q100102,Harz Chemie GmbH,Originator 5,Solar PPA,Closed Lost,0,51.0,5,1.13,2026-01-06,,2026-10-12
+006Q100103,Isar Papier GmbH,Originator 3,Baseload Swap,Indicative Offer,35,74.5,1,0.34,2026-04-11,2026-11-13,2026-07-10
+006Q100104,Lausitz Windpark GmbH,Originator 4,Wind PPA,Term Sheet,60,189.2,10,1.4,2026-06-06,2027-01-12,2026-09-15
+006Q100105,Rhein Solarpark GmbH,Originator 5,Wind PPA,Closed Won,100,201.4,5,1.46,2026-03-04,,2026-09-25
+006Q100106,Lausitz Windpark GmbH,Originator 1,Solar PPA,Closed Lost,0,30.7,5,1.41,2025-10-09,2026-07-08,2026-10-15
+006Q100107,Elb Rechenzentrum GmbH,Originator 5,Wind PPA,Prospecting,10,147.9,10,1.3,2025-09-19,2026-03-07,2026-09-14
+006Q100108,Elb Logistik GmbH,Originator 1,Wind PPA,Indicative Offer,35,200.1,10,0.69,2025-04-14,2025-07-14,2026-09-14
+006Q100109,Nord Windpark GmbH,Originator 1,Solar PPA,Closed Lost,0,60.4,10,1.32,2025-12-23,2026-04-02,2026-09-24
+006Q100110,Isar Glaswerk GmbH,Originator 4,Solar PPA,Term Sheet,60,39.2,10,1.27,2026-09-13,2026-12-14,2026-09-29
+006Q100111,Spree Glaswerk GmbH,Originator 1,Solar PPA,Term Sheet,60,52.5,1,1.23,2026-08-05,2027-06-09,2026-07-15
+006Q100112,Rhein Logistik GmbH,Originator 4,Wind PPA,Indicative Offer,35,244.6,10,1.5,2026-05-04,2027-03-31,2026-07-24
+006Q100113,Ostsee Glaswerk GmbH,Originator 1,Wind PPA,Closed Lost,0,160.2,1,1.4,2026-02-02,2026-10-29,2026-11-02
+006Q100114,Lausitz Chemie GmbH,Originator 1,Wind PPA,Qualification,20,111.1,3,1.45,2025-01-08,2025-08-02,2026-10-22
+006Q100115,Rhein Chemie GmbH,Originator 2,Wind PPA,Prospecting,10,68.7,10,0.79,2025-08-16,2026-02-26,2026-09-24
+006Q100116,Lausitz Rechenzentrum GmbH,Originator 1,Baseload Swap,Qualification,20,132.1,5,0.53,2025-12-09,2026-10-01,2026-07-08
+006Q100117,Harz Windpark GmbH,Originator 3,Solar PPA,Indicative Offer,35,98.4,1,0.89,2026-04-30,2026-10-13,2026-09-21
+006Q100118,Allgaeu Glaswerk GmbH,Originator 2,BESS Tolling,Closed Lost,0,14.2,3,3.32,2025-12-08,2026-08-17,2026-07-28
+006Q100119,Rhein Windpark GmbH,Originator 1,Wind PPA,Closed Lost,0,185.7,5,0.94,2026-01-19,2026-09-21,2026-08-25
+006Q100120,Eifel Rechenzentrum GmbH,Originator 3,Baseload Swap,Qualification,20,129.9,3,0.29,2025-08-14,2026-01-14,2026-08-23
+006Q100121,Eifel Zement GmbH,Originator 3,Baseload Swap,Prospecting,10,35.5,3,0.33,2026-05-12,2027-01-17,2026-11-02
+006Q100122,Nord Rechenzentrum GmbH,Originator 1,Solar PPA,Closed Won,100,33.4,10,1.64,2025-03-16,2026-01-09,2026-08-21
+006Q100123,Havel Energie GmbH,Originator 4,Baseload Swap,Qualification,20,69.7,5,0.26,2026-03-25,2026-06-01,2026-10-26
+006Q100124,Nord Logistik GmbH,Originator 5,Solar PPA,Indicative Offer,35,101.2,5,1.12,2026-07-04,2027-02-06,2026-10-06
+006Q100125,Lausitz Rechenzentrum GmbH,Originator 4,Solar PPA,Closed Lost,0,86.1,5,1.75,2025-04-10,2025-08-04,2026-07-30
+006Q100126,Havel Solarpark GmbH,Originator 5,Wind PPA,Qualification,20,136.8,5,1.32,2026-06-14,2026-08-26,2026-07-21
+006Q100127,Spree Papier GmbH,Originator 4,Wind PPA,Qualification,20,192.1,3,0.65,2026-05-03,2026-08-13,2026-08-22
+006Q100128,Main Stahlwerk GmbH,Originator 1,Wind PPA,Term Sheet,60,167.0,3,1.35,2026-04-12,2026-10-16,2026-09-23
+006Q100129,Spree Solarpark GmbH,Originator 5,Baseload Swap,Indicative Offer,35,59.5,5,0.59,2026-09-07,2027-07-29,2026-10-08
+006Q100130,Main Stahlwerk GmbH,Originator 2,Baseload Swap,Closed Lost,0,0.0,5,0.24,2025-05-29,2025-12-17,2026-07-17
+006Q100131,Allgaeu Papier GmbH,Originator 3,Wind PPA,Closed Lost,0,81.1,3,0.63,2025-10-20,2026-01-13,2026-09-23
+006Q100132,Main Zement GmbH,Originator 5,Wind PPA,Prospecting,10,216.6,5,1.09,2025-01-21,2025-11-23,2026-09-12
+006Q100133,Nord Solarpark GmbH,Originator 2,Solar PPA,Closed Lost,0,92.7,10,1.6,2025-05-02,2026-03-16,2026-08-04
+006Q100134,Allgaeu Zement GmbH,Originator 3,Baseload Swap,Qualification,20,71.3,5,0.58,2026-05-05,2027-04-04,2026-09-17
+006Q100135,Ostsee Windpark GmbH,Originator 4,Wind PPA,Qualification,20,90.1,10,1.33,2026-06-16,2026-08-15,2026-09-20
+006Q100136,Nord Glaswerk GmbH,Originator 4,Solar PPA,Closed Lost,0,113.8,3,0.82,2025-07-15,2026-04-05,2026-10-06
+006Q100137,Rhein Stahlwerk GmbH,Originator 1,Solar PPA,Term Sheet,60,87.4,3,1.09,2025-11-17,2026-06-21,2026-08-18
+006Q100138,Ostsee Rechenzentrum GmbH,Originator 5,Wind PPA,Term Sheet,60,131.4,3,1.23,2026-09-20,2027-03-30,2026-08-22
+006Q100139,Eifel Stahlwerk GmbH,Originator 5,BESS Tolling,Term Sheet,60,35.6,3,3.14,2026-09-27,2027-02-26,2026-08-08
+006Q100140,Nord Papier GmbH,Originator 5,Solar PPA,Closed Lost,0,97.8,3,1.46,2025-05-08,2026-04-21,2026-07-12
+006Q100141,Lausitz Chemie GmbH,Originator 1,Wind PPA,Closed Won,100,66.7,1,0.86,2025-10-26,2026-04-05,2026-10-18
+006Q100142,Harz Glaswerk GmbH,Originator 5,Wind PPA,Prospecting,10,100.3,3,1.36,2026-07-16,2026-12-09,2026-08-22
+006Q100143,Ostsee Logistik GmbH,Originator 3,Baseload Swap,Prospecting,10,63.9,3,0.25,2026-05-24,2026-09-02,2026-07-09
+006Q100144,Isar Windpark GmbH,Originator 1,Baseload Swap,Closed Lost,0,149.8,10,0.29,2025-06-22,2026-05-28,2026-08-25
+006Q100145,Lausitz Solarpark GmbH,Originator 4,Solar PPA,Closed Lost,0,53.5,1,1.75,2025-07-14,2025-12-26,2026-07-25
+006Q100146,Main Stahlwerk GmbH,Originator 2,Baseload Swap,Closed Won,100,26.1,3,0.47,2024-12-12,2025-05-10,2026-10-23
+006Q100147,Havel Papier GmbH,Originator 4,Wind PPA,Qualification,20,167.0,10,1.16,2026-01-15,2026-05-12,2026-09-24
+006Q100148,Main Chemie GmbH,Originator 2,Solar PPA,Closed Lost,0,58.9,3,1.23,2025-03-01,2025-10-17,2026-09-19
+006Q100149,Rhein Solarpark GmbH,Originator 1,Wind PPA,Closed Lost,0,137.2,10,0.79,2026-01-04,2026-08-21,2026-09-06
+006Q100150,Elb Papier GmbH,Originator 3,Solar PPA,Prospecting,10,57.0,3,1.31,2026-03-25,2027-01-06,2026-10-22
+006Q100151,Spree Windpark GmbH,Originator 4,Wind PPA,Closed Lost,0,70.9,3,0.71,2025-02-15,2025-06-26,2026-10-18
+006Q100152,Lausitz Glaswerk GmbH,Originator 3,Solar PPA,Prospecting,10,71.3,3,0.81,2026-03-21,2026-07-12,2026-09-24
+006Q100153,Spree Energie GmbH,Originator 4,BESS Tolling,Closed Lost,0,11.0,3,3.45,2025-12-10,2026-08-31,2026-09-25
+006Q100154,Spree Logistik GmbH,Originator 4,Wind PPA,Qualification,20,0.0,5,1.44,2025-05-06,2026-04-30,2026-09-06
+006Q100155,Lausitz Papier GmbH,Originator 1,Solar PPA,Prospecting,10,75.0,3,1.15,2026-05-29,2026-11-22,2026-10-24
+006Q100156,Isar Energie GmbH,Originator 2,BESS Tolling,Negotiation,80,10.0,1,3.28,2026-10-24,2027-05-07,2026-07-22
+006Q100157,Eifel Energie GmbH,Originator 3,Wind PPA,Qualification,20,143.1,3,1.0,2025-02-16,2025-08-08,2026-10-16
+006Q100158,Harz Papier GmbH,Originator 1,Solar PPA,Term Sheet,60,68.9,10,1.52,2026-09-18,2027-02-02,2026-07-20
+006Q100159,Eifel Logistik GmbH,Originator 1,Baseload Swap,Closed Lost,0,37.5,5,0.43,2025-06-13,2026-05-16,2026-07-26
+006Q100160,Main Papier GmbH,Originator 4,Solar PPA,Qualification,20,40.4,5,1.5,2026-06-02,2026-12-30,2026-11-01
+006Q100161,Nord Logistik GmbH,Originator 1,Wind PPA,Closed Lost,0,235.5,3,0.69,2025-09-07,2026-01-13,2026-10-27
+006Q100162,Harz Papier GmbH,Originator 4,BESS Tolling,Qualification,20,15.1,5,2.07,2026-09-22,2026-12-03,2026-10-07
+006Q100163,Eifel Solarpark GmbH,Originator 4,Wind PPA,Closed Lost,0,89.0,3,1.02,2025-03-22,2026-02-10,2026-10-04
+006Q100164,Lausitz Glaswerk GmbH,Originator 5,Solar PPA,Closed Lost,0,77.7,3,1.02,2025-08-28,2025-12-19,2026-09-29
+006Q100165,Lausitz Logistik GmbH,Originator 1,Baseload Swap,Negotiation,80,130.7,1,0.44,2026-10-11,2027-06-22,2026-09-21
+006Q100166,Nord Chemie GmbH,Originator 2,Solar PPA,Closed Lost,0,84.3,5,1.73,2025-06-20,2025-11-05,2026-07-21
+006Q100167,Allgaeu Energie GmbH,Originator 1,BESS Tolling,Closed Won,100,28.9,5,2.74,2025-06-23,2026-04-07,2026-10-06
+006Q100168,Elb Chemie GmbH,Originator 3,Solar PPA,Closed Lost,0,30.2,5,1.39,2026-03-04,2026-07-24,2026-09-06
+006Q100169,Elb Zement GmbH,Originator 4,Solar PPA,Prospecting,10,67.5,3,0.82,2026-04-28,2026-08-28,2026-10-11
+006Q100170,Elb Papier GmbH,Originator 4,BESS Tolling,Indicative Offer,35,22.3,3,3.04,2026-04-02,2027-03-15,2026-08-12
+006Q100171,Spree Chemie GmbH,Originator 4,Wind PPA,Qualification,20,125.3,3,1.37,2026-07-06,2027-02-28,2026-09-27
+006Q100172,Main Windpark GmbH,Originator 2,Baseload Swap,Closed Lost,0,134.6,5,0.29,2025-02-20,2025-05-08,2026-09-04
+006Q100173,Havel Chemie GmbH,Originator 2,Wind PPA,Term Sheet,60,198.1,1,1.27,2026-05-07,2027-01-30,2026-10-05
+006Q100174,Lausitz Rechenzentrum GmbH,Originator 3,BESS Tolling,Closed Lost,0,33.5,3,2.67,2025-05-13,2025-11-07,2026-07-22
+006Q100175,Ostsee Logistik GmbH,Originator 4,Solar PPA,Qualification,20,43.6,1,0.84,2026-10-22,2027-05-23,2026-10-01
+006Q100176,Lausitz Glaswerk GmbH,Originator 2,Baseload Swap,Indicative Offer,35,55.7,10,0.37,2026-05-10,2027-03-26,2026-09-04
+006Q100177,Spree Glaswerk GmbH,Originator 3,Baseload Swap,Closed Won,100,46.2,5,0.29,2025-10-03,2025-12-07,2026-07-25
+006Q100178,Main Stahlwerk GmbH,Originator 2,Baseload Swap,Qualification,20,53.2,3,0.5,2026-07-26,2027-03-05,2026-07-21
+006Q100179,Havel Papier GmbH,Originator 3,Baseload Swap,Term Sheet,60,57.7,3,0.41,2025-01-02,2025-12-24,2026-09-29
+006Q100180,Ostsee Chemie GmbH,Originator 3,BESS Tolling,Negotiation,80,23.5,5,2.18,2026-08-14,,2026-09-11
+006Q100181,Havel Stahlwerk GmbH,Originator 3,Wind PPA,Closed Won,100,174.2,1,0.61,2025-06-14,2025-12-06,2026-08-26
+006Q100182,Ostsee Chemie GmbH,Originator 3,Solar PPA,Closed Lost,0,37.6,5,0.82,2025-03-22,2025-07-29,2026-10-18
+006Q100183,Spree Papier GmbH,Originator 1,Solar PPA,Closed Lost,0,44.6,1,1.62,2025-04-08,2025-10-07,2026-10-30
+006Q100184,Spree Logistik GmbH,Originator 2,BESS Tolling,Indicative Offer,35,13.9,5,1.85,2026-03-10,2026-08-01,2026-08-18
+006Q100185,Spree Glaswerk GmbH,Originator 4,Wind PPA,Closed Lost,0,224.4,1,1.48,2026-02-08,2026-07-01,2026-09-04
+006Q100186,Eifel Glaswerk GmbH,Originator 5,Wind PPA,Qualification,20,215.8,10,0.91,2026-04-26,2026-10-01,2026-08-13
+006Q100187,Allgaeu Rechenzentrum GmbH,Originator 4,Baseload Swap,Indicative Offer,35,25.7,5,0.36,2025-01-22,2025-08-19,2026-09-06
+006Q100188,Nord Solarpark GmbH,Originator 4,BESS Tolling,Indicative Offer,35,28.1,5,3.66,2026-06-14,2027-01-04,2026-08-10
+006Q100189,Spree Glaswerk GmbH,Originator 1,BESS Tolling,Indicative Offer,35,27.7,3,3.73,2026-07-05,2027-01-19,2026-09-03
+006Q100190,Harz Logistik GmbH,Originator 1,Wind PPA,Closed Lost,0,149.6,10,0.79,2025-06-26,2026-01-21,2026-09-13
+006Q100191,Eifel Stahlwerk GmbH,Originator 2,Solar PPA,Indicative Offer,35,101.4,3,1.28,2026-05-26,2027-03-25,2026-10-24
+006Q100192,Harz Stahlwerk GmbH,Originator 3,Wind PPA,Closed Won,100,201.3,3,1.32,2025-04-24,2026-03-05,2026-08-25
+006Q100193,Ostsee Stahlwerk GmbH,Originator 1,Wind PPA,Closed Lost,0,185.7,5,1.01,2026-01-20,2026-11-20,2026-07-23
+006Q100194,Spree Windpark GmbH,Originator 2,Baseload Swap,Closed Lost,0,123.2,3,0.35,2024-12-29,2025-07-14,2026-10-24
+006Q100195,Ostsee Solarpark GmbH,Originator 2,Wind PPA,Indicative Offer,35,104.9,1,0.7,2026-08-25,2026-12-29,2026-09-28
+006Q100196,Lausitz Chemie GmbH,Originator 3,BESS Tolling,Closed Lost,0,38.7,1,3.18,2025-06-25,2026-02-16,2026-07-09
+006Q100197,Main Logistik GmbH,Originator 4,Solar PPA,Closed Lost,0,117.0,3,1.04,2025-02-26,2025-06-21,2026-07-30
+006Q100198,Harz Energie GmbH,Originator 3,Baseload Swap,Closed Won,100,31.0,1,0.43,2025-09-15,2026-02-14,2026-08-21
+006Q100199,Elb Windpark GmbH,Originator 2,Baseload Swap,Prospecting,10,121.3,5,0.57,2026-06-08,2026-12-05,2026-09-24
+006Q100200,Spree Papier GmbH,Originator 3,Solar PPA,Closed Won,100,103.9,1,1.01,2025-09-03,2026-03-19,2026-07-22
+006Q100201,Main Chemie GmbH,Originator 4,Wind PPA,Closed Lost,0,227.8,1,0.73,2025-02-07,2025-04-23,2026-10-11
+006Q100202,Rhein Logistik GmbH,Originator 3,Wind PPA,Prospecting,10,193.2,10,0.97,2026-04-22,2027-02-28,2026-09-25
+006Q100203,Allgaeu Energie GmbH,Originator 4,Wind PPA,Negotiation,80,103.8,1,1.44,2026-07-31,2026-10-21,2026-09-12
+006Q100204,Ostsee Glaswerk GmbH,Originator 5,Wind PPA,Closed Lost,0,176.4,5,1.03,2025-05-09,2026-03-18,2026-08-18
+006Q100205,Harz Zement GmbH,Originator 1,Wind PPA,Closed Lost,0,220.1,3,1.47,2025-03-05,2025-11-22,2026-09-27
+006Q100206,Havel Windpark GmbH,Originator 4,Solar PPA,Negotiation,80,73.5,5,1.46,2025-04-06,2025-10-12,2026-07-17
+006Q100207,Havel Energie GmbH,Originator 2,BESS Tolling,Closed Won,100,33.1,1,3.36,2025-10-19,2026-07-19,2026-10-02
+006Q100208,Harz Papier GmbH,Originator 2,Wind PPA,Closed Lost,0,248.6,10,0.82,2025-08-25,2026-04-10,2026-08-11
+006Q100209,Ostsee Chemie GmbH,Originator 2,BESS Tolling,Closed Won,100,23.7,5,2.43,2025-08-08,2025-10-07,2026-10-16
+006Q100210,Harz Glaswerk GmbH,Originator 5,Baseload Swap,Closed Lost,0,116.7,3,0.25,2025-02-12,2026-01-10,2026-10-16
+006Q100211,Ostsee Solarpark GmbH,Originator 1,Baseload Swap,Qualification,20,88.6,1,0.47,2024-12-06,2025-08-27,2026-08-09
+006Q100212,Lausitz Energie GmbH,Originator 5,Solar PPA,Closed Lost,0,46.8,5,0.85,2025-09-23,2026-05-24,2026-09-14
+006Q100213,Rhein Chemie GmbH,Originator 4,Baseload Swap,Indicative Offer,35,143.8,3,0.26,2026-01-21,2026-10-18,2026-08-08
+006Q100214,Rhein Zement GmbH,Originator 1,BESS Tolling,Closed Lost,0,11.5,5,3.68,2025-04-13,2026-04-02,2026-09-01
+006Q100215,Elb Energie GmbH,Originator 5,Baseload Swap,Closed Won,100,26.6,3,0.35,2025-09-27,2026-05-16,2026-07-29
+006Q100216,Havel Rechenzentrum GmbH,Originator 5,Solar PPA,Closed Lost,0,38.9,3,1.57,2026-03-03,2026-11-22,2026-10-15
+006Q100217,Spree Glaswerk GmbH,Originator 5,Solar PPA,Closed Lost,0,59.9,3,1.7,2025-06-25,2026-03-25,2026-09-03
+006Q100218,Elb Glaswerk GmbH,Originator 3,Solar PPA,Qualification,20,33.0,3,1.19,2026-10-05,2027-05-31,2026-08-11
+006Q100219,Elb Rechenzentrum GmbH,Originator 1,Solar PPA,Closed Won,100,59.9,3,0.83,2025-11-04,2026-06-28,2026-10-11
